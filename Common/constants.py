@@ -1,7 +1,6 @@
 API_KEY = " "
 
 
-# OPENAI_KEY = "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"
 
 
 DB_NAME = "test4"
