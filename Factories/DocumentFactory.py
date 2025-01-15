@@ -93,11 +93,6 @@ class PassportExtractor(DocumentExtractor):
                 datetime.strptime(date_value, '%Y-%m-%d')
             except ValueError:
                 return False
-
-        passport_type = data.get("type", "")
-        if passport_type not in ["P", "D", "S"]:
-            return False
-
         country_code = data.get("country_code", "")
         if not re.match(r'^[A-Z]{3}$', country_code):
             return False
@@ -116,6 +111,7 @@ class DocumentExtractorFactory:
         "pancard":PancardExtractor,
         "Passport" : PassportExtractor,
         "passport" : PassportExtractor
+
     }
 
     @classmethod

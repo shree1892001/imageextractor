@@ -104,8 +104,7 @@ class DocumentProcessor:
                 flattened_data = flatten_json(extracted_data)
 
                 return {
-                    "document_type": doc_info.document_type,
-                    "confidence_score": doc_info.confidence_score,
+
                     "extracted_data": flattened_data,
                     "status": "success"
                 }

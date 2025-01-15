@@ -206,7 +206,7 @@ if __name__ == "__main__":
         config["db_connection_params"]
     )
 
-    results = processor.process_file("D:\\TextExtractor\\Extractor\\images\\download.pdf")
+    results = processor.process_file("D:\\TextExtractor\\Extractor\\images\\pancard.jpg")
 
     for doc in results:
         print(f"Document Type: {doc['document_type']}")
