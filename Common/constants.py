@@ -208,25 +208,22 @@ jsonData = {
 AUTOMATION_TASK= f"""
       ### **Advanced AI Agent for Automated LLC Registration** 
       
-      -Confirm image is clickable
-      - Check visibility in viewport
-      - Verify enabled state
-      - Match to correct 
-      - Try direct image click
-       - Click parent container if needed
-        - Use element index if provided
-       - Click associated label if necessary
-       -Click the button
+      For image buttons, try these approaches in order:
+
+if their is button with or image which is clickable with the name "Start Filing" or any relevant field then perform direct image click by alt text: //img[@alt='Start Filing']
+Image inside button/link: //button//img[contains(@alt, 'Start Filing')] | //a//img[contains(@alt, 'Start Filing')]
+Image with specific text nearby: //img[following-sibling::text()[contains(., 'Start Filing')] or preceding-sibling::text()[contains(., 'Start Filing')]]
+Parent elements containing target text: //a[contains(., 'Start Filing')] | //button[contains(., 'Start Filing')]
+       
       In case of 400 error reload the page and continue the automation from the point left  
       -Interact with the elements even though they are images not proper input fields.
       
-      --Select the button with text "Start Filing" or Begin Filing or Start Register Business  if found even though its an image click the button even if its an image.
       You are an advanced AI agent responsible for automating LLC registration form submissions across different state websites. Your task is to dynamically detect form fields, input the required data accurately, handle pop-ups or alerts, and ensure successful form submission. The AI should adapt to varying form structures and selectors without relying on predefined element locators.  
        If their are questions asked on the site like Has this entity been created in another state or country? or similar then select No from the dropdown 
        -Properly select all the fields and ensure that the fields are populated accurately
-       - Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
+       - Properly Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
 
-       
+       -Select the button with text Start Filing or Begin Filing or Start Register Business even if its an image ]
       ### **Task Execution Steps**  
 
       #### **1. Navigate to the Registration Page**  
@@ -254,7 +251,7 @@ AUTOMATION_TASK= f"""
 #### **4. Start LLC Registration Process**  
 - Identify and click the appropriate link or button to start a new business  filing or Register  New Business button .
  
- 
+ -
 - Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
  - if the site ask for the options file online or upload the pdf select or click the file online button or select it from dropdown or from checkbox 
  -If a button has text like "Start Filing", "Begin Filing", or "Start Register Business", click it—whether it's a standard button or an image.
