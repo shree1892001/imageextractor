@@ -58,6 +58,14 @@ class AadhaarCardExtractor(DocumentExtractor):
         return all(field in extracted_data.get("data", {}) for field in required_fields)
 
 
+class SsnExtractor(DocumentExtractor):
+    def get_extraction_prompt(self) -> str:
+        return SSN_EXTRACTION
+
+    def validate_fields(self, extracted_data: Dict[str, Any]) -> bool:
+        required_fields = {"ssn", "name", "date_of_birth", "address"}
+        return all(field in extracted_data.get("data", {}) for field in required_fields)
+
 
 class PassportExtractor(DocumentExtractor):
     def get_extraction_prompt(self) -> str:
@@ -110,7 +118,9 @@ class DocumentExtractorFactory:
         "Pancard": PancardExtractor,
         "pancard":PancardExtractor,
         "Passport" : PassportExtractor,
-        "passport" : PassportExtractor
+        "passport" : PassportExtractor,
+        "ssn" : SsnExtractor,
+         "Ssn" : SsnExtractor
 
     }
 

@@ -1,7 +1,5 @@
-
-
-
-
+API_KEY= "AIzaSyDJvOAxCnVXB23FqPUadFwQIZay1ESNEIk" or "AIzaSyDcBP8bIBztxmXJh1AL5PxkaaEFfnzSBgc"
+OPENAI_API = "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"
 DB_NAME = "test4"
 DB_USER = "postgres"
 DB_PASS  = "postgres"
@@ -11,7 +9,7 @@ DB_HOST = "127.0.0.1"
 DB_NAME = "test5"
 CLASSIFICATION_PROMPT = """
 Analyze this document image and identify the type of document by extracting only the following specific keywords if they are present: "license," "Pancard," or "aadharcard." , "passport," . Return the result in the following JSON format:        {
-            "document_type": "The type of document (e.g., 'Pancard', 'License', 'AadhaarCard', etc.)",
+            "document_type": "The type of document (e.g., 'Pancard', 'License', 'AadhaarCard', 'Passport' ,'SSN' ,'passport' etc.)",
             "confidence_score": "A score between 0 and 1 indicating confidence in classification",
             "document_features": ["List of key features identified that helped in classification"]
         }
@@ -99,3 +97,318 @@ PASSPORT_EXTRACTION = """
 Ensure extracted data adheres to these standards.
 
 """
+
+jsonData = {
+
+       "jsonData":{
+        "EntityType": {
+            "id": 1,
+            "entityShortName": "LLC",
+            "entityFullDesc": "Limited Liability Company",
+            "onlineFormFilingFlag": False
+        },
+        "State": {
+            "id": 33,
+            "stateShortName": "NC",
+            "stateFullDesc": "North Carolina",
+            "stateUrl": "https://www.sosnc.gov/",
+            "filingWebsiteUsername": "redberyl",
+            "filingWebsitePassword": "yD7?ddG0!$09",
+            "strapiDisplayName": "North-Carolina",
+            "countryMaster": {
+                "id": 3,
+                "countryShortName": "US",
+                "countryFullDesc": "United States"
+            }
+        },
+        "County": {
+            "id": 2006,
+            "countyCode": "Alleghany",
+            "countyName": "Alleghany",
+            "stateId": {
+                "id": 33,
+                "stateShortName": "NC",
+                "stateFullDesc": "North Carolina",
+                "stateUrl": "https://www.sosnc.gov/",
+                "filingWebsiteUsername": "redberyl",
+                "filingWebsitePassword": "yD7?ddG0!$09",
+                "strapiDisplayName": "North-Carolina",
+                "countryMaster": {
+                    "id": 3,
+                    "countryShortName": "US",
+                    "countryFullDesc": "United States"
+                }
+            }
+        },
+        "Payload": {
+            "Entity_Formation": {
+                "Name": {
+                    "CD_LLC_Name": "redberyl llc",
+                    "CD_Alternate_LLC_Name": "redberyl llc"
+                },
+
+                "Principal_Address": {
+                    "PA_Address_Line_1": "123 Main Street",
+                    "PA_Address_Line_2": "",
+                    "PA_City": "Solapur",
+                    "PA_Zip_Code": "11557",
+                    "PA_State": "AL"
+                },
+                "Registered_Agent": {
+                    "RA_Name": "Interstate Agent Services LLC",
+                    "RA_Email_Address": "agentservice@vstatefilings.com",
+                    "RA_Contact_No": "(718) 569-2703",
+                    "Address": {
+                        "RA_Address_Line_1": "6047 Tyvola Glen Circle, Suite 100",
+                        "RA_Address_Line_2": "",
+                        "RA_City": "Charlotte",
+                        "RA_Zip_Code": "28217",
+                        "RA_State": "NC"
+                    }
+                },
+                "Billing_Information": {
+                    "BI_Name": "Johson Charles",
+                    "BI_Email_Address": "johson.charles@redberyktech.com",
+                    "BI_Contact_No": "(555) 783-9499",
+                    "BI_Address_Line_1": "123 Main Street",
+                    "BI_Address_Line_2": "",
+                    "BI_City": "Albany",
+                    "BI_Zip_Code": "68342",
+                    "BI_State": "AL"
+                },
+                "Mailing_Information": {
+                    "MI_Name": "Johson Charles",
+                    "MI_Email_Address": "johson.charles@redberyktech.com",
+                    "MI_Contact_No": "(555) 783-9499",
+                    "MI_Address_Line_1": "123 Main Street",
+                    "MI_Address_Line_2": "",
+                    "MI_City": "Albany",
+                    "MI_Zip_Code": "68342",
+                    "MI_State": "AL"
+                },
+                "Organizer_Information": {
+                    "Organizer_Details": {
+                        "Org_Name": "Johson Charles",
+                        "Org_Email_Address": "johson.charles@redberyktech.com",
+                        "Org_Contact_No": "(555) 783-9499"
+                    },
+                    "Address": {
+                        "Org_Address_Line_1": "123 Main Street",
+                        "Org_Address_Line_2": "",
+                        "Org_City": "Albany",
+                        "Org_Zip_Code": "68342",
+                        "Org_State": "AL"
+                    }
+                }
+            }
+        }
+       }
+
+}
+AUTOMATION_TASK= f"""
+      ### **Advanced AI Agent for Automated LLC Registration** 
+      
+      
+      In case of 400 error reload the page and continue the automation from the point left  
+      -Interact with the elements even though they are images not proper input fields.
+      
+      --Select the button with text "Start Filing" or Begin Filing or Start Register Business in the found if found even though its an image
+      You are an advanced AI agent responsible for automating LLC registration form submissions across different state websites. Your task is to dynamically detect form fields, input the required data accurately, handle pop-ups or alerts, and ensure successful form submission. The AI should adapt to varying form structures and selectors without relying on predefined element locators.  
+       If their are questions asked on the site like Has this entity been created in another state or country? or similar then select No from the dropdown 
+       -Properly select all the fields and ensure that the fields are populated accurately
+       - Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
+
+       
+      ### **Task Execution Steps**  
+
+      #### **1. Navigate to the Registration Page**  
+    - Go to the url `${jsonData["jsonData"]["State"]["stateUrl"]}` url.  
+    - Wait for the page to load completely.  
+
+    #### **2. Handle Pop-ups and Initial UI Elements**  
+    - Automatically close any pop-ups, notifications, or modals.  
+    - Detect and handle Cloudflare captcha if present.  
+    - Identify any initial login-related triggers:  
+         - "Sign In" or "Login" buttons/links that open login forms  
+    - Menu items or navigation elements that lead to login  
+    - Modal triggers or popups for login  
+
+#### **3. Perform Login (If Required)**  
+- If a login form appears, identify:  
+  - Username/email input field  
+  - Password input field  
+  - Login/Submit button  
+- Enter credentials from the JSON:  
+  - Username: `${jsonData["jsonData"]["State"]["filingWebsiteUsername"]}`  
+  - Password: `${jsonData["jsonData"]["State"]["filingWebsitePassword"]}`  
+- Click the login button and wait for authentication to complete.  
+
+#### **4. Start LLC Registration Process**  
+- Identify and click the appropriate link or button to start a new business  filing or Register  New Business button .
+ 
+ 
+- Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
+ - if the site ask for the options file online or upload the pdf select or click the file online button or select it from dropdown or from checkbox 
+ -if their is  button present for starting the filing then click the Start Filing button  or register filing  button in order to begin filing 
+ -If we need to save the name then click the save the name button or proceed next button.
+- Proceed to the form.  
+
+#### **5. Identify and Fill Required Fields**  
+- Dynamically detect all required fields on the form and fill in the values from `${jsonData["jsonData"]["Payload"] }` make sure to flatten it at is dynamic json.  
+- Ignore non-mandatory fields unless explicitly required for submission.  
+
+#### **6. LLC Name and Designator**  
+- Extract the LLC name from `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`.  
+- If  LLC a name does not work then replace the LLC name with the Alternate llc name  , use `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`.  
+- Identify and select the appropriate business designator.  
+- Enter the LLC name and ensure compliance with form requirements.  
+
+#### **7. Registered Agent Information**  
+- If an email field is detected, enter `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}`. 
+
+- Identify and respond to any required business declarations (e.g., tobacco-related questions, management type).  
+
+#### **8. Principal Office Address** (If Required)  
+- Detect address fields and input the values accordingly:  
+  - Street Address: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}`.  
+  - City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}`.  
+  - State: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}`.  
+  - ZIP Code: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}`.  
+
+#### **9. Organizer Information** (If Required)  
+- If the form includes an organizer section, enter `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}`.  
+
+#### **10. Registered Agent Details**  
+-Enter the Registered Agent details in its respective fields only by identifying the label for Registered Agent
+- Detect and select if the registered agent is an individual or business entity.  
+- If required, extract and split the registered agent’s full name   "from `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`, then input:  
+  - First Name  
+  - Last Name  
+  -If for example the name of the registered agent is Interstate Agent Services LLC then the  First Name would be "Interstate" and the Last Name would be "Agent Services LLC"
+- If an address field is present, enter:  
+  - Street Address/ Address Line_1 `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}`.  
+  - City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}`.  
+  - ZIP Code or Zip Code or similar field: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}`.  
+  - IF  in the address their is requirement of County , select `${jsonData['jsonData']['County']['countyName']} either from dropdown or enter the value in it 
+
+#### **11. Registered Agent Signature (If Required)**  
+- If a signature field exists, input the registered agent’s first and last name.  
+
+#### **12. Finalization and Submission**  
+- Identify and check any agreement or confirmation checkboxes.  
+- Click the final submission button to complete the filing.  
+
+#### **13. Handling Pop-ups, Alerts, and Dialogs**  
+- Detect and handle any pop-ups, alerts, or confirmation dialogs.  
+- If an alert appears, acknowledge and dismiss it before proceeding.  
+
+#### **14. Response and Error Handling**  
+- Return `"Form filled successfully"` upon successful completion.  
+- If an error occurs, log it and return `"Form submission failed: <error message>"`.  
+- If required fields are missing or contain errors, capture the issue and provide feedback on what needs to be corrected.  
+
+### **AI Agent Execution Guidelines**  
+- Dynamically detect and interact with form elements without relying on predefined selectors.  
+- Adapt to different form structures and ignore unnecessary fields.  
+- Handle UI changes and errors efficiently, ensuring smooth automation.  
+- Maintain accuracy and compliance while minimizing user intervention.  
+
+    
+"""
+
+
+
+AUTOMATION_TASK1= f"""
+# LLC Registration Automation Task
+
+## Your Mission
+You are an AI agent responsible for automating LLC registration form submissions across state websites. You must accurately detect and fill form fields, handle website interactions, and ensure successful submissions while adapting to different website structures.
+
+## Core Requirements
+1. Process all form interactions dynamically without relying on fixed selectors
+2. Handle all website elements adaptively
+3. Extract and input data accurately from the provided JSON payload
+4. Follow exact data mapping as specified
+5. Maintain compliance with all state-specific requirements
+
+## Step-by-Step Process
+
+### 1. Website Access
+1. Navigate to: `${jsonData["jsonData"]["State"]["stateUrl"]}`
+2. Wait for complete page load
+3. Handle any security measures (Cloudflare, CAPTCHA)
+4. Clear initial obstacles (popups, notifications)
+
+### 2. Authentication
+- If login required, use:
+  - Username: `${jsonData["jsonData"]["State"]["filingWebsiteUsername"]}`
+  - Password: `${jsonData["jsonData"]["State"]["filingWebsitePassword"]}`
+
+### 3. Start Registration
+1. Locate and click "Start Filing", "Begin Filing", or "Register New Business"
+2. Select entity type:
+   - Use: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or
+   - Alternative: `${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}`
+3. Choose "File Online" if prompted
+4. Click any required "Start Filing" or "Save Name" buttons
+
+### 4. Business Name Entry
+1. Primary name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`
+2. If rejected, use: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`
+3. Select appropriate LLC designator
+
+### 5. Agent Information
+1. Email: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}`
+2. Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`
+3. Address:
+   - Street: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}`
+   - City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}`
+   - ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}`
+   - County (if needed): `${jsonData['jsonData']['County']['countyName']}`
+
+### 6. Principal Office
+Enter when required:
+- Street: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}`
+- City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}`
+- State: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}`
+- ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}`
+
+### 7. Organizer Details
+When required, enter:
+- Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}`
+
+### 8. Standard Questions
+- For "Has this entity been created in another state?" select "No"
+- Answer all required business declarations
+- Handle any tobacco-related or management type questions
+
+### 9. Submission Process
+1. Check all required agreement boxes
+2. Complete final submission
+3. Handle any confirmation dialogs
+4. Process success/error messages
+
+## Response Requirements
+- Success: Return "Form filled successfully"
+- Failure: Return "Form submission failed: <error message>"
+
+## Error Handling
+1. Detect and handle all popup notifications
+2. Process any alert messages
+3. Manage form validation errors
+4. Handle any system timeouts or errors
+5. Report specific error details for troubleshooting
+
+## Important Notes
+- Always verify field completion before submission
+- Handle any dynamic form changes
+- Process all security measures appropriately
+- Maintain accurate data entry
+- Follow state-specific requirements
+"""
+
+
+
+
+
+SSN_EXTRACTION = "Extract the following fields from the SSN document: ssn, name, date_of_birth, address."

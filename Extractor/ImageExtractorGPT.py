@@ -55,7 +55,7 @@ class ImageTextExtractor:
                     ],
                 }
             ],
-            max_tokens=300,
+            max_tokens=100,
         )
         return response.choices[0].message.content
 
@@ -81,7 +81,7 @@ class ImageTextExtractor:
 
 if __name__ == "__main__":
 
-    api_key = OPENAI_KEY
+    api_key = OPENAI_API
 
     extractor = ImageTextExtractor(api_key)
 

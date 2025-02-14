@@ -1,0 +1,10 @@
+streamlit
+asyncio
+langchain-google-genai
+browser-use
+
+streamlit-feedback
+requests
+pandas
+python-dotenv
+playwright

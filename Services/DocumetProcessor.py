@@ -139,7 +139,6 @@ class DocumentProcessor:
                         results.append(result)
                 return results
 
-        # Process multi-page PDF or single-page PDF with multiple images
         with tempfile.TemporaryDirectory() as temp_dir:
             for page_num in range(pdf_document.page_count):
                 page = pdf_document[page_num]
@@ -206,7 +205,7 @@ if __name__ == "__main__":
         config["db_connection_params"]
     )
 
-    results = processor.process_file("D:\\TextExtractor\\Extractor\\images\\pancard.jpg")
+    results = processor.process_file("D:\\TextExtractor\\Extractor\\images\\identities.pdf")
 
     for doc in results:
         print(f"Document Type: {doc['document_type']}")
