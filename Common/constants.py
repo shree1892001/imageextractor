@@ -208,11 +208,19 @@ jsonData = {
 AUTOMATION_TASK= f"""
       ### **Advanced AI Agent for Automated LLC Registration** 
       
-      
+      -Confirm image is clickable
+      - Check visibility in viewport
+      - Verify enabled state
+      - Match to correct 
+      - Try direct image click
+       - Click parent container if needed
+        - Use element index if provided
+       - Click associated label if necessary
+       -Click the button
       In case of 400 error reload the page and continue the automation from the point left  
       -Interact with the elements even though they are images not proper input fields.
       
-      --Select the button with text "Start Filing" or Begin Filing or Start Register Business in the found if found even though its an image
+      --Select the button with text "Start Filing" or Begin Filing or Start Register Business  if found even though its an image click the button even if its an image.
       You are an advanced AI agent responsible for automating LLC registration form submissions across different state websites. Your task is to dynamically detect form fields, input the required data accurately, handle pop-ups or alerts, and ensure successful form submission. The AI should adapt to varying form structures and selectors without relying on predefined element locators.  
        If their are questions asked on the site like Has this entity been created in another state or country? or similar then select No from the dropdown 
        -Properly select all the fields and ensure that the fields are populated accurately
@@ -249,7 +257,7 @@ AUTOMATION_TASK= f"""
  
 - Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
  - if the site ask for the options file online or upload the pdf select or click the file online button or select it from dropdown or from checkbox 
- -if their is  button present for starting the filing then click the Start Filing button  or register filing  button in order to begin filing 
+ -If a button has text like "Start Filing", "Begin Filing", or "Start Register Business", click it—whether it's a standard button or an image.
  -If we need to save the name then click the save the name button or proceed next button.
 - Proceed to the form.  
 
@@ -319,92 +327,170 @@ AUTOMATION_TASK= f"""
 
 
 AUTOMATION_TASK1= f"""
-# LLC Registration Automation Task
+# Advanced AI Agent for Automated LLC Registration
 
-## Your Mission
-You are an AI agent responsible for automating LLC registration form submissions across state websites. You must accurately detect and fill form fields, handle website interactions, and ensure successful submissions while adapting to different website structures.
+## Core Rules and Error Recovery
+1. **Never Stop on Failure**
+   - Attempt 3 retries for each action
+   - Wait 2-3 seconds between retries
+   - Log errors but continue execution
+   - Save progress after each successful step
 
-## Core Requirements
-1. Process all form interactions dynamically without relying on fixed selectors
-2. Handle all website elements adaptively
-3. Extract and input data accurately from the provided JSON payload
-4. Follow exact data mapping as specified
-5. Maintain compliance with all state-specific requirements
+2. **Page Load Handling**
+   - Allow 30 seconds for page load
+   - Refresh page if load fails
+   - Handle timeouts with automatic retry
+   - Check for network connectivity
 
-## Step-by-Step Process
+## Data Fields and Mapping
 
-### 1. Website Access
-1. Navigate to: `${jsonData["jsonData"]["State"]["stateUrl"]}`
-2. Wait for complete page load
-3. Handle any security measures (Cloudflare, CAPTCHA)
-4. Clear initial obstacles (popups, notifications)
-
-### 2. Authentication
-- If login required, use:
+### 1. Initial Navigation
+- Go to State URL: `${jsonData["jsonData"]["State"]["stateUrl"]}`
+- If login required:
   - Username: `${jsonData["jsonData"]["State"]["filingWebsiteUsername"]}`
   - Password: `${jsonData["jsonData"]["State"]["filingWebsitePassword"]}`
 
-### 3. Start Registration
-1. Locate and click "Start Filing", "Begin Filing", or "Register New Business"
-2. Select entity type:
-   - Use: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or
-   - Alternative: `${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}`
-3. Choose "File Online" if prompted
-4. Click any required "Start Filing" or "Save Name" buttons
+### 2. Start Filing Process
+- Look for and click buttons with text:
+  - "Start Filing"
+  - "Begin Filing"
+  - "Start Register Business"
+  - "Register New Business"
+- If presented with options:
+  - Select "file online" over "upload pdf"
+  - Choose "Start Filing" or similar button
 
-### 4. Business Name Entry
-1. Primary name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`
-2. If rejected, use: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`
-3. Select appropriate LLC designator
+### 3. Entity Selection
+- Select LLC entity type using either:
+  - Short name: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}`
+  - Full name: `${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}`
 
-### 5. Agent Information
-1. Email: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}`
-2. Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`
-3. Address:
-   - Street: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}`
-   - City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}`
-   - ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}`
-   - County (if needed): `${jsonData['jsonData']['County']['countyName']}`
+### 4. LLC Name Entry
+- Primary search patterns: "Company Name", "Business Name", "LLC Name"
+- Values to try in order:
+  1. Primary: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`
+  2. Alternate: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`
 
-### 6. Principal Office
-Enter when required:
-- Street: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}`
-- City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}`
-- State: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}`
-- ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}`
+### 5. Registered Agent Information
+Field patterns and values:
+```
+Name Fields ("Registered Agent", "Agent Name", "Statutory Agent"):
+- Full Name: ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}
+  If split name required:
+  - First Name: Take first word
+  - Last Name: Take remaining words
 
-### 7. Organizer Details
-When required, enter:
-- Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}`
+Email ("Agent Email", "Email Address"):
+- ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}
 
-### 8. Standard Questions
-- For "Has this entity been created in another state?" select "No"
-- Answer all required business declarations
-- Handle any tobacco-related or management type questions
+Address Fields:
+- Street ("Address Line 1", "Street Address"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}
+- City ("City", "Town"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}
+- State:
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_State"]}
+- ZIP ("ZIP Code", "Postal Code"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}
+```
 
-### 9. Submission Process
-1. Check all required agreement boxes
-2. Complete final submission
-3. Handle any confirmation dialogs
-4. Process success/error messages
+### 6. Principal Office Address
+Field patterns and values:
+```
+Look for: "Principal Office", "Business Address", "Main Address"
 
-## Response Requirements
-- Success: Return "Form filled successfully"
-- Failure: Return "Form submission failed: <error message>"
+- Street ("Address Line 1", "Street Address"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}
+- City ("City", "Town"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}
+- State:
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}
+- ZIP ("ZIP Code", "Postal Code"):
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}
+```
 
-## Error Handling
-1. Detect and handle all popup notifications
-2. Process any alert messages
-3. Manage form validation errors
-4. Handle any system timeouts or errors
-5. Report specific error details for troubleshooting
+### 7. Organizer Information
+Field patterns and values:
+```
+Look for: "Organizer", "Organizer Information", "Organizer Details"
 
-## Important Notes
-- Always verify field completion before submission
-- Handle any dynamic form changes
-- Process all security measures appropriately
-- Maintain accurate data entry
-- Follow state-specific requirements
+- Name:
+  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}
+```
+
+### 8. County Information (if required)
+```
+Look for: "County", "County Name", "Business County"
+Value: ${jsonData['jsonData']['County']['countyName']}
+```
+
+## Field Population Rules
+
+1. **Field Detection**
+   - Search for exact label matches first
+   - Try partial matches if exact fails
+   - Check placeholder text
+   - Look for aria-labels
+
+2. **Input Verification**
+   - Verify each field after population
+   - Check for validation errors
+   - Try alternative input methods if needed
+   - Wait for dynamic validation
+
+3. **Special Cases**
+   - If dropdown, search all options for match
+   - If radio/checkbox, find closest match
+   - If multi-step form, track progress
+   - Handle dynamic form updates
+
+## Error Recovery Actions
+
+1. **For Each Field**:
+   ```
+   - Try direct input
+   - Wait 2 seconds if fails
+   - Try clicking field first
+   - Try force focus
+   - Verify input accepted
+   ```
+
+2. **For Button Clicks**:
+   ```
+   - Try direct click
+   - Try JavaScript click
+   - Try parent element
+   - Try keyboard Enter
+   ```
+
+3. **For Failed Steps**:
+   ```
+   - Log error details
+   - Try alternative approach
+   - Save partial progress
+   - Continue to next step
+   ```
+
+## Success Criteria
+- All required fields populated
+- No validation errors
+- Form submission confirmed
+- Confirmation number received
+
+## Progress Tracking
+- Save state after each step
+- Log completed actions
+- Track remaining steps
+- Maintain error log
+
+Remember:
+1. Never stop on non-critical errors
+2. Try all alternative values if primary fails
+3. Keep detailed logs of actions and errors
+4. Save progress regularly
+5. Handle alerts and popups automatically
+
+If their are questions asked on the site like "Has this entity been created in another state or country?" or similar then select "No" from the dropdown.
 """
 
 
