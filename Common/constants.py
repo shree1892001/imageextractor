@@ -210,10 +210,8 @@ AUTOMATION_TASK= f"""
       
       For image buttons, try these approaches in order:
 
-if their is button with or image which is clickable with the name "Start Filing" or any relevant field then perform direct image click by alt text: //img[@alt='Start Filing']
-Image inside button/link: //button//img[contains(@alt, 'Start Filing')] | //a//img[contains(@alt, 'Start Filing')]
-Image with specific text nearby: //img[following-sibling::text()[contains(., 'Start Filing')] or preceding-sibling::text()[contains(., 'Start Filing')]]
-Parent elements containing target text: //a[contains(., 'Start Filing')] | //button[contains(., 'Start Filing')]
+if their is button  with the name "Start Filing" or any relevant field then perform image click .
+  Parent elements containing target text: //a[contains(., 'Start Filing')] | //button[contains(., 'Start Filing')]
        
       In case of 400 error reload the page and continue the automation from the point left  
       -Interact with the elements even though they are images not proper input fields.
@@ -254,7 +252,7 @@ Parent elements containing target text: //a[contains(., 'Start Filing')] | //but
  -
 - Select the LLC entity type: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}` or .`${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}` from the dropdown or from any relevent field. 
  - if the site ask for the options file online or upload the pdf select or click the file online button or select it from dropdown or from checkbox 
- -If a button has text like "Start Filing", "Begin Filing", or "Start Register Business", click it—whether it's a standard button or an image.
+ -If a button has text like "Start Filing", "Begin Filing", or "Start Register Business", click it whether it's a standard button or an image.
  -If we need to save the name then click the save the name button or proceed next button.
 - Proceed to the form.  
 

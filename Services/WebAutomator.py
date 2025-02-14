@@ -103,7 +103,7 @@ class SearchAutomator:
 
     async def process_page(self, query: str, page_num: int) -> List[Dict]:
         agent = Agent(
-            task=AUTOMATION_TASK,
+            task=query,
             llm=self.api_client.llm,
         )
 
