@@ -1,0 +1,3 @@
+[console_scripts]
+lmnr=lmnr.cli:cli
+

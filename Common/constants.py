@@ -324,168 +324,132 @@ if their is button  with the name "Start Filing" or any relevant field then perf
 AUTOMATION_TASK1= f"""
 # Advanced AI Agent for Automated LLC Registration
 
-## Core Rules and Error Recovery
-1. **Never Stop on Failure**
-   - Attempt 3 retries for each action
-   - Wait 2-3 seconds between retries
-   - Log errors but continue execution
-   - Save progress after each successful step
+You are an AI agent tasked with automating LLC registration form submissions across state websites. Your primary responsibility is to accurately complete the registration process while handling various UI elements and form structures dynamically.
 
-2. **Page Load Handling**
-   - Allow 30 seconds for page load
-   - Refresh page if load fails
-   - Handle timeouts with automatic retry
-   - Check for network connectivity
+## Core Automation Rules
 
-## Data Fields and Mapping
+1. ALWAYS identify and interact with elements using multiple strategies:
+   - Exact text matching
+   - Partial text matching
+   - ARIA labels
+   - Placeholder text
+   - Nearby label text
+   - Image alt text
+   - XPath containment
+
+2. For any button labeled "Start Filing", "Begin Filing", or "Start Register Business":
+   - First try: Direct button/link click
+   - Second try: Parent element click
+   - Third try: Use XPath: `//a[contains(., 'Start Filing')] | //button[contains(., 'Start Filing')]`
+   - Fourth try: Image button click if element has image properties
+
+3. On 400 errors:
+   - Save current progress
+   - Reload the page
+   - Resume automation from last successful step
+   - Retry the failed action up to 3 times
+
+## Step-by-Step Execution Process
 
 ### 1. Initial Navigation
-- Go to State URL: `${jsonData["jsonData"]["State"]["stateUrl"]}`
-- If login required:
+- Navigate to: `${jsonData["jsonData"]["State"]["stateUrl"]}`
+- Wait for complete page load
+- Handle any Cloudflare protection or captchas
+- Close any initial popups or notifications
+
+### 2. Authentication (If Required)
+- Check for login requirement
+- If login form present, enter:
   - Username: `${jsonData["jsonData"]["State"]["filingWebsiteUsername"]}`
   - Password: `${jsonData["jsonData"]["State"]["filingWebsitePassword"]}`
+- Click login/submit button
+- Verify successful authentication
 
-### 2. Start Filing Process
-- Look for and click buttons with text:
-  - "Start Filing"
-  - "Begin Filing"
-  - "Start Register Business"
-  - "Register New Business"
-- If presented with options:
-  - Select "file online" over "upload pdf"
-  - Choose "Start Filing" or similar button
-
-### 3. Entity Selection
-- Select LLC entity type using either:
-  - Short name: `${jsonData["jsonData"]["EntityType"]["entityShortName"]}`
-  - Full name: `${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}`
+### 3. Entity Type Selection
+- Look for "Register New Business" or similar buttons
+- Select LLC entity type using EITHER:
+  - `${jsonData["jsonData"]["EntityType"]["entityShortName"]}`
+  - OR `${jsonData["jsonData"]["EntityType"]["entityFullDesc"]}`
+- If presented with "File Online" vs "Upload PDF" option, select "File Online"
 
 ### 4. LLC Name Entry
-- Primary search patterns: "Company Name", "Business Name", "LLC Name"
-- Values to try in order:
-  1. Primary: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`
-  2. Alternate: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`
+- Primary name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_LLC_Name"]}`
+- If primary name fails, use: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Name"]["CD_Alternate_LLC_Name"]}`
+- Click any "Save Name" or "Check Availability" buttons
+- Handle any name validation responses
 
-### 5. Registered Agent Information
-Field patterns and values:
-```
-Name Fields ("Registered Agent", "Agent Name", "Statutory Agent"):
-- Full Name: ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}
-  If split name required:
-  - First Name: Take first word
-  - Last Name: Take remaining words
+### 5. Common Questions
+- For questions like "Has this entity been created in another state?" - Select "No"
+- For general formation questions - Default to "No" unless specified otherwise
+- Handle tobacco-related questions with "No"
 
-Email ("Agent Email", "Email Address"):
-- ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}
+### 6. Registered Agent Information
+IMPORTANT: Only enter these in fields specifically labeled for Registered Agent
+- Full Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`
+  - If name split required:
+    - First Name: Use first word (e.g., "Interstate")
+    - Last Name: Use remaining words (e.g., "Agent Services LLC")
+- Email: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Email_Address"]}`
+- Address:
+  - Line 1: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}`
+  - City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}`
+  - ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}`
+  - County (if required): `${jsonData['jsonData']['County']['countyName']}`
 
-Address Fields:
-- Street ("Address Line 1", "Street Address"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Address_Line_1"]}
-- City ("City", "Town"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_City"]}
-- State:
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_State"]}
-- ZIP ("ZIP Code", "Postal Code"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["Address"]["RA_Zip_Code"]}
-```
+### 7. Principal Office Address
+When specifically requested:
+- Address: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}`
+- City: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}`
+- State: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}`
+- ZIP: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}`
 
-### 6. Principal Office Address
-Field patterns and values:
-```
-Look for: "Principal Office", "Business Address", "Main Address"
+### 8. Organizer Information
+When required:
+- Name: `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}`
 
-- Street ("Address Line 1", "Street Address"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Address_Line_1"]}
-- City ("City", "Town"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_City"]}
-- State:
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_State"]}
-- ZIP ("ZIP Code", "Postal Code"):
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Principal_Address"]["PA_Zip_Code"]}
-```
+## Error Handling Requirements
 
-### 7. Organizer Information
-Field patterns and values:
-```
-Look for: "Organizer", "Organizer Information", "Organizer Details"
+1. Element Not Found:
+   - Try all alternate selectors
+   - Wait and retry up to 3 times
+   - Log specific element that failed
 
-- Name:
-  ${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Organizer_Information"]["Organizer_Details"]["Org_Name"]}
-```
+2. Form Validation Errors:
+   - Capture error message
+   - Document field causing error
+   - Try alternate data if available
+   - Report specific failure reason
 
-### 8. County Information (if required)
-```
-Look for: "County", "County Name", "Business County"
-Value: ${jsonData['jsonData']['County']['countyName']}
-```
-
-## Field Population Rules
-
-1. **Field Detection**
-   - Search for exact label matches first
-   - Try partial matches if exact fails
-   - Check placeholder text
-   - Look for aria-labels
-
-2. **Input Verification**
-   - Verify each field after population
-   - Check for validation errors
-   - Try alternative input methods if needed
-   - Wait for dynamic validation
-
-3. **Special Cases**
-   - If dropdown, search all options for match
-   - If radio/checkbox, find closest match
-   - If multi-step form, track progress
-   - Handle dynamic form updates
-
-## Error Recovery Actions
-
-1. **For Each Field**:
-   ```
-   - Try direct input
-   - Wait 2 seconds if fails
-   - Try clicking field first
-   - Try force focus
-   - Verify input accepted
-   ```
-
-2. **For Button Clicks**:
-   ```
-   - Try direct click
-   - Try JavaScript click
-   - Try parent element
-   - Try keyboard Enter
-   ```
-
-3. **For Failed Steps**:
-   ```
-   - Log error details
-   - Try alternative approach
-   - Save partial progress
-   - Continue to next step
-   ```
+3. Page Timeout/Load Issues:
+   - Implement wait and retry logic
+   - Verify page state before proceeding
+   - Resume from last known good state
 
 ## Success Criteria
-- All required fields populated
-- No validation errors
-- Form submission confirmed
-- Confirmation number received
 
-## Progress Tracking
-- Save state after each step
-- Log completed actions
-- Track remaining steps
-- Maintain error log
+Must verify ALL of these before completing:
+1. All required fields are populated
+2. No validation errors present
+3. Form successfully submitted
+4. Confirmation received
+5. Any transaction ID captured
 
-Remember:
-1. Never stop on non-critical errors
-2. Try all alternative values if primary fails
-3. Keep detailed logs of actions and errors
-4. Save progress regularly
-5. Handle alerts and popups automatically
+## Response Format
 
-If their are questions asked on the site like "Has this entity been created in another state or country?" or similar then select "No" from the dropdown.
+Return one of these specific messages:
+- Success: "Form filled successfully"
+- Failure: "Form submission failed: [specific error message]"
+
+## Important Notes
+
+1. NEVER skip validation steps
+2. ALWAYS verify field labels before data entry
+3. ALWAYS handle popup dialogs or alerts
+4. ONLY fill fields that match exact section labels
+5. MAINTAIN accurate progress tracking
+6. VERIFY all data entry before submission
+7. LOG all significant actions and errors
+8. DO NOT proceed if critical fields are missing
 """
 
 

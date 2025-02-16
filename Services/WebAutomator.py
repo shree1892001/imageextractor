@@ -9,7 +9,7 @@ import time
 import csv
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional
-from Common.constants import *
+from imageextractor.Common.constants import *
 
 class APIClientSingleton:
     _instance = None
