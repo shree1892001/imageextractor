@@ -1,0 +1,42 @@
+Voice Assistant Transcript - Session 20250513_194759
+
+[2025-05-13 19:48:00] Assistant: Assistant initialized successfully
+[2025-05-13 19:52:44] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-13 19:52:50] Assistant: First, please provide the job description.
+[2025-05-13 19:57:00] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-13 19:57:15] Assistant: I ve prepared 8 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-13 19:57:23] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-13 19:57:29] Assistant: There will be 8 questions in total.
+[2025-05-13 19:57:31] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-05-13 19:57:43] Assistant: Question 1 of 8:
+[2025-05-13 19:57:45] Assistant: This is a Adaptability Pace question: Describe a time you had to adapt quickly to a significant change in priorities or workload. How did you handle it?
+[2025-05-13 19:57:55] Assistant: Please speak your answer now.
+[2025-05-13 19:58:14] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-05-13 20:07:40] Assistant: I didn t get a response. Please try again.
+[2025-05-13 20:07:40] Assistant: Please speak your answer now.
+[2025-05-13 20:08:02] Assistant: Moving to the next question.
+[2025-05-13 20:08:02] Assistant: Let s move to the next question.
+[2025-05-13 20:08:02] Assistant: Question 2 of 8:
+[2025-05-13 20:08:02] Assistant: This is a Problem-Solving (Resource Constraints) question: Imagine you need to organize a company-wide training event with a limited budget and short timeframe. How would you approach this challenge?
+[2025-05-13 20:08:02] Assistant: Please speak your answer now.
+[2025-05-13 20:08:02] Assistant: I didn t get a response. Please try again.
+[2025-05-13 20:08:02] Assistant: Please speak your answer now.
+[2025-05-13 20:08:03] Assistant: Moving to the next question.
+[2025-05-13 20:08:03] Assistant: Let s move to the next question.
+[2025-05-13 20:08:03] Assistant: Question 3 of 8:
+[2025-05-13 20:08:03] Assistant: This is a Cultural Fit (Startup Culture) question: What aspects of a startup environment appeal to you the most, and which aspects might be challenging for you? Be honest.
+[2025-05-13 20:08:03] Assistant: Please speak your answer now.
+[2025-05-13 20:08:03] Assistant: I didn t get a response. Please try again.
+[2025-05-13 20:08:03] Assistant: Please speak your answer now.
+[2025-05-13 20:08:04] Assistant: Moving to the next question.
+[2025-05-13 20:08:04] Assistant: Let s move to the next question.
+[2025-05-13 20:08:04] Assistant: Question 4 of 8:
+[2025-05-13 20:08:04] Assistant: This is a Multitasking Wearing Multiple Hats question: Describe a situation where you had to juggle multiple responsibilities simultaneously. How did you prioritize your tasks?
+[2025-05-13 20:08:04] Assistant: Please speak your answer now.
+[2025-05-13 20:08:04] Assistant: I didn t get a response. Please try again.
+[2025-05-13 20:08:04] Assistant: Please speak your answer now.
+[2025-05-13 20:08:45] Assistant: Moving to the next question.
+[2025-05-13 20:08:45] Assistant: Let s move to the next question.
+[2025-05-13 20:08:45] Assistant: Question 5 of 8:
+[2025-05-13 20:08:45] Assistant: This is a Handling Ambiguity Change question: How do you typically handle situations where information is incomplete or unclear?
+[2025-05-13 20:08:45] Assistant: Please speak your answer now.

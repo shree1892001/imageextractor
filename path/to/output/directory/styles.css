@@ -1,0 +1,83 @@
+```css
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* Layout */
+.order-summary {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Typography */
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Buttons */
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #0069d9; /* Darker blue on hover */
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Subtle focus outline */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .order-summary {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+
+/*Example usage*/
+.order-summary__item {
+  margin-bottom: 1em;
+}
+
+.order-summary__item--total {
+  font-weight: bold;
+}
+
+.order-summary__price{
+    font-weight: bold;
+}
+```
+
+This CSS uses BEM (Block, Element, Modifier) naming convention for better organization and maintainability.  It includes responsive adjustments for smaller screens and adds hover and focus styles for the button.  Remember to replace  `Arial` with your preferred font-family if needed.  The code also provides example classes for structuring the order summary content.  You would need to apply these classes to your HTML elements accordingly.

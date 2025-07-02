@@ -1,0 +1,86 @@
+{
+  "EntityType": {
+    "createdBy": null,
+    "creationDate": null,
+    "lastModifiedBy": null,
+    "lastModifiedDate": null,
+    "id": 1,
+    "entityShortName": "LLC",
+    "entityFullDesc": "Limited Liability Company",
+    "onlineFormFilingFlag": false
+  },
+  "State": {
+    "createdBy": null,
+    "creationDate": null,
+    "lastModifiedBy": null,
+    "lastModifiedDate": null,
+    "id": 43,
+    "stateShortName": "TX",
+    "stateFullDesc": "Maine",
+    "stateUrl": null,
+    "filingWebsiteUsername": null,
+    "filingWebsitePassword": null,
+    "strapiDisplayName": "Texas",
+    "countryMaster": {
+      "createdBy": null,
+      "creationDate": null,
+      "lastModifiedBy": null,
+      "lastModifiedDate": null,
+      "id": 3,
+      "countryShortName": "US",
+      "countryFullDesc": "United States"
+    }
+  },
+  "County": null,
+  "Payload": {
+    "Entity_Formation": {
+      "Name": {
+        "CD_LLC_Name": "red llc",
+        "CD_Alternate_LLC_Name": "red llc"
+      },
+      "Principal_Address": {
+        "PA_Address_Line_1": "123 Main Street",
+        "PA_Address_Line_2": "Suite 456",
+        "PA_City": "Albany",
+        "PA_Zip_Code": "11557",
+        "PA_State": "AL"
+      },
+      "Registered_Agent": {
+        "RA_Name": "Interstate Agent Services LLC",
+        "RA_Email_Address": "agentservice@vstatefilings.com",
+        "RA_Contact_No": "(718) 569-2703",
+        "Address": {
+          "RA_Address_Line_1": "12830 Hillcrest Road, Suite 111",
+          "RA_Address_Line_2": "",
+          "RA_City": "Dallas",
+          "RA_Zip_Code": "75230",
+          "RA_State": "TX"
+        }
+      },
+      "Organizer_Information": {
+        "Organizer_Details": {
+          "Org_Name": "Benjamin Netanyahu",
+          "Org_Email_Address": "saumya.patra@redberyltech.com",
+          "Org_Contact_No": "(747) 474-7477"
+        },
+        "Address": {
+          "Org_Address_Line_1": "Hadapsar",
+          "Org_Address_Line_2": "",
+          "Org_City": "Pune",
+          "Org_Zip_Code": "47747",
+          "Org_State": "AZ"
+        }
+      }
+    }
+  },
+  "Header": {
+    "itemName": "Entity Formation",
+    "path": "",
+    "isFirst": false,
+    "orderType": 1,
+    "description1": "Register your company online in minutes. Complete the following steps to get started.",
+    "description": "Register your company online in minutes. Complete the following steps to get started."
+  },
+  "addOnService": null,
+  "legalName": "red llc"
+}

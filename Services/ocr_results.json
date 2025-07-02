@@ -1,0 +1,1211 @@
+[
+  {
+    "page_num": 0,
+    "text": "State of Wisconsin",
+    "raw_text": "State of Wisconsin",
+    "confidence": 0.9966520625813513,
+    "method": "binary",
+    "position": {
+      "x1": 275.0,
+      "y1": 45.0,
+      "x2": 577.0,
+      "y2": 85.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "FILING FEE S170.00",
+    "raw_text": "FILING FEE S170.00",
+    "confidence": 0.7788639570949875,
+    "method": "binary",
+    "position": {
+      "x1": 1101.0,
+      "y1": 45.0,
+      "x2": 1555.0,
+      "y2": 109.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "DEPARTMENT OF FINANCIAL INSTITUTIONS",
+    "raw_text": "DEPARTMENT OF FINANCIAL INSTITUTIONS",
+    "confidence": 0.9990596534609846,
+    "method": "binary",
+    "position": {
+      "x1": 274.0,
+      "y1": 88.0,
+      "x2": 773.0,
+      "y2": 124.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Division of Corporate & Consumer Services",
+    "raw_text": "Division of Corporate & Consumer Services",
+    "confidence": 0.9685983316240803,
+    "method": "binary",
+    "position": {
+      "x1": 276.0,
+      "y1": 121.0,
+      "x2": 670.0,
+      "y2": 151.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Please check box to request",
+    "raw_text": "Please check box to request",
+    "confidence": 0.9964817386953672,
+    "method": "binary",
+    "position": {
+      "x1": 953.0,
+      "y1": 121.0,
+      "x2": 1339.0,
+      "y2": 162.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "+",
+    "raw_text": "+",
+    "confidence": 0.9993606635912897,
+    "method": "binary",
+    "position": {
+      "x1": 1418.0,
+      "y1": 152.0,
+      "x2": 1442.0,
+      "y2": 176.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "525.00",
+    "raw_text": "525.00",
+    "confidence": 0.47746736357642006,
+    "method": "binary",
+    "position": {
+      "x1": 1447.0,
+      "y1": 143.0,
+      "x2": 1551.0,
+      "y2": 183.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Optional Expedited Service",
+    "raw_text": "Optional Expedited Service",
+    "confidence": 0.9991918181179966,
+    "method": "binary",
+    "position": {
+      "x1": 965.0,
+      "y1": 158.0,
+      "x2": 1337.0,
+      "y2": 202.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "502",
+    "raw_text": "502",
+    "confidence": 0.999993943357101,
+    "method": "binary",
+    "position": {
+      "x1": 235.0,
+      "y1": 259.0,
+      "x2": 339.0,
+      "y2": 319.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "ARTICLES OF ORGANIZATION",
+    "raw_text": "ARTICLES OF ORGANIZATION",
+    "confidence": 0.991957451495667,
+    "method": "binary",
+    "position": {
+      "x1": 591.0,
+      "y1": 253.0,
+      "x2": 1183.0,
+      "y2": 295.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "FORM",
+    "raw_text": "FORM",
+    "confidence": 0.9999909996986389,
+    "method": "binary",
+    "position": {
+      "x1": 152.0,
+      "y1": 284.0,
+      "x2": 238.0,
+      "y2": 316.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "LIMITED LIABILITY COMPANY",
+    "raw_text": "LIMITED LIABILITY COMPANY",
+    "confidence": 0.8057378722194553,
+    "method": "binary",
+    "position": {
+      "x1": 582.0,
+      "y1": 298.0,
+      "x2": 1189.0,
+      "y2": 341.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Sec. 183.0202 Wis. Stats:",
+    "raw_text": "Sec. 183.0202 Wis. Stats:",
+    "confidence": 0.8106848239596923,
+    "method": "binary",
+    "position": {
+      "x1": 736.0,
+      "y1": 342.0,
+      "x2": 1036.0,
+      "y2": 374.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Executed by the undersigned for the purpose of forming a Wisconsin limited Iiability company under Ch:",
+    "raw_text": "Executed by the undersigned for the purpose of forming a Wisconsin limited Iiability company under Ch:",
+    "confidence": 0.5387217790808954,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 404.0,
+      "x2": 1552.0,
+      "y2": 458.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "183 of the Wisconsin Statutes:",
+    "raw_text": "183 of the Wisconsin Statutes:",
+    "confidence": 0.712601666281661,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 450.0,
+      "x2": 551.0,
+      "y2": 491.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 1",
+    "raw_text": "Article 1",
+    "confidence": 0.9143901113485156,
+    "method": "binary",
+    "position": {
+      "x1": 139.0,
+      "y1": 529.0,
+      "x2": 263.0,
+      "y2": 565.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Name of the limited liability company:",
+    "raw_text": "Name of the limited liability company:",
+    "confidence": 0.818821366731881,
+    "method": "binary",
+    "position": {
+      "x1": 278.0,
+      "y1": 519.0,
+      "x2": 808.0,
+      "y2": 574.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 2",
+    "raw_text": "Article 2",
+    "confidence": 0.9998087887346879,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 681.0,
+      "x2": 263.0,
+      "y2": 719.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "The limited liability company is organized under Ch. 183 of the Wisconsin Statutes",
+    "raw_text": "The limited liability company is organized under Ch. 183 of the Wisconsin Statutes",
+    "confidence": 0.8347038068203753,
+    "method": "binary",
+    "position": {
+      "x1": 278.0,
+      "y1": 672.0,
+      "x2": 1410.0,
+      "y2": 726.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 3.",
+    "raw_text": "Article 3.",
+    "confidence": 0.894350102774942,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 757.0,
+      "x2": 265.0,
+      "y2": 795.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Name of the initial registered agent:",
+    "raw_text": "Name of the initial registered agent:",
+    "confidence": 0.9016820553602289,
+    "method": "binary",
+    "position": {
+      "x1": 278.0,
+      "y1": 754.0,
+      "x2": 770.0,
+      "y2": 802.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 4,",
+    "raw_text": "Article 4,",
+    "confidence": 0.5835278862144951,
+    "method": "binary",
+    "position": {
+      "x1": 141.0,
+      "y1": 871.0,
+      "x2": 267.0,
+      "y2": 909.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Street address of the initial registered office:",
+    "raw_text": "Street address of the initial registered office:",
+    "confidence": 0.9176941219793008,
+    "method": "binary",
+    "position": {
+      "x1": 278.0,
+      "y1": 868.0,
+      "x2": 882.0,
+      "y2": 916.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "(The complete physical address, including street and",
+    "raw_text": "(The complete physical address, including street and",
+    "confidence": 0.6827700326975957,
+    "method": "binary",
+    "position": {
+      "x1": 134.0,
+      "y1": 904.0,
+      "x2": 854.0,
+      "y2": 957.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "number; if assigned, and ZIP code:",
+    "raw_text": "number; if assigned, and ZIP code:",
+    "confidence": 0.7631694034476196,
+    "method": "binary",
+    "position": {
+      "x1": 139.0,
+      "y1": 947.0,
+      "x2": 613.0,
+      "y2": 991.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "APO Box, in the same",
+    "raw_text": "APO Box, in the same",
+    "confidence": 0.7411144024687368,
+    "method": "binary",
+    "position": {
+      "x1": 623.0,
+      "y1": 949.0,
+      "x2": 933.0,
+      "y2": 989.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "city or town, may be included as part of the address, but is",
+    "raw_text": "city or town, may be included as part of the address, but is",
+    "confidence": 0.6190944541855982,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 984.0,
+      "x2": 932.0,
+      "y2": 1032.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "insufficient alone )",
+    "raw_text": "insufficient alone )",
+    "confidence": 0.9752580778489873,
+    "method": "binary",
+    "position": {
+      "x1": 138.0,
+      "y1": 1023.0,
+      "x2": 398.0,
+      "y2": 1067.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 5. Management of the limited liability company shall be vested in:",
+    "raw_text": "Article 5. Management of the limited liability company shall be vested in:",
+    "confidence": 0.47491976014498055,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 1094.0,
+      "x2": 1142.0,
+      "y2": 1148.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "(Select and check",
+    "raw_text": "(Select and check",
+    "confidence": 0.8918905134707141,
+    "method": "binary",
+    "position": {
+      "x1": 274.0,
+      "y1": 1138.0,
+      "x2": 523.0,
+      "y2": 1180.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "the one appropriate choice below)",
+    "raw_text": "the one appropriate choice below)",
+    "confidence": 0.9089845135981204,
+    "method": "binary",
+    "position": {
+      "x1": 574.0,
+      "y1": 1135.0,
+      "x2": 1040.0,
+      "y2": 1187.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "a manager or managers",
+    "raw_text": "a manager or managers",
+    "confidence": 0.9514992537051572,
+    "method": "binary",
+    "position": {
+      "x1": 287.0,
+      "y1": 1228.0,
+      "x2": 607.0,
+      "y2": 1267.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "OR",
+    "raw_text": "OR",
+    "confidence": 0.9998834238073295,
+    "method": "binary",
+    "position": {
+      "x1": 138.0,
+      "y1": 1268.0,
+      "x2": 192.0,
+      "y2": 1300.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "its members",
+    "raw_text": "its members",
+    "confidence": 0.9972283896252315,
+    "method": "binary",
+    "position": {
+      "x1": 285.0,
+      "y1": 1311.0,
+      "x2": 459.0,
+      "y2": 1347.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Article 6. Name and complete address of each organizer:",
+    "raw_text": "Article 6. Name and complete address of each organizer:",
+    "confidence": 0.9262183844562676,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 1383.0,
+      "x2": 931.0,
+      "y2": 1434.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Organizer'$ signature",
+    "raw_text": "Organizer'$ signature",
+    "confidence": 0.7942603201201766,
+    "method": "binary",
+    "position": {
+      "x1": 318.0,
+      "y1": 1653.0,
+      "x2": 569.0,
+      "y2": 1694.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Organizer'$ signature",
+    "raw_text": "Organizer'$ signature",
+    "confidence": 0.7605659032582884,
+    "method": "binary",
+    "position": {
+      "x1": 1011.0,
+      "y1": 1657.0,
+      "x2": 1261.0,
+      "y2": 1693.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "This document was drafted by",
+    "raw_text": "This document was drafted by",
+    "confidence": 0.9167171659746953,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1725.0,
+      "x2": 549.0,
+      "y2": 1769.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "(Name the individual who drafted the document)",
+    "raw_text": "(Name the individual who drafted the document)",
+    "confidence": 0.9699780684671401,
+    "method": "binary",
+    "position": {
+      "x1": 735.0,
+      "y1": 1763.0,
+      "x2": 1289.0,
+      "y2": 1801.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "OPTIONAL -",
+    "raw_text": "OPTIONAL -",
+    "confidence": 0.9606218755487966,
+    "method": "binary",
+    "position": {
+      "x1": 179.0,
+      "y1": 1835.0,
+      "x2": 359.0,
+      "y2": 1873.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "This document has a delayed effective date:_",
+    "raw_text": "This document has a delayed effective date:_",
+    "confidence": 0.8858026342752005,
+    "method": "binary",
+    "position": {
+      "x1": 381.0,
+      "y1": 1833.0,
+      "x2": 979.0,
+      "y2": 1877.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "(up to 90 days after received date)",
+    "raw_text": "(up to 90 days after received date)",
+    "confidence": 0.7665910340928087,
+    "method": "binary",
+    "position": {
+      "x1": 1055.0,
+      "y1": 1871.0,
+      "x2": 1461.0,
+      "y2": 1911.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "NOTE: The articles of organization may contain only that information required under items 1 through 6. The",
+    "raw_text": "NOTE: The articles of organization may contain only that information required under items 1 through 6. The",
+    "confidence": 0.600021033223449,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1947.0,
+      "x2": 1487.0,
+      "y2": 1992.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "company may create a separate operating agreement that includes additional information",
+    "raw_text": "company may create a separate operating agreement that includes additional information ",
+    "confidence": 0.7454346883559663,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1983.0,
+      "x2": 1237.0,
+      "y2": 2027.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "Office Use Only",
+    "raw_text": "Office Use Only",
+    "confidence": 0.9890566110058995,
+    "method": "binary",
+    "position": {
+      "x1": 1199.0,
+      "y1": 2031.0,
+      "x2": 1376.0,
+      "y2": 2070.0
+    }
+  },
+  {
+    "page_num": 0,
+    "text": "DFIICORP/502 (02/18)",
+    "raw_text": "DFIICORP/502 (02/18)",
+    "confidence": 0.7728948967820205,
+    "method": "binary",
+    "position": {
+      "x1": 134.0,
+      "y1": 2116.0,
+      "x2": 472.0,
+      "y2": 2164.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "ARTICLES OF ORGANIZATION",
+    "raw_text": "ARTICLES OF ORGANIZATION",
+    "confidence": 0.8032985466287456,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 101.0,
+      "x2": 618.0,
+      "y2": 139.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Limited Liability Company",
+    "raw_text": "Limited Liability Company",
+    "confidence": 0.9998378556486508,
+    "method": "binary",
+    "position": {
+      "x1": 634.0,
+      "y1": 93.0,
+      "x2": 1014.0,
+      "y2": 148.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Please provide an email or postal mailing address for the filed copy of the document.",
+    "raw_text": "Please provide an email or postal mailing address for the filed copy of the document.",
+    "confidence": 0.7432751909439582,
+    "method": "binary",
+    "position": {
+      "x1": 176.0,
+      "y1": 563.0,
+      "x2": 1386.0,
+      "y2": 612.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Your phone number during the day:",
+    "raw_text": "Your phone number during the day:",
+    "confidence": 0.7604870935210388,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 636.0,
+      "x2": 642.0,
+      "y2": 689.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "INSTRUCTIONS (Ref, sec, 183.0202 Wis. Stats. for document content)",
+    "raw_text": "INSTRUCTIONS (Ref, sec, 183.0202 Wis. Stats. for document content)",
+    "confidence": 0.5379733932683393,
+    "method": "binary",
+    "position": {
+      "x1": 138.0,
+      "y1": 717.0,
+      "x2": 1123.0,
+      "y2": 761.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Please use BLACK ink",
+    "raw_text": "Please use BLACK ink",
+    "confidence": 0.8896568464107282,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 758.0,
+      "x2": 469.0,
+      "y2": 795.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Submit one original to State of WI-Dept: of Financial Institutions, Box 93348,",
+    "raw_text": "Submit one original to State of WI-Dept: of Financial Institutions, Box 93348,",
+    "confidence": 0.7414174580336049,
+    "method": "binary",
+    "position": {
+      "x1": 482.0,
+      "y1": 754.0,
+      "x2": 1566.0,
+      "y2": 802.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Milwaukee WI; 53293-0348, with the $170.00 filing fee; payable to the department;  Filing fee is non-",
+    "raw_text": "Milwaukee WI; 53293-0348, with the $170.00 filing fee; payable to the department;  Filing fee is non-",
+    "confidence": 0.4453191172282763,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 789.0,
+      "x2": 1568.0,
+      "y2": 843.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "refundable.",
+    "raw_text": "refundable.",
+    "confidence": 0.6563306739304814,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 835.0,
+      "x2": 304.0,
+      "y2": 873.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "(If sent by Express or Priority U,S. mail, please visit W wdfi orglcontact_usL for current",
+    "raw_text": "(If sent by Express or Priority U,S. mail, please visit W wdfi orglcontact_usL for current",
+    "confidence": 0.5745197036625705,
+    "method": "binary",
+    "position": {
+      "x1": 318.0,
+      "y1": 830.0,
+      "x2": 1568.0,
+      "y2": 879.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "physical address):",
+    "raw_text": "physical address):",
+    "confidence": 0.9895408885286061,
+    "method": "binary",
+    "position": {
+      "x1": 132.0,
+      "y1": 870.0,
+      "x2": 382.0,
+      "y2": 918.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "This document can be made available in alternate formats upon request to qualifying",
+    "raw_text": "This document can be made available in alternate formats upon request to qualifying",
+    "confidence": 0.9393015671684535,
+    "method": "binary",
+    "position": {
+      "x1": 396.0,
+      "y1": 870.0,
+      "x2": 1566.0,
+      "y2": 919.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "individuals with disabilities:",
+    "raw_text": "individuals with disabilities:",
+    "confidence": 0.8745772028258036,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 911.0,
+      "x2": 529.0,
+      "y2": 949.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "The original must include an original manual signature.",
+    "raw_text": "The original must include an original manual signature.",
+    "confidence": 0.7182106179533524,
+    "method": "binary",
+    "position": {
+      "x1": 546.0,
+      "y1": 908.0,
+      "x2": 1318.0,
+      "y2": 956.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Upon filing; the",
+    "raw_text": "Upon filing; the",
+    "confidence": 0.6017332172348251,
+    "method": "binary",
+    "position": {
+      "x1": 1335.0,
+      "y1": 911.0,
+      "x2": 1565.0,
+      "y2": 955.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "information in this document becomes public and might be used for purposes other than those for which it",
+    "raw_text": "information in this document becomes public and might be used for purposes other than those for which it",
+    "confidence": 0.8577881878515051,
+    "method": "binary",
+    "position": {
+      "x1": 134.0,
+      "y1": 946.0,
+      "x2": 1566.0,
+      "y2": 994.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "was",
+    "raw_text": "was",
+    "confidence": 0.8914875415564312,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 994.0,
+      "x2": 198.0,
+      "y2": 1024.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "originally furnished:",
+    "raw_text": "originally furnished:",
+    "confidence": 0.8730428303491209,
+    "method": "binary",
+    "position": {
+      "x1": 192.0,
+      "y1": 984.0,
+      "x2": 476.0,
+      "y2": 1032.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "If you have any questions, please contact the Division of Corporate & Consumer",
+    "raw_text": "If you have any questions, please contact the Division of Corporate & Consumer",
+    "confidence": 0.8212583267785126,
+    "method": "binary",
+    "position": {
+      "x1": 484.0,
+      "y1": 984.0,
+      "x2": 1566.0,
+      "y2": 1035.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Services at 608-261-7577 . Hearing-impaired may call 711 for TTY.",
+    "raw_text": "Services at 608-261-7577 . Hearing-impaired may call 711 for TTY.",
+    "confidence": 0.6085676378008306,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 1024.0,
+      "x2": 1056.0,
+      "y2": 1072.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Article 1",
+    "raw_text": "Article 1",
+    "confidence": 0.9991135838311841,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1099.0,
+      "x2": 253.0,
+      "y2": 1135.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "The name must contain the words \"limited Iiability company\" or \"limited liability co__",
+    "raw_text": "The name must contain the words \"limited Iiability company\" or \"limited liability co__",
+    "confidence": 0.47783489634674214,
+    "method": "binary",
+    "position": {
+      "x1": 266.0,
+      "y1": 1096.0,
+      "x2": 1314.0,
+      "y2": 1145.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Or end with the",
+    "raw_text": "Or end with the",
+    "confidence": 0.6747283245205644,
+    "method": "binary",
+    "position": {
+      "x1": 1332.0,
+      "y1": 1102.0,
+      "x2": 1526.0,
+      "y2": 1134.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Article 2. This statement is required by sec. 183.0202(1).",
+    "raw_text": "Article 2. This statement is required by sec. 183.0202(1).",
+    "confidence": 0.5209780658031825,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1202.0,
+      "x2": 845.0,
+      "y2": 1247.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Articles 3",
+    "raw_text": "Articles 3",
+    "confidence": 0.9916417740214424,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1275.0,
+      "x2": 265.0,
+      "y2": 1311.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "4. The company must have a registered agent located at a registered office in Wisconsin:",
+    "raw_text": "4. The company must have a registered agent located at a registered office in Wisconsin:",
+    "confidence": 0.6681707604796241,
+    "method": "binary",
+    "position": {
+      "x1": 295.0,
+      "y1": 1274.0,
+      "x2": 1392.0,
+      "y2": 1319.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "The address",
+    "raw_text": "The address",
+    "confidence": 0.999083418382194,
+    "method": "binary",
+    "position": {
+      "x1": 1401.0,
+      "y1": 1275.0,
+      "x2": 1557.0,
+      "y2": 1311.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "of the registered office is to describe the physical location where the registered agent maintains their business",
+    "raw_text": "of the registered office is to describe the physical location where the registered agent maintains their business",
+    "confidence": 0.8017248442564289,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1308.0,
+      "x2": 1483.0,
+      "y2": 1351.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "office. Provide the street number and name, city and ZIP code in Wisconsin. P 0 Box addresses may be included as",
+    "raw_text": "office. Provide the street number and name, city and ZIP code in Wisconsin. P 0 Box addresses may be included as",
+    "confidence": 0.7358681160552921,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1345.0,
+      "x2": 1561.0,
+      "y2": 1385.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "of the address; but are insufficient alone:",
+    "raw_text": "of the address; but are insufficient alone:",
+    "confidence": 0.8461706332470699,
+    "method": "binary",
+    "position": {
+      "x1": 191.0,
+      "y1": 1379.0,
+      "x2": 695.0,
+      "y2": 1419.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "The company may not name itself as its own registered agent.",
+    "raw_text": "The company may not name itself as its own registered agent.",
+    "confidence": 0.655092686478345,
+    "method": "binary",
+    "position": {
+      "x1": 705.0,
+      "y1": 1381.0,
+      "x2": 1469.0,
+      "y2": 1422.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Article 5. Indicate whether management of the company will be vested in a manager or managers; or in its",
+    "raw_text": "Article 5. Indicate whether management of the company will be vested in a manager or managers; or in its",
+    "confidence": 0.6150040140463523,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1450.0,
+      "x2": 1451.0,
+      "y2": 1492.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "members.  Select only one choice. (Ref. sec. 183.0401, Wis. Stats:)",
+    "raw_text": "members.  Select only one choice. (Ref. sec. 183.0401, Wis. Stats:)",
+    "confidence": 0.5017967600374723,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1483.0,
+      "x2": 966.0,
+      "y2": 1528.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Article 6.",
+    "raw_text": "Article 6.",
+    "confidence": 0.877457388150871,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1557.0,
+      "x2": 255.0,
+      "y2": 1593.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "Print or typewrite the name and complete address of each organizer. At least one organizer is required to",
+    "raw_text": "Print or typewrite the name and complete address of each organizer. At least one organizer is required to",
+    "confidence": 0.7495602620731414,
+    "method": "binary",
+    "position": {
+      "x1": 267.0,
+      "y1": 1553.0,
+      "x2": 1561.0,
+      "y2": 1598.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "sign the document, although all organizers may sign.",
+    "raw_text": "sign the document, although all organizers may sign.",
+    "confidence": 0.6172877293062655,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1591.0,
+      "x2": 787.0,
+      "y2": 1633.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "If the document is executed in Wisconsin; sec. 182.01(3), Wis. Stats , provides that it shall not be filed unless the",
+    "raw_text": "If the document is executed in Wisconsin; sec. 182.01(3), Wis. Stats , provides that it shall not be filed unless the",
+    "confidence": 0.6623712819199427,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1658.0,
+      "x2": 1527.0,
+      "y2": 1703.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "name of the drafter (either an individual or a governmental agency) is printed in a legible manner. If the document",
+    "raw_text": "name of the drafter (either an individual or a governmental agency) is printed in a legible manner. If the document",
+    "confidence": 0.7337312990634121,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1693.0,
+      "x2": 1551.0,
+      "y2": 1738.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "is not executed in Wisconsin; enter that remark",
+    "raw_text": "is not executed in Wisconsin; enter that remark",
+    "confidence": 0.8540132457964302,
+    "method": "binary",
+    "position": {
+      "x1": 135.0,
+      "y1": 1729.0,
+      "x2": 727.0,
+      "y2": 1771.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "This document may declare a delayed effective date",
+    "raw_text": "This document may declare a delayed effective date",
+    "confidence": 0.8414447054099728,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1799.0,
+      "x2": 783.0,
+      "y2": 1841.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "To do SO, complete the statement;  The delayed effective date",
+    "raw_text": "To do SO, complete the statement;  The delayed effective date",
+    "confidence": 0.6524322260304861,
+    "method": "binary",
+    "position": {
+      "x1": 795.0,
+      "y1": 1803.0,
+      "x2": 1555.0,
+      "y2": 1841.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "may not be before; or more than 90 days after; the document is received by the Department of Financial Institutions",
+    "raw_text": "may not be before; or more than 90 days after; the document is received by the Department of Financial Institutions",
+    "confidence": 0.7229714464218492,
+    "method": "binary",
+    "position": {
+      "x1": 137.0,
+      "y1": 1834.0,
+      "x2": 1559.0,
+      "y2": 1879.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "for",
+    "raw_text": "for",
+    "confidence": 0.9992066904542809,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 1874.0,
+      "x2": 180.0,
+      "y2": 1906.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "DFIICORP/5O2 (02/18)",
+    "raw_text": "DFIICORP/5O2 (02/18)",
+    "confidence": 0.6956889200440308,
+    "method": "binary",
+    "position": {
+      "x1": 136.0,
+      "y1": 2116.0,
+      "x2": 462.0,
+      "y2": 2166.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "2",
+    "raw_text": "2",
+    "confidence": 0.999998569489037,
+    "method": "binary",
+    "position": {
+      "x1": 1423.0,
+      "y1": 2127.0,
+      "x2": 1441.0,
+      "y2": 2155.0
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "part",
+    "raw_text": "part",
+    "confidence": 0.9999399704584392,
+    "method": "binary",
+    "position": {
+      "x1": 133.46153846153845,
+      "y1": 1386.3076923076924,
+      "x2": 195.53846153846155,
+      "y2": 1417.6923076923076
+    }
+  },
+  {
+    "page_num": 1,
+    "text": "filing:",
+    "raw_text": "filing:",
+    "confidence": 0.6294689943140294,
+    "method": "binary",
+    "position": {
+      "x1": 180.05217527923597,
+      "y1": 1867.1139186448675,
+      "x2": 259.947824720764,
+      "y2": 1915.8860813551325
+    }
+  }
+]

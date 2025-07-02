@@ -1,0 +1,23 @@
+Voice Assistant Transcript - Session 20250514_111215
+
+[2025-05-14 11:12:26] Assistant: Assistant initialized successfully
+[2025-05-14 11:13:21] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 11:13:27] Assistant: First, please provide the job description.
+[2025-05-14 11:13:50] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 11:13:56] Assistant: First, please provide the job description.
+[2025-05-14 11:15:08] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-14 11:15:24] Assistant: I ve prepared 0 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-14 11:15:31] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-14 11:15:37] Assistant: There will be 0 questions in total.
+[2025-05-14 11:15:40] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-05-14 11:15:59] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 11:16:05] Assistant: First, please provide the job description.
+[2025-05-14 11:16:22] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-14 11:16:36] Assistant: I ve prepared 9 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-14 11:16:43] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-14 11:16:50] Assistant: There will be 9 questions in total.
+[2025-05-14 11:16:53] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-05-14 11:17:05] Assistant:  Question 1 of 9: Describe a time you had to quickly adapt to a significant change in plans or priorities. How did you handle it?
+[2025-05-14 11:17:15] Assistant: Please speak your answer now.
+[2025-05-14 11:17:34] Assistant: I didn t get a response. Please try again.
+[2025-05-14 11:17:37] Assistant: Please speak your answer now.

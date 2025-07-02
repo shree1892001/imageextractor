@@ -1,0 +1,3 @@
+2025-03-04 10:15:45,197 - FormFiller - INFO - AI agent initialized successfully
+2025-03-04 10:15:45,202 - FormFiller - INFO - Initializing OCR reader...
+2025-03-04 10:15:45,217 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.

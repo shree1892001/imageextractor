@@ -1,0 +1,12 @@
+Assistant Transcript - Session 20250403_154343
+
+Session started at: 2025-04-03 15:44:09
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-03 15:43:45] Assistant: Assistant initialized successfully
+[2025-04-03 15:43:50] Assistant: Hello! I m your voice assistant. How can I help you today?
+[2025-04-03 15:44:04] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-03 15:44:09] Assistant: Ending voice assistant mode.

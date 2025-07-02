@@ -1,0 +1,14 @@
+Voice Assistant Transcript - Session 20250412_190421
+
+[2025-04-12 19:04:23] Assistant: Assistant initialized successfully
+[2025-04-12 19:04:33] Assistant: Let s set up a job screening interview. First, I need the job description.
+[2025-04-12 19:05:12] Assistant: Analyzing the job description...
+[2025-04-12 19:05:19] Assistant: Here s what I understand about this position. I ll now generate interview questions.
+[2025-04-12 19:05:30] Assistant: I ve prepared 8 questions. Let s begin the interview.
+[2025-04-12 19:05:35] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-04-12 19:05:41] Assistant: There will be 8 questions in total.
+[2025-04-12 19:05:44] Assistant: Question 1 of 8:
+[2025-04-12 19:05:46] Assistant: This is a Technical question: Describe your experience using Microsoft Word and Excel. Can you give specific examples of how you ve used these programs for tasks relevant to an HR role (e.g., creating reports, managing spreadsheets of employee data)?
+[2025-04-12 19:06:14] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-12 19:06:20] Assistant: I didn t catch that. Could you please repeat your answer?
+[2025-04-12 19:06:33] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?

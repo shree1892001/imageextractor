@@ -1,0 +1,9 @@
+Voice Assistant Transcript - Session 20250519_154314
+
+[2025-05-19 15:43:32] Assistant: Welcome to the job screening interview. Let s start with a brief introduction.
+    [2025-05-19 15:43:39] Assistant: May I know your name, please?
+    [2025-05-19 15:43:52] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+    [2025-05-19 15:43:58] Assistant: I didn t catch your name. Let me call you Candidate for now.
+    [2025-05-19 15:44:04] Assistant: I m an AI assistant conducting this interview. I ll be asking you questions based on the job description, and evaluating your responses.
+    [2025-05-19 15:44:13] Assistant: Let s set up the job screening interview. First, I need the job description.
+    

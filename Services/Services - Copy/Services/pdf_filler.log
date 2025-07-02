@@ -1,0 +1,1109 @@
+2025-03-02 15:02:00,561 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:05:13,803 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:06:45,258 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:07:01,251 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740908221.backup
+2025-03-02 15:07:02,090 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:07:02,141 - INFO - Found 26 widgets on page 1
+2025-03-02 15:07:02,143 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:07:02,147 - INFO - Found 7 widgets on page 2
+2025-03-02 15:07:02,149 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,150 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,151 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,151 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,151 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,152 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,152 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,152 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,152 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,153 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,153 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,154 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,154 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,155 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,155 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,155 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,155 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,155 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,156 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,156 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,156 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,156 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,157 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,157 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 15:07:02,157 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,157 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,158 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,158 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,158 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,159 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,159 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 15:07:02,165 - INFO - Processing OCR for page 1/2...
+2025-03-02 15:07:26,887 - INFO - Trying OCR with binary image...
+2025-03-02 15:13:18,807 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:13:32,440 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740908612.backup
+2025-03-02 15:13:32,513 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:13:32,570 - INFO - Found 26 widgets on page 1
+2025-03-02 15:13:32,572 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:13:32,577 - INFO - Found 7 widgets on page 2
+2025-03-02 15:13:32,580 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,580 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,580 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,581 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,581 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,581 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,581 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,581 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,582 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,582 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,582 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,582 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,583 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,583 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,583 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,583 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,583 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,584 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,584 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,584 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,584 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,584 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,585 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,585 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 15:13:32,585 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,585 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,586 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,586 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,586 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,586 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,587 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 15:13:32,593 - INFO - Processing OCR for page 1/2...
+2025-03-02 15:13:54,208 - INFO - Trying OCR with binary image...
+2025-03-02 15:28:40,042 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:28:57,559 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740909537.backup
+2025-03-02 15:28:57,638 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:28:57,684 - INFO - Found 26 widgets on page 1
+2025-03-02 15:28:57,686 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:28:57,693 - INFO - Found 7 widgets on page 2
+2025-03-02 15:28:57,697 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,698 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,698 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,698 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,732 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,733 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,736 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,736 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,736 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,736 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,737 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,737 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,737 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,740 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,741 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,741 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,741 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,744 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,744 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,744 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,746 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,747 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,747 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,747 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 15:28:57,747 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,748 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,748 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,748 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,748 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,748 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,749 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 15:28:57,759 - INFO - Processing OCR for page 1/2...
+2025-03-02 15:29:40,231 - INFO - Trying OCR with binary image...
+2025-03-02 15:39:40,291 - INFO - Found 46 text elements with binary
+2025-03-02 15:43:36,819 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:43:47,995 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740910427.backup
+2025-03-02 15:43:47,995 - INFO - Extracting all fillable fields...
+2025-03-02 15:43:49,004 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:43:49,070 - INFO - Found 26 widgets on page 1
+2025-03-02 15:43:49,073 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:43:49,078 - INFO - Found 7 widgets on page 2
+2025-03-02 15:43:49,078 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 15:43:49,078 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,080 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,081 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,081 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,081 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,081 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,081 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,082 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,083 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,083 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,083 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,084 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,084 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,085 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 15:43:49,085 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,086 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,086 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,086 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,086 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,087 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,087 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 15:43:49,118 - INFO - Extracting text using OCR...
+2025-03-02 15:43:49,120 - INFO - Processing OCR for page 1/2...
+2025-03-02 15:44:03,139 - INFO - Trying OCR with binary image...
+2025-03-02 15:46:38,602 - INFO - Found 46 text elements with binary
+2025-03-02 15:46:38,607 - ERROR - OCR failed for binary: 'tuple' object has no attribute 'append'
+2025-03-02 15:46:38,607 - INFO - Trying OCR with sharpened image...
+2025-03-02 15:48:43,063 - INFO - Found 52 text elements with sharpened
+2025-03-02 15:48:43,066 - ERROR - OCR failed for sharpened: 'tuple' object has no attribute 'append'
+2025-03-02 15:48:43,066 - INFO - Trying OCR with denoised image...
+2025-03-02 15:53:28,344 - INFO - Found 55 text elements with denoised
+2025-03-02 15:53:28,349 - ERROR - OCR failed for denoised: 'tuple' object has no attribute 'append'
+2025-03-02 15:53:28,349 - INFO - Trying OCR with original_gray image...
+2025-03-02 15:59:17,386 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 15:59:28,324 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740911368.backup
+2025-03-02 15:59:28,324 - INFO - Extracting all fillable fields...
+2025-03-02 15:59:28,358 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:59:28,377 - INFO - Found 26 widgets on page 1
+2025-03-02 15:59:28,379 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 15:59:28,381 - INFO - Found 7 widgets on page 2
+2025-03-02 15:59:28,381 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 15:59:28,381 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,381 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,381 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,381 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,381 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,381 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,382 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,384 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 15:59:28,385 - INFO - Extracting text using OCR...
+2025-03-02 15:59:28,387 - INFO - Processing OCR for page 1/2...
+2025-03-02 15:59:29,167 - INFO - Trying OCR with binary image...
+2025-03-02 16:05:53,359 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 16:06:01,040 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740911761.backup
+2025-03-02 16:06:01,041 - INFO - Extracting all fillable fields...
+2025-03-02 16:06:01,079 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:06:01,108 - INFO - Found 26 widgets on page 1
+2025-03-02 16:06:01,110 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:06:01,111 - INFO - Found 7 widgets on page 2
+2025-03-02 16:06:01,111 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 16:06:01,112 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,112 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,113 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,114 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 16:06:01,116 - INFO - Extracting text using OCR...
+2025-03-02 16:06:01,117 - INFO - Processing OCR for page 1/2...
+2025-03-02 16:06:01,683 - INFO - Running OCR on page 1...
+2025-03-02 16:11:37,440 - INFO - Found 46 text elements
+2025-03-02 16:11:37,492 - INFO - Processing OCR for page 2/2...
+2025-03-02 16:11:39,012 - INFO - Running OCR on page 2...
+2025-03-02 16:17:32,802 - INFO - Found 53 text elements
+2025-03-02 16:17:32,873 - INFO - Extracted 98 text elements using OCR.
+2025-03-02 16:17:34,220 - ERROR - Error creating debug visualization: save to original must be incremental
+2025-03-02 16:17:34,222 - INFO - Created debug visualization PDF: D:\demo\Services\filledform6.pdf.debug.pdf
+2025-03-02 16:17:34,223 - INFO - Available JSON fields:
+2025-03-02 16:17:34,224 - INFO -  - data.county: None
+2025-03-02 16:17:34,225 - INFO -  - data.orderTypeID.orderShortName: Entity Formation
+2025-03-02 16:17:34,225 - INFO -  - data.orderTypeID.orderFullDesc: Entity Formation
+2025-03-02 16:17:34,225 - INFO -  - data.contactDetails.id: 210
+2025-03-02 16:17:34,225 - INFO -  - data.contactDetails.firstName: Shreyas
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.lastName: Deodhare
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.displayName: Shreyas Deodhare (V-1200272)
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.mobileNo: (573) 834-3992
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.statusId: 1
+2025-03-02 16:17:34,226 - INFO -  - data.contactDetails.userId: 1200272
+2025-03-02 16:17:34,227 - INFO -  - data.contactDetails.quickbooksId: 1151
+2025-03-02 16:17:34,227 - INFO -  - data.contactDetails.hubspotId: 102495290661
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.id: 9043
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.orderTitle: raymond llc
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.orderId: 9043022025
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.contactId: 210
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.companyId: 242
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.statusId: 15
+2025-03-02 16:17:34,227 - INFO -  - data.orderDetails.orderAmount: 349.0
+2025-03-02 16:17:34,229 - INFO -  - data.orderDetails.orderDate: 2025-02-27T00:00:00.000+0000
+2025-03-02 16:17:34,229 - INFO -  - data.orderDetails.tentativeFulfillmentDate: 2025-03-06T09:28:12.102+0000
+2025-03-02 16:17:34,229 - INFO -  - data.orderDetails.billingAddress: 826
+2025-03-02 16:17:34,229 - INFO -  - data.orderDetails.shippingAddress: 826
+2025-03-02 16:17:34,229 - INFO -  - data.orderDetails.hubspotDealId: 34011710359
+2025-03-02 16:17:34,230 - INFO -  - data.orderDetails.keyPersonalId[0]: 504
+2025-03-02 16:17:34,230 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.id: 1
+2025-03-02 16:17:34,230 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityShortName: LLC
+2025-03-02 16:17:34,230 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityFullDesc: Limited Liability Company
+2025-03-02 16:17:34,230 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.onlineFormFilingFlag: False
+2025-03-02 16:17:34,231 - INFO -  - data.orderDetails.strapiOrderFormJson.State.id: 49
+2025-03-02 16:17:34,231 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateShortName: WI
+2025-03-02 16:17:34,231 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateFullDesc: Wisconsin
+2025-03-02 16:17:34,231 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.id: 3
+2025-03-02 16:17:34,231 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryShortName: US
+2025-03-02 16:17:34,232 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryFullDesc: United States
+2025-03-02 16:17:34,232 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name: raymond llc
+2025-03-02 16:17:34,232 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_Alternate_LLC_Name: raymond llc
+2025-03-02 16:17:34,233 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1: 100 Mbc Dr
+2025-03-02 16:17:34,233 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City: Racine
+2025-03-02 16:17:34,233 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code: 53402
+2025-03-02 16:17:34,234 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State: WI
+2025-03-02 16:17:34,234 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name: Corporate Creations Network Inc.
+2025-03-02 16:17:34,234 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address: agentservice@vstatefilings.com
+2025-03-02 16:17:34,235 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No: (718) 569-2703
+2025-03-02 16:17:34,235 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1: 301 S. Bedford ST., Ste. 1
+2025-03-02 16:17:34,235 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_2: 
+2025-03-02 16:17:34,235 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City: Madison
+2025-03-02 16:17:34,236 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code: 53703
+2025-03-02 16:17:34,236 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State: WI
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name: Jaocob Betheel
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Email_Address: jacob.bee@ias.com
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Contact_No: (388) 348-3849
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1: 123 Main Street
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_2: 
+2025-03-02 16:17:34,237 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City: Santo Worino
+2025-03-02 16:17:34,238 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code: 48239
+2025-03-02 16:17:34,238 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State: NC
+2025-03-02 16:17:34,238 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name: Jaocob Betheel
+2025-03-02 16:17:34,238 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address: jacob.bee@ias.com
+2025-03-02 16:17:34,238 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No: (388) 348-3849
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1: 123 Main Street
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_2: 
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City: Santo Worino
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code: 48239
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State: NC
+2025-03-02 16:17:34,240 - INFO -  - data.orderDetails.strapiOrderFormJson.legalName: raymond llc
+2025-03-02 16:17:34,240 - INFO -  - data.companyId.id: 242
+2025-03-02 16:17:34,240 - INFO -  - data.companyId.companyName: DUCCATI
+2025-03-02 16:17:34,240 - INFO -  - data.companyId.adminContactId.id: 210
+2025-03-02 16:17:34,244 - INFO -  - data.companyId.adminContactId.firstName: Shreyas
+2025-03-02 16:17:34,256 - INFO -  - data.companyId.adminContactId.lastName: Deodhare
+2025-03-02 16:17:34,256 - INFO -  - data.companyId.adminContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:17:34,257 - INFO -  - data.companyId.adminContactId.mobileNo: (573) 834-3992
+2025-03-02 16:17:34,257 - INFO -  - data.companyId.adminContactId.quickbooksId: 1151
+2025-03-02 16:17:34,257 - INFO -  - data.companyId.adminContactId.hubspotId: 102495290661
+2025-03-02 16:17:34,259 - INFO -  - data.companyId.primaryContactId.id: 210
+2025-03-02 16:17:34,259 - INFO -  - data.companyId.primaryContactId.firstName: Shreyas
+2025-03-02 16:17:34,259 - INFO -  - data.companyId.primaryContactId.lastName: Deodhare
+2025-03-02 16:17:34,259 - INFO -  - data.companyId.primaryContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:17:34,260 - INFO -  - data.companyId.primaryContactId.mobileNo: (573) 834-3992
+2025-03-02 16:17:34,260 - INFO -  - data.companyId.primaryContactId.quickbooksId: 1151
+2025-03-02 16:17:34,261 - INFO -  - data.companyId.primaryContactId.hubspotId: 102495290661
+2025-03-02 16:17:34,262 - INFO -  - data.statusId.id: 15
+2025-03-02 16:17:34,262 - INFO -  - data.statusId.statusName: ORDER IN PROGRESS
+2025-03-02 16:17:34,262 - INFO -  - data.statusId.hubspotId: 972446607
+2025-03-02 16:17:34,276 - INFO - Attempt 1/3 to match fields...
+2025-03-02 16:18:03,396 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-02 16:18:04,338 - INFO - Parsing AI response...
+2025-03-02 16:18:04,567 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name -> f431b51d-3177-487f-b993-94b42ba56a21
+2025-03-02 16:18:04,568 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1 -> 20de19a6-d451-40a1-a43f-f4d5df5ad697
+2025-03-02 16:18:04,580 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26', 'confidence': 0.8, 'suggested_value': 'Off', 'reasoning': 'This checkbox likely relates to optional expedited service mentioned in nearby OCR text. No direct JSON match exists for this type of optional field.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:04,582 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City -> 183373c2-504c-487b-a7f2-b1a275c303ef
+2025-03-02 16:18:04,582 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State -> 944a4d09-b127-4591-8703-0400f3e158ab
+2025-03-02 16:18:04,582 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code -> dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5
+2025-03-02 16:18:04,582 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name -> e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7
+2025-03-02 16:18:04,583 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1 -> 73b95e5f-51a7-4263-bf05-fd65b8c063c6
+2025-03-02 16:18:04,583 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City -> 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1
+2025-03-02 16:18:04,583 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State -> d73a923c-fea8-44b9-9b70-7e680a3a87ff
+2025-03-02 16:18:04,583 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code -> d091c7c8-9869-4e02-8730-250d436714cd
+2025-03-02 16:18:04,583 - INFO - Field match: data.contactDetails.emailId -> e019a1bc-77b4-4bba-a1db-86593dd0bf22
+2025-03-02 16:18:04,584 - INFO - Field match: data.companyId.companyName -> c03d1eef-1f75-450f-b3f6-d971a231adb9
+2025-03-02 16:18:04,584 - INFO - Field match: data.companyId.adminContactId.mobileNo -> 38854868-c71a-448e-9213-6655a7c8268f
+2025-03-02 16:18:04,584 - INFO - Field match: data.contactDetails.firstName -> cfdf70fa-d5fb-4dd2-98df-4e786cea45d3
+2025-03-02 16:18:04,584 - INFO - Field match: data.contactDetails.lastName -> b9f2ce17-7adc-4a9f-997c-356ad54545b2
+2025-03-02 16:18:04,584 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address -> 73f1d79e-c8c9-4983-beb7-d9ec97336ec5
+2025-03-02 16:18:04,584 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No -> ec6987f6-f9c6-4739-b2a3-4a96667103d6
+2025-03-02 16:18:04,584 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name -> 57ec6ae6-ad53-4510-b73f-b73eb5f1af44
+2025-03-02 16:18:04,585 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1 -> 5cea2c91-9d21-422b-ac23-6c865f5d9f31
+2025-03-02 16:18:04,585 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City -> 47ce1f07-2519-4fdc-859e-e3372ea4b56b
+2025-03-02 16:18:04,585 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State -> 5a847fb5-1341-4b23-947f-abb6091dd2f0
+2025-03-02 16:18:05,041 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code -> 0db15218-9bd1-482a-a0cd-b45b9c0381e2
+2025-03-02 16:18:05,042 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': 'radio-group-1', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'No clear match found in the JSON data. This might be a radio button group requiring additional context for mapping.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,042 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': '60b1628d-bc8c-497d-8fa0-615d8e4b831b', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Insufficient information to map this field. Additional context is required.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,042 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': 'e4b5ba0d-1673-499e-8b1c-7975b758d130', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Insufficient context to map this field accurately.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,043 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': '894c8880-018e-4d4c-b470-1fa23681184e', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Insufficient information to map this field.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,043 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Insufficient context to map this field.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,043 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': '42239dc6-f3fe-4bc8-b652-0b31c098ae5a', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Lack of sufficient context for mapping.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,044 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': '0fa8a08a-9ace-4686-8217-03fac35cc65a', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'No information available to map this field.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,044 - WARNING - Skipping malformed field match: {'json_field': None, 'pdf_field': 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8', 'confidence': 0.5, 'suggested_value': None, 'reasoning': 'Insufficient information to determine a mapping for this field.'} | Error: 1 validation error for FieldMatch
+json_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-02 16:18:05,161 - INFO - Filling form fields using direct PyMuPDF approach...
+2025-03-02 16:18:05,896 - INFO - ✍️ Filling: 'raymond llc' → 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1)
+2025-03-02 16:18:05,940 - INFO - ✍️ Filling: '100 Mbc Dr' → '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1)
+2025-03-02 16:18:05,942 - INFO - ✍️ Filling: 'Racine' → '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1)
+2025-03-02 16:18:05,943 - INFO - ✍️ Filling: 'WI' → '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1)
+2025-03-02 16:18:05,958 - INFO - ✍️ Filling: '53402' → 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1)
+2025-03-02 16:18:05,961 - INFO - ✍️ Filling: 'Corporate Creations Network Inc.' → 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1)
+2025-03-02 16:18:05,964 - INFO - ✍️ Filling: '301 S. Bedford ST., Ste. 1' → '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1)
+2025-03-02 16:18:05,966 - INFO - ✍️ Filling: 'Madison' → '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1)
+2025-03-02 16:18:05,969 - INFO - ✍️ Filling: 'WI' → 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1)
+2025-03-02 16:18:05,970 - INFO - ✍️ Filling: '53703' → 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1)
+2025-03-02 16:18:05,972 - INFO - ✍️ Filling: 'deodhare.shreyas@gmail.com' → 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1)
+2025-03-02 16:18:05,973 - INFO - ✍️ Filling: 'DUCCATI' → 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1)
+2025-03-02 16:18:05,974 - INFO - ✍️ Filling: '(573) 834-3992' → '38854868-c71a-448e-9213-6655a7c8268f' (Page 1)
+2025-03-02 16:18:05,975 - INFO - ✍️ Filling: 'Shreyas' → 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1)
+2025-03-02 16:18:05,976 - INFO - ✍️ Filling: 'Deodhare' → 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1)
+2025-03-02 16:18:05,978 - INFO - ✍️ Filling: 'agentservice@vstatefilings.com' → '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1)
+2025-03-02 16:18:05,978 - INFO - ✍️ Filling: '(718) 569-2703' → 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1)
+2025-03-02 16:18:05,980 - INFO - ✍️ Filling: 'Jaocob Betheel' → '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1)
+2025-03-02 16:18:05,981 - INFO - ✍️ Filling: '123 Main Street' → '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1)
+2025-03-02 16:18:05,982 - INFO - ✍️ Filling: 'Santo Worino' → '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1)
+2025-03-02 16:18:05,983 - INFO - ✍️ Filling: 'NC' → '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1)
+2025-03-02 16:18:05,987 - INFO - ✍️ Filling: '48239' → '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1)
+2025-03-02 16:18:06,058 - ERROR - ❌ Error saving PDF: save to original must be incremental
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5552, in save
+    raise ValueError("save to original must be incremental")
+ValueError: save to original must be incremental
+2025-03-02 16:18:06,675 - ERROR - ❌ All save attempts failed: save to original must be incremental
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5552, in save
+    raise ValueError("save to original must be incremental")
+ValueError: save to original must be incremental
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 710, in fill_pdf_direct
+    doc.save(pdf_path, incremental=False)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5552, in save
+    raise ValueError("save to original must be incremental")
+ValueError: save to original must be incremental
+2025-03-02 16:18:06,678 - WARNING - Some fields may not have been filled correctly.
+2025-03-02 16:18:06,681 - INFO - 
+=== PDF FIELD STATUS ===
+2025-03-02 16:18:06,685 - INFO - Checking page 1...
+2025-03-02 16:18:06,686 - INFO - Field: f431b51d-3177-487f-b993-94b42ba56a21, Value: , Type: 7
+2025-03-02 16:18:06,686 - INFO - Field: 20de19a6-d451-40a1-a43f-f4d5df5ad697, Value: , Type: 7
+2025-03-02 16:18:06,687 - INFO - Field: bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26, Value: Off, Type: 2
+2025-03-02 16:18:06,688 - INFO - Field: 183373c2-504c-487b-a7f2-b1a275c303ef, Value: , Type: 7
+2025-03-02 16:18:06,690 - INFO - Field: 944a4d09-b127-4591-8703-0400f3e158ab, Value: , Type: 7
+2025-03-02 16:18:06,691 - INFO - Field: dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5, Value: , Type: 7
+2025-03-02 16:18:06,692 - INFO - Field: e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7, Value: , Type: 7
+2025-03-02 16:18:06,693 - INFO - Field: 73b95e5f-51a7-4263-bf05-fd65b8c063c6, Value: , Type: 7
+2025-03-02 16:18:06,694 - INFO - Field: 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1, Value: , Type: 7
+2025-03-02 16:18:06,695 - INFO - Field: d73a923c-fea8-44b9-9b70-7e680a3a87ff, Value: , Type: 7
+2025-03-02 16:18:06,696 - INFO - Field: d091c7c8-9869-4e02-8730-250d436714cd, Value: , Type: 7
+2025-03-02 16:18:06,697 - INFO - Field: e019a1bc-77b4-4bba-a1db-86593dd0bf22, Value: , Type: 7
+2025-03-02 16:18:06,698 - INFO - Field: c03d1eef-1f75-450f-b3f6-d971a231adb9, Value: , Type: 7
+2025-03-02 16:18:06,699 - INFO - Field: 38854868-c71a-448e-9213-6655a7c8268f, Value: , Type: 7
+2025-03-02 16:18:06,700 - INFO - Field: cfdf70fa-d5fb-4dd2-98df-4e786cea45d3, Value: , Type: 7
+2025-03-02 16:18:06,701 - INFO - Field: b9f2ce17-7adc-4a9f-997c-356ad54545b2, Value: , Type: 7
+2025-03-02 16:18:06,702 - INFO - Field: 73f1d79e-c8c9-4983-beb7-d9ec97336ec5, Value: , Type: 7
+2025-03-02 16:18:06,703 - INFO - Field: ec6987f6-f9c6-4739-b2a3-4a96667103d6, Value: , Type: 7
+2025-03-02 16:18:06,704 - INFO - Field: 57ec6ae6-ad53-4510-b73f-b73eb5f1af44, Value: , Type: 7
+2025-03-02 16:18:06,705 - INFO - Field: 5cea2c91-9d21-422b-ac23-6c865f5d9f31, Value: , Type: 7
+2025-03-02 16:18:06,705 - INFO - Field: 47ce1f07-2519-4fdc-859e-e3372ea4b56b, Value: , Type: 7
+2025-03-02 16:18:06,706 - INFO - Field: 5a847fb5-1341-4b23-947f-abb6091dd2f0, Value: , Type: 7
+2025-03-02 16:18:06,707 - INFO - Field: 0db15218-9bd1-482a-a0cd-b45b9c0381e2, Value: , Type: 7
+2025-03-02 16:18:06,708 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 16:18:06,708 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 16:18:06,710 - INFO - Field: radio-group-1, Value: , Type: 5
+2025-03-02 16:18:06,712 - INFO - Checking page 2...
+2025-03-02 16:18:06,713 - INFO - Field: 60b1628d-bc8c-497d-8fa0-615d8e4b831b, Value: , Type: 7
+2025-03-02 16:18:06,714 - INFO - Field: e4b5ba0d-1673-499e-8b1c-7975b758d130, Value: , Type: 7
+2025-03-02 16:18:06,715 - INFO - Field: 894c8880-018e-4d4c-b470-1fa23681184e, Value: , Type: 7
+2025-03-02 16:18:06,716 - INFO - Field: a00f1bf2-cf01-469d-9131-c4ef90b5d32c, Value: , Type: 7
+2025-03-02 16:18:06,717 - INFO - Field: 42239dc6-f3fe-4bc8-b652-0b31c098ae5a, Value: , Type: 7
+2025-03-02 16:18:06,719 - INFO - Field: 0fa8a08a-9ace-4686-8217-03fac35cc65a, Value: , Type: 7
+2025-03-02 16:18:06,720 - INFO - Field: c60c9eb0-0626-4f6e-8705-7a1415c0cdb8, Value: , Type: 7
+2025-03-02 16:18:06,720 - INFO - 
+=== PDF ANNOTATIONS ===
+2025-03-02 16:18:06,721 - INFO - Page 1: 0 annotations
+2025-03-02 16:18:06,722 - INFO - Page 2: 0 annotations
+2025-03-02 16:18:06,729 - INFO - PDF saved to: D:\demo\Services\filledform6.pdf
+2025-03-02 16:24:05,648 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 16:24:13,621 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740912853.backup
+2025-03-02 16:24:13,622 - INFO - Extracting all fillable fields...
+2025-03-02 16:24:13,678 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:24:13,717 - INFO - Found 26 widgets on page 1
+2025-03-02 16:24:13,718 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:24:13,723 - INFO - Found 7 widgets on page 2
+2025-03-02 16:24:13,723 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 16:24:13,723 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,723 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,723 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,724 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,725 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,726 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,727 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,727 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,727 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 16:24:13,727 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,728 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 16:24:13,730 - INFO - Extracting text using OCR...
+2025-03-02 16:24:13,733 - INFO - Processing OCR for page 1/2...
+2025-03-02 16:24:14,420 - INFO - Running OCR on page 1...
+2025-03-02 16:27:16,172 - INFO - Found 46 text elements
+2025-03-02 16:27:16,189 - INFO - Processing OCR for page 2/2...
+2025-03-02 16:27:16,730 - INFO - Running OCR on page 2...
+2025-03-02 16:32:08,538 - INFO - Found 53 text elements
+2025-03-02 16:32:08,568 - INFO - Extracted 98 text elements using OCR.
+2025-03-02 16:32:09,148 - ERROR - Error creating debug visualization: save to original must be incremental
+2025-03-02 16:32:09,149 - INFO - Created debug visualization PDF: D:\demo\Services\filledform6.pdf.debug.pdf
+2025-03-02 16:32:09,149 - INFO - Available JSON fields:
+2025-03-02 16:32:09,149 - INFO -  - data.county: None
+2025-03-02 16:32:09,149 - INFO -  - data.orderTypeID.orderShortName: Entity Formation
+2025-03-02 16:32:09,149 - INFO -  - data.orderTypeID.orderFullDesc: Entity Formation
+2025-03-02 16:32:09,149 - INFO -  - data.contactDetails.id: 210
+2025-03-02 16:32:09,149 - INFO -  - data.contactDetails.firstName: Shreyas
+2025-03-02 16:32:09,149 - INFO -  - data.contactDetails.lastName: Deodhare
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.displayName: Shreyas Deodhare (V-1200272)
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.mobileNo: (573) 834-3992
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.statusId: 1
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.userId: 1200272
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.quickbooksId: 1151
+2025-03-02 16:32:09,150 - INFO -  - data.contactDetails.hubspotId: 102495290661
+2025-03-02 16:32:09,150 - INFO -  - data.orderDetails.id: 9043
+2025-03-02 16:32:09,150 - INFO -  - data.orderDetails.orderTitle: raymond llc
+2025-03-02 16:32:09,150 - INFO -  - data.orderDetails.orderId: 9043022025
+2025-03-02 16:32:09,150 - INFO -  - data.orderDetails.contactId: 210
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.companyId: 242
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.statusId: 15
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.orderAmount: 349.0
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.orderDate: 2025-02-27T00:00:00.000+0000
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.tentativeFulfillmentDate: 2025-03-06T09:28:12.102+0000
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.billingAddress: 826
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.shippingAddress: 826
+2025-03-02 16:32:09,151 - INFO -  - data.orderDetails.hubspotDealId: 34011710359
+2025-03-02 16:32:09,152 - INFO -  - data.orderDetails.keyPersonalId[0]: 504
+2025-03-02 16:32:09,152 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.id: 1
+2025-03-02 16:32:09,152 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityShortName: LLC
+2025-03-02 16:32:09,152 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityFullDesc: Limited Liability Company
+2025-03-02 16:32:09,152 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.onlineFormFilingFlag: False
+2025-03-02 16:32:09,153 - INFO -  - data.orderDetails.strapiOrderFormJson.State.id: 49
+2025-03-02 16:32:09,153 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateShortName: WI
+2025-03-02 16:32:09,153 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateFullDesc: Wisconsin
+2025-03-02 16:32:09,153 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.id: 3
+2025-03-02 16:32:09,154 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryShortName: US
+2025-03-02 16:32:09,154 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryFullDesc: United States
+2025-03-02 16:32:09,154 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name: raymond llc
+2025-03-02 16:32:09,154 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_Alternate_LLC_Name: raymond llc
+2025-03-02 16:32:09,155 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1: 100 Mbc Dr
+2025-03-02 16:32:09,155 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City: Racine
+2025-03-02 16:32:09,155 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code: 53402
+2025-03-02 16:32:09,155 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State: WI
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name: Corporate Creations Network Inc.
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address: agentservice@vstatefilings.com
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No: (718) 569-2703
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1: 301 S. Bedford ST., Ste. 1
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_2: 
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City: Madison
+2025-03-02 16:32:09,156 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code: 53703
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State: WI
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name: Jaocob Betheel
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Email_Address: jacob.bee@ias.com
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Contact_No: (388) 348-3849
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1: 123 Main Street
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_2: 
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City: Santo Worino
+2025-03-02 16:32:09,157 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code: 48239
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State: NC
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name: Jaocob Betheel
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address: jacob.bee@ias.com
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No: (388) 348-3849
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1: 123 Main Street
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_2: 
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City: Santo Worino
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code: 48239
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State: NC
+2025-03-02 16:32:09,158 - INFO -  - data.orderDetails.strapiOrderFormJson.legalName: raymond llc
+2025-03-02 16:32:09,160 - INFO -  - data.companyId.id: 242
+2025-03-02 16:32:09,160 - INFO -  - data.companyId.companyName: DUCCATI
+2025-03-02 16:32:09,160 - INFO -  - data.companyId.adminContactId.id: 210
+2025-03-02 16:32:09,160 - INFO -  - data.companyId.adminContactId.firstName: Shreyas
+2025-03-02 16:32:09,161 - INFO -  - data.companyId.adminContactId.lastName: Deodhare
+2025-03-02 16:32:09,161 - INFO -  - data.companyId.adminContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:32:09,161 - INFO -  - data.companyId.adminContactId.mobileNo: (573) 834-3992
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.adminContactId.quickbooksId: 1151
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.adminContactId.hubspotId: 102495290661
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.id: 210
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.firstName: Shreyas
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.lastName: Deodhare
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.mobileNo: (573) 834-3992
+2025-03-02 16:32:09,162 - INFO -  - data.companyId.primaryContactId.quickbooksId: 1151
+2025-03-02 16:32:09,163 - INFO -  - data.companyId.primaryContactId.hubspotId: 102495290661
+2025-03-02 16:32:09,163 - INFO -  - data.statusId.id: 15
+2025-03-02 16:32:09,163 - INFO -  - data.statusId.statusName: ORDER IN PROGRESS
+2025-03-02 16:32:09,163 - INFO -  - data.statusId.hubspotId: 972446607
+2025-03-02 16:32:09,171 - INFO - Attempt 1/3 to match fields...
+2025-03-02 16:32:41,521 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-02 16:32:41,661 - INFO - Parsing AI response...
+2025-03-02 16:32:41,676 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name -> f431b51d-3177-487f-b993-94b42ba56a21
+2025-03-02 16:32:41,677 - INFO - Field match: data.contactDetails.mobileNo -> 20de19a6-d451-40a1-a43f-f4d5df5ad697
+2025-03-02 16:32:41,677 - INFO - Field match: data.orderDetails.strapiOrderFormJson.State.countryMaster.countryShortName -> bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26
+2025-03-02 16:32:41,677 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1 -> 183373c2-504c-487b-a7f2-b1a275c303ef
+2025-03-02 16:32:41,678 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City -> 944a4d09-b127-4591-8703-0400f3e158ab
+2025-03-02 16:32:41,678 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State -> dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5
+2025-03-02 16:32:41,678 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code -> e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name -> 73b95e5f-51a7-4263-bf05-fd65b8c063c6
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1 -> 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City -> d73a923c-fea8-44b9-9b70-7e680a3a87ff
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State -> d091c7c8-9869-4e02-8730-250d436714cd
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code -> e019a1bc-77b4-4bba-a1db-86593dd0bf22
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address -> c03d1eef-1f75-450f-b3f6-d971a231adb9
+2025-03-02 16:32:41,679 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No -> 38854868-c71a-448e-9213-6655a7c8268f
+2025-03-02 16:32:41,680 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_2 -> cfdf70fa-d5fb-4dd2-98df-4e786cea45d3
+2025-03-02 16:32:41,680 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name -> b9f2ce17-7adc-4a9f-997c-356ad54545b2
+2025-03-02 16:32:41,680 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1 -> 73f1d79e-c8c9-4983-beb7-d9ec97336ec5
+2025-03-02 16:32:41,681 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City -> ec6987f6-f9c6-4739-b2a3-4a96667103d6
+2025-03-02 16:32:41,681 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State -> 57ec6ae6-ad53-4510-b73f-b73eb5f1af44
+2025-03-02 16:32:41,681 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code -> 5cea2c91-9d21-422b-ac23-6c865f5d9f31
+2025-03-02 16:32:41,682 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_2 -> 47ce1f07-2519-4fdc-859e-e3372ea4b56b
+2025-03-02 16:32:41,682 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Contact_No -> 5a847fb5-1341-4b23-947f-abb6091dd2f0
+2025-03-02 16:32:41,682 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Email_Address -> 0db15218-9bd1-482a-a0cd-b45b9c0381e2
+2025-03-02 16:32:41,682 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name -> radio-group-1
+2025-03-02 16:32:41,683 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1 -> 60b1628d-bc8c-497d-8fa0-615d8e4b831b
+2025-03-02 16:32:41,683 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City -> e4b5ba0d-1673-499e-8b1c-7975b758d130
+2025-03-02 16:32:41,683 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State -> 894c8880-018e-4d4c-b470-1fa23681184e
+2025-03-02 16:32:41,684 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code -> a00f1bf2-cf01-469d-9131-c4ef90b5d32c
+2025-03-02 16:32:41,684 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_2 -> 42239dc6-f3fe-4bc8-b652-0b31c098ae5a
+2025-03-02 16:32:41,685 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No -> 0fa8a08a-9ace-4686-8217-03fac35cc65a
+2025-03-02 16:32:41,685 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address -> c60c9eb0-0626-4f6e-8705-7a1415c0cdb8
+2025-03-02 16:32:41,730 - INFO - Filling form fields using direct PyMuPDF approach...
+2025-03-02 16:32:41,846 - INFO - ✍️ Filling: 'raymond llc' → 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1)
+2025-03-02 16:32:41,872 - INFO - ✍️ Filling: '(573) 834-3992' → '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1)
+2025-03-02 16:32:41,873 - INFO - ✍️ Filling: 'US' → 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1)
+2025-03-02 16:32:41,878 - INFO - ✍️ Filling: '100 Mbc Dr' → '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1)
+2025-03-02 16:32:41,879 - INFO - ✍️ Filling: 'Racine' → '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1)
+2025-03-02 16:32:41,880 - INFO - ✍️ Filling: 'WI' → 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1)
+2025-03-02 16:32:41,882 - INFO - ✍️ Filling: '53402' → 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1)
+2025-03-02 16:32:41,884 - INFO - ✍️ Filling: 'Corporate Creations Network Inc.' → '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1)
+2025-03-02 16:32:41,885 - INFO - ✍️ Filling: '301 S. Bedford ST., Ste. 1' → '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1)
+2025-03-02 16:32:41,886 - INFO - ✍️ Filling: 'Madison' → 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1)
+2025-03-02 16:32:41,887 - INFO - ✍️ Filling: 'WI' → 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1)
+2025-03-02 16:32:41,888 - INFO - ✍️ Filling: '53703' → 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1)
+2025-03-02 16:32:41,889 - INFO - ✍️ Filling: 'agentservice@vstatefilings.com' → 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1)
+2025-03-02 16:32:41,889 - INFO - ✍️ Filling: '(718) 569-2703' → '38854868-c71a-448e-9213-6655a7c8268f' (Page 1)
+2025-03-02 16:32:41,890 - INFO - ✍️ Filling: 'Jaocob Betheel' → 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1)
+2025-03-02 16:32:41,891 - INFO - ✍️ Filling: '123 Main Street' → '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1)
+2025-03-02 16:32:41,892 - INFO - ✍️ Filling: 'Santo Worino' → 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1)
+2025-03-02 16:32:41,893 - INFO - ✍️ Filling: 'NC' → '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1)
+2025-03-02 16:32:41,894 - INFO - ✍️ Filling: '48239' → '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1)
+2025-03-02 16:32:41,895 - INFO - ✍️ Filling: '(388) 348-3849' → '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1)
+2025-03-02 16:32:41,895 - INFO - ✍️ Filling: 'jacob.bee@ias.com' → '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1)
+2025-03-02 16:32:41,896 - INFO - ✍️ Filling: 'Jaocob Betheel' → 'radio-group-1' (Page 1)
+2025-03-02 16:32:41,896 - ERROR - ⚠️ Error filling radio-group-1: bad rect
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 680, in fill_pdf_direct
+    widget.update()
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 7290, in update
+    self._validate()
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 7143, in _validate
+    raise ValueError("bad rect")
+ValueError: bad rect
+2025-03-02 16:32:41,949 - INFO - ✍️ Filling: '123 Main Street' → '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2)
+2025-03-02 16:32:41,951 - INFO - ✍️ Filling: 'Santo Worino' → 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2)
+2025-03-02 16:32:41,952 - INFO - ✍️ Filling: 'NC' → '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2)
+2025-03-02 16:32:41,952 - INFO - ✍️ Filling: '48239' → 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2)
+2025-03-02 16:32:41,952 - INFO - ✍️ Filling: '(388) 348-3849' → '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2)
+2025-03-02 16:32:41,953 - INFO - ✍️ Filling: 'jacob.bee@ias.com' → 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2)
+2025-03-02 16:32:41,964 - ERROR - ❌ Error saving PDF: code=4: Can't do incremental writes with garbage collection
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes with garbage collection
+2025-03-02 16:32:42,445 - ERROR - ❌ All save attempts failed: code=4: Can't do incremental writes when changing encryption
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes with garbage collection
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 710, in fill_pdf_direct
+    doc.save(pdf_path, incremental=True)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes when changing encryption
+2025-03-02 16:32:42,452 - WARNING - Some fields may not have been filled correctly.
+2025-03-02 16:32:42,455 - INFO - 
+=== PDF FIELD STATUS ===
+2025-03-02 16:32:42,457 - INFO - Checking page 1...
+2025-03-02 16:32:42,457 - INFO - Field: f431b51d-3177-487f-b993-94b42ba56a21, Value: , Type: 7
+2025-03-02 16:32:42,458 - INFO - Field: 20de19a6-d451-40a1-a43f-f4d5df5ad697, Value: , Type: 7
+2025-03-02 16:32:42,459 - INFO - Field: bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26, Value: Off, Type: 2
+2025-03-02 16:32:42,459 - INFO - Field: 183373c2-504c-487b-a7f2-b1a275c303ef, Value: , Type: 7
+2025-03-02 16:32:42,459 - INFO - Field: 944a4d09-b127-4591-8703-0400f3e158ab, Value: , Type: 7
+2025-03-02 16:32:42,461 - INFO - Field: dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5, Value: , Type: 7
+2025-03-02 16:32:42,462 - INFO - Field: e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7, Value: , Type: 7
+2025-03-02 16:32:42,462 - INFO - Field: 73b95e5f-51a7-4263-bf05-fd65b8c063c6, Value: , Type: 7
+2025-03-02 16:32:42,463 - INFO - Field: 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1, Value: , Type: 7
+2025-03-02 16:32:42,463 - INFO - Field: d73a923c-fea8-44b9-9b70-7e680a3a87ff, Value: , Type: 7
+2025-03-02 16:32:42,464 - INFO - Field: d091c7c8-9869-4e02-8730-250d436714cd, Value: , Type: 7
+2025-03-02 16:32:42,464 - INFO - Field: e019a1bc-77b4-4bba-a1db-86593dd0bf22, Value: , Type: 7
+2025-03-02 16:32:42,465 - INFO - Field: c03d1eef-1f75-450f-b3f6-d971a231adb9, Value: , Type: 7
+2025-03-02 16:32:42,466 - INFO - Field: 38854868-c71a-448e-9213-6655a7c8268f, Value: , Type: 7
+2025-03-02 16:32:42,466 - INFO - Field: cfdf70fa-d5fb-4dd2-98df-4e786cea45d3, Value: , Type: 7
+2025-03-02 16:32:42,467 - INFO - Field: b9f2ce17-7adc-4a9f-997c-356ad54545b2, Value: , Type: 7
+2025-03-02 16:32:42,468 - INFO - Field: 73f1d79e-c8c9-4983-beb7-d9ec97336ec5, Value: , Type: 7
+2025-03-02 16:32:42,469 - INFO - Field: ec6987f6-f9c6-4739-b2a3-4a96667103d6, Value: , Type: 7
+2025-03-02 16:32:42,469 - INFO - Field: 57ec6ae6-ad53-4510-b73f-b73eb5f1af44, Value: , Type: 7
+2025-03-02 16:32:42,469 - INFO - Field: 5cea2c91-9d21-422b-ac23-6c865f5d9f31, Value: , Type: 7
+2025-03-02 16:32:42,470 - INFO - Field: 47ce1f07-2519-4fdc-859e-e3372ea4b56b, Value: , Type: 7
+2025-03-02 16:32:42,471 - INFO - Field: 5a847fb5-1341-4b23-947f-abb6091dd2f0, Value: , Type: 7
+2025-03-02 16:32:42,471 - INFO - Field: 0db15218-9bd1-482a-a0cd-b45b9c0381e2, Value: , Type: 7
+2025-03-02 16:32:42,472 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 16:32:42,473 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 16:32:42,474 - INFO - Field: radio-group-1, Value: , Type: 5
+2025-03-02 16:32:42,475 - INFO - Checking page 2...
+2025-03-02 16:32:42,475 - INFO - Field: 60b1628d-bc8c-497d-8fa0-615d8e4b831b, Value: , Type: 7
+2025-03-02 16:32:42,476 - INFO - Field: e4b5ba0d-1673-499e-8b1c-7975b758d130, Value: , Type: 7
+2025-03-02 16:32:42,476 - INFO - Field: 894c8880-018e-4d4c-b470-1fa23681184e, Value: , Type: 7
+2025-03-02 16:32:42,477 - INFO - Field: a00f1bf2-cf01-469d-9131-c4ef90b5d32c, Value: , Type: 7
+2025-03-02 16:32:42,477 - INFO - Field: 42239dc6-f3fe-4bc8-b652-0b31c098ae5a, Value: , Type: 7
+2025-03-02 16:32:42,478 - INFO - Field: 0fa8a08a-9ace-4686-8217-03fac35cc65a, Value: , Type: 7
+2025-03-02 16:32:42,478 - INFO - Field: c60c9eb0-0626-4f6e-8705-7a1415c0cdb8, Value: , Type: 7
+2025-03-02 16:32:42,479 - INFO - 
+=== PDF ANNOTATIONS ===
+2025-03-02 16:32:42,479 - INFO - Page 1: 0 annotations
+2025-03-02 16:32:42,479 - INFO - Page 2: 0 annotations
+2025-03-02 16:32:42,492 - INFO - PDF saved to: D:\demo\Services\filledform6.pdf
+2025-03-02 16:43:36,717 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 16:43:45,019 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740914024.backup
+2025-03-02 16:43:45,020 - INFO - Extracting all fillable fields...
+2025-03-02 16:43:45,064 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:43:45,100 - INFO - Found 26 widgets on page 1
+2025-03-02 16:43:45,102 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 16:43:45,106 - INFO - Found 7 widgets on page 2
+2025-03-02 16:43:45,107 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 16:43:45,107 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,107 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,107 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,108 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,108 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,108 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,108 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,109 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,109 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,109 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,109 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,109 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,110 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,111 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,111 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,111 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,111 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,112 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,113 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 16:43:45,113 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,113 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,113 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,113 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,114 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,114 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,114 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 16:43:45,115 - INFO - Extracting text using OCR...
+2025-03-02 16:43:45,119 - INFO - Processing OCR for page 1/2...
+2025-03-02 16:43:46,152 - INFO - Running OCR on page 1...
+2025-03-02 16:48:53,978 - INFO - Found 46 text elements
+2025-03-02 16:48:54,016 - INFO - Processing OCR for page 2/2...
+2025-03-02 16:48:55,784 - INFO - Running OCR on page 2...
+2025-03-02 17:00:54,736 - WARNING - Using CPU. Note: This module is much faster with a GPU.
+2025-03-02 17:01:09,056 - INFO - Created backup of original PDF: D:\demo\Services\backups\WisconsinLLC.pdf.1740915069.backup
+2025-03-02 17:01:09,058 - INFO - Extracting all fillable fields...
+2025-03-02 17:01:09,134 - INFO - Page 1 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 17:01:09,278 - INFO - Found 26 widgets on page 1
+2025-03-02 17:01:09,292 - INFO - Page 2 size: Rect(0.0, 0.0, 612.0, 792.0)
+2025-03-02 17:01:09,300 - INFO - Found 7 widgets on page 2
+2025-03-02 17:01:09,301 - INFO - Extracted 31 fields across 2 pages.
+2025-03-02 17:01:09,302 - INFO -  - Field: 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,302 - INFO -  - Field: '20de19a6-d451-40a1-a43f-f4d5df5ad697' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,303 - INFO -  - Field: 'bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,303 - INFO -  - Field: '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,304 - INFO -  - Field: '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,304 - INFO -  - Field: 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,304 - INFO -  - Field: 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,305 - INFO -  - Field: '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,305 - INFO -  - Field: '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,306 - INFO -  - Field: 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,306 - INFO -  - Field: 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,334 - INFO -  - Field: 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,335 - INFO -  - Field: 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,336 - INFO -  - Field: '38854868-c71a-448e-9213-6655a7c8268f' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,337 - INFO -  - Field: 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,337 - INFO -  - Field: 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,338 - INFO -  - Field: '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,338 - INFO -  - Field: 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,338 - INFO -  - Field: '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,338 - INFO -  - Field: '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,339 - INFO -  - Field: '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,339 - INFO -  - Field: '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,339 - INFO -  - Field: '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,339 - INFO -  - Field: 'radio-group-1' (Page 1) [EDITABLE]
+2025-03-02 17:01:09,340 - INFO -  - Field: '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,340 - INFO -  - Field: 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,340 - INFO -  - Field: '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,340 - INFO -  - Field: 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,341 - INFO -  - Field: '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,341 - INFO -  - Field: '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,341 - INFO -  - Field: 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2) [EDITABLE]
+2025-03-02 17:01:09,385 - INFO - Extracting text using OCR...
+2025-03-02 17:01:09,389 - INFO - Processing OCR for page 1/2...
+2025-03-02 17:01:10,181 - INFO - Running OCR on page 1...
+2025-03-02 17:07:19,546 - INFO - Found 46 text elements
+2025-03-02 17:07:19,574 - INFO - Processing OCR for page 2/2...
+2025-03-02 17:07:26,528 - INFO - Running OCR on page 2...
+2025-03-02 17:10:55,739 - INFO - Found 48 text elements
+2025-03-02 17:10:55,770 - INFO - Extracted 93 text elements using OCR.
+2025-03-02 17:10:56,370 - ERROR - Error creating debug visualization: save to original must be incremental
+2025-03-02 17:10:56,372 - INFO - Created debug visualization PDF: D:\demo\Services\filledform6.pdf.debug.pdf
+2025-03-02 17:10:56,372 - INFO - Available JSON fields:
+2025-03-02 17:10:56,372 - INFO -  - data.county: None
+2025-03-02 17:10:56,372 - INFO -  - data.orderTypeID.orderShortName: Entity Formation
+2025-03-02 17:10:56,372 - INFO -  - data.orderTypeID.orderFullDesc: Entity Formation
+2025-03-02 17:10:56,372 - INFO -  - data.contactDetails.id: 210
+2025-03-02 17:10:56,372 - INFO -  - data.contactDetails.firstName: Shreyas
+2025-03-02 17:10:56,372 - INFO -  - data.contactDetails.lastName: Deodhare
+2025-03-02 17:10:56,372 - INFO -  - data.contactDetails.displayName: Shreyas Deodhare (V-1200272)
+2025-03-02 17:10:56,372 - INFO -  - data.contactDetails.emailId: deodhare.shreyas@gmail.com
+2025-03-02 17:10:56,373 - INFO -  - data.contactDetails.mobileNo: (573) 834-3992
+2025-03-02 17:10:56,373 - INFO -  - data.contactDetails.statusId: 1
+2025-03-02 17:10:56,373 - INFO -  - data.contactDetails.userId: 1200272
+2025-03-02 17:10:56,373 - INFO -  - data.contactDetails.quickbooksId: 1151
+2025-03-02 17:10:56,373 - INFO -  - data.contactDetails.hubspotId: 102495290661
+2025-03-02 17:10:56,373 - INFO -  - data.orderDetails.id: 9043
+2025-03-02 17:10:56,373 - INFO -  - data.orderDetails.orderTitle: raymond llc
+2025-03-02 17:10:56,373 - INFO -  - data.orderDetails.orderId: 9043022025
+2025-03-02 17:10:56,373 - INFO -  - data.orderDetails.contactId: 210
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.companyId: 242
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.statusId: 15
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.orderAmount: 349.0
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.orderDate: 2025-02-27T00:00:00.000+0000
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.tentativeFulfillmentDate: 2025-03-06T09:28:12.102+0000
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.billingAddress: 826
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.shippingAddress: 826
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.hubspotDealId: 34011710359
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.keyPersonalId[0]: 504
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.id: 1
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityShortName: LLC
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.entityFullDesc: Limited Liability Company
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.strapiOrderFormJson.EntityType.onlineFormFilingFlag: False
+2025-03-02 17:10:56,374 - INFO -  - data.orderDetails.strapiOrderFormJson.State.id: 49
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateShortName: WI
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.State.stateFullDesc: Wisconsin
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.id: 3
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryShortName: US
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.State.countryMaster.countryFullDesc: United States
+2025-03-02 17:10:56,375 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name: raymond llc
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_Alternate_LLC_Name: raymond llc
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1: 100 Mbc Dr
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City: Racine
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code: 53402
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State: WI
+2025-03-02 17:10:56,376 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name: Corporate Creations Network Inc.
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address: agentservice@vstatefilings.com
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No: (718) 569-2703
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1: 301 S. Bedford ST., Ste. 1
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_2: 
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City: Madison
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code: 53703
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State: WI
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name: Jaocob Betheel
+2025-03-02 17:10:56,377 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Email_Address: jacob.bee@ias.com
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Contact_No: (388) 348-3849
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1: 123 Main Street
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_2: 
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City: Santo Worino
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code: 48239
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State: NC
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name: Jaocob Betheel
+2025-03-02 17:10:56,378 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address: jacob.bee@ias.com
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No: (388) 348-3849
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1: 123 Main Street
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_2: 
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City: Santo Worino
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code: 48239
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State: NC
+2025-03-02 17:10:56,379 - INFO -  - data.orderDetails.strapiOrderFormJson.legalName: raymond llc
+2025-03-02 17:10:56,379 - INFO -  - data.companyId.id: 242
+2025-03-02 17:10:56,379 - INFO -  - data.companyId.companyName: DUCCATI
+2025-03-02 17:10:56,379 - INFO -  - data.companyId.adminContactId.id: 210
+2025-03-02 17:10:56,379 - INFO -  - data.companyId.adminContactId.firstName: Shreyas
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.adminContactId.lastName: Deodhare
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.adminContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.adminContactId.mobileNo: (573) 834-3992
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.adminContactId.quickbooksId: 1151
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.adminContactId.hubspotId: 102495290661
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.id: 210
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.firstName: Shreyas
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.lastName: Deodhare
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.emailId: deodhare.shreyas@gmail.com
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.mobileNo: (573) 834-3992
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.quickbooksId: 1151
+2025-03-02 17:10:56,380 - INFO -  - data.companyId.primaryContactId.hubspotId: 102495290661
+2025-03-02 17:10:56,381 - INFO -  - data.statusId.id: 15
+2025-03-02 17:10:56,381 - INFO -  - data.statusId.statusName: ORDER IN PROGRESS
+2025-03-02 17:10:56,381 - INFO -  - data.statusId.hubspotId: 972446607
+2025-03-02 17:10:56,388 - INFO - Attempt 1/3 to match fields...
+2025-03-02 17:11:31,368 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-02 17:11:31,591 - INFO - Parsing AI response...
+2025-03-02 17:11:31,632 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name -> 183373c2-504c-487b-a7f2-b1a275c303ef
+2025-03-02 17:11:31,633 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1 -> 944a4d09-b127-4591-8703-0400f3e158ab
+2025-03-02 17:11:31,635 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City -> dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5
+2025-03-02 17:11:31,635 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code -> e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7
+2025-03-02 17:11:31,640 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State -> 73b95e5f-51a7-4263-bf05-fd65b8c063c6
+2025-03-02 17:11:31,644 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name -> 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1
+2025-03-02 17:11:31,645 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Address_Line_1 -> d73a923c-fea8-44b9-9b70-7e680a3a87ff
+2025-03-02 17:11:31,646 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City -> d091c7c8-9869-4e02-8730-250d436714cd
+2025-03-02 17:11:31,646 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code -> e019a1bc-77b4-4bba-a1db-86593dd0bf22
+2025-03-02 17:11:31,647 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State -> c03d1eef-1f75-450f-b3f6-d971a231adb9
+2025-03-02 17:11:31,647 - INFO - Field match: data.companyId.adminContactId.mobileNo -> 38854868-c71a-448e-9213-6655a7c8268f
+2025-03-02 17:11:31,649 - INFO - Field match: data.contactDetails.firstName -> cfdf70fa-d5fb-4dd2-98df-4e786cea45d3
+2025-03-02 17:11:31,650 - INFO - Field match: data.contactDetails.lastName -> b9f2ce17-7adc-4a9f-997c-356ad54545b2
+2025-03-02 17:11:31,650 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address -> 73f1d79e-c8c9-4983-beb7-d9ec97336ec5
+2025-03-02 17:11:31,651 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No -> ec6987f6-f9c6-4739-b2a3-4a96667103d6
+2025-03-02 17:11:31,651 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.legalName -> 57ec6ae6-ad53-4510-b73f-b73eb5f1af44
+2025-03-02 17:11:31,651 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name -> 5cea2c91-9d21-422b-ac23-6c865f5d9f31
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1 -> 47ce1f07-2519-4fdc-859e-e3372ea4b56b
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City -> 5a847fb5-1341-4b23-947f-abb6091dd2f0
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code -> 0db15218-9bd1-482a-a0cd-b45b9c0381e2
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State -> radio-group-1
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_Alternate_LLC_Name -> f431b51d-3177-487f-b993-94b42ba56a21
+2025-03-02 17:11:31,653 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name -> 60b1628d-bc8c-497d-8fa0-615d8e4b831b
+2025-03-02 17:11:31,795 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1 -> e4b5ba0d-1673-499e-8b1c-7975b758d130
+2025-03-02 17:11:31,797 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City -> 894c8880-018e-4d4c-b470-1fa23681184e
+2025-03-02 17:11:31,797 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code -> a00f1bf2-cf01-469d-9131-c4ef90b5d32c
+2025-03-02 17:11:31,797 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State -> 42239dc6-f3fe-4bc8-b652-0b31c098ae5a
+2025-03-02 17:11:31,797 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address -> 0fa8a08a-9ace-4686-8217-03fac35cc65a
+2025-03-02 17:11:31,798 - INFO - Field match: data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No -> c60c9eb0-0626-4f6e-8705-7a1415c0cdb8
+2025-03-02 17:11:31,829 - INFO - Filling form fields using direct PyMuPDF approach...
+2025-03-02 17:11:32,317 - INFO - ✍️ Filling: 'raymond llc' → '183373c2-504c-487b-a7f2-b1a275c303ef' (Page 1)
+2025-03-02 17:11:32,338 - INFO - ✍️ Filling: '100 Mbc Dr' → '944a4d09-b127-4591-8703-0400f3e158ab' (Page 1)
+2025-03-02 17:11:32,340 - INFO - ✍️ Filling: 'Racine' → 'dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5' (Page 1)
+2025-03-02 17:11:32,342 - INFO - ✍️ Filling: '53402' → 'e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7' (Page 1)
+2025-03-02 17:11:32,343 - INFO - ✍️ Filling: 'WI' → '73b95e5f-51a7-4263-bf05-fd65b8c063c6' (Page 1)
+2025-03-02 17:11:32,346 - INFO - ✍️ Filling: 'Corporate Creations Network Inc.' → '5fb2924e-ba95-4ed3-b05f-24e55bdd21a1' (Page 1)
+2025-03-02 17:11:32,348 - INFO - ✍️ Filling: '301 S. Bedford ST., Ste. 1' → 'd73a923c-fea8-44b9-9b70-7e680a3a87ff' (Page 1)
+2025-03-02 17:11:32,350 - INFO - ✍️ Filling: 'Madison' → 'd091c7c8-9869-4e02-8730-250d436714cd' (Page 1)
+2025-03-02 17:11:32,352 - INFO - ✍️ Filling: '53703' → 'e019a1bc-77b4-4bba-a1db-86593dd0bf22' (Page 1)
+2025-03-02 17:11:32,353 - INFO - ✍️ Filling: 'WI' → 'c03d1eef-1f75-450f-b3f6-d971a231adb9' (Page 1)
+2025-03-02 17:11:32,355 - INFO - ✍️ Filling: '(573) 834-3992' → '38854868-c71a-448e-9213-6655a7c8268f' (Page 1)
+2025-03-02 17:11:32,357 - INFO - ✍️ Filling: 'Shreyas' → 'cfdf70fa-d5fb-4dd2-98df-4e786cea45d3' (Page 1)
+2025-03-02 17:11:32,359 - INFO - ✍️ Filling: 'Deodhare' → 'b9f2ce17-7adc-4a9f-997c-356ad54545b2' (Page 1)
+2025-03-02 17:11:32,432 - INFO - ✍️ Filling: 'agentservice@vstatefilings.com' → '73f1d79e-c8c9-4983-beb7-d9ec97336ec5' (Page 1)
+2025-03-02 17:11:32,439 - INFO - ✍️ Filling: '(718) 569-2703' → 'ec6987f6-f9c6-4739-b2a3-4a96667103d6' (Page 1)
+2025-03-02 17:11:32,445 - INFO - ✍️ Filling: 'raymond llc' → '57ec6ae6-ad53-4510-b73f-b73eb5f1af44' (Page 1)
+2025-03-02 17:11:32,447 - INFO - ✍️ Filling: 'Jaocob Betheel' → '5cea2c91-9d21-422b-ac23-6c865f5d9f31' (Page 1)
+2025-03-02 17:11:32,450 - INFO - ✍️ Filling: '123 Main Street' → '47ce1f07-2519-4fdc-859e-e3372ea4b56b' (Page 1)
+2025-03-02 17:11:32,451 - INFO - ✍️ Filling: 'Santo Worino' → '5a847fb5-1341-4b23-947f-abb6091dd2f0' (Page 1)
+2025-03-02 17:11:32,453 - INFO - ✍️ Filling: '48239' → '0db15218-9bd1-482a-a0cd-b45b9c0381e2' (Page 1)
+2025-03-02 17:11:32,456 - INFO - ✍️ Filling: 'NC' → 'radio-group-1' (Page 1)
+2025-03-02 17:11:32,458 - ERROR - ⚠️ Error filling radio-group-1: bad rect
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 680, in fill_pdf_direct
+    widget.update()
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 7290, in update
+    self._validate()
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 7143, in _validate
+    raise ValueError("bad rect")
+ValueError: bad rect
+2025-03-02 17:11:32,546 - INFO - ✍️ Filling: 'raymond llc' → 'f431b51d-3177-487f-b993-94b42ba56a21' (Page 1)
+2025-03-02 17:11:32,604 - INFO - ✍️ Filling: 'Jaocob Betheel' → '60b1628d-bc8c-497d-8fa0-615d8e4b831b' (Page 2)
+2025-03-02 17:11:32,608 - INFO - ✍️ Filling: '123 Main Street' → 'e4b5ba0d-1673-499e-8b1c-7975b758d130' (Page 2)
+2025-03-02 17:11:32,611 - INFO - ✍️ Filling: 'Santo Worino' → '894c8880-018e-4d4c-b470-1fa23681184e' (Page 2)
+2025-03-02 17:11:32,614 - INFO - ✍️ Filling: '48239' → 'a00f1bf2-cf01-469d-9131-c4ef90b5d32c' (Page 2)
+2025-03-02 17:11:32,632 - INFO - ✍️ Filling: 'NC' → '42239dc6-f3fe-4bc8-b652-0b31c098ae5a' (Page 2)
+2025-03-02 17:11:32,664 - INFO - ✍️ Filling: 'jacob.bee@ias.com' → '0fa8a08a-9ace-4686-8217-03fac35cc65a' (Page 2)
+2025-03-02 17:11:32,673 - INFO - ✍️ Filling: '(388) 348-3849' → 'c60c9eb0-0626-4f6e-8705-7a1415c0cdb8' (Page 2)
+2025-03-02 17:11:32,713 - ERROR - ❌ Error saving PDF: code=4: Can't do incremental writes with garbage collection
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes with garbage collection
+2025-03-02 17:11:33,323 - ERROR - ❌ All save attempts failed: code=4: Can't do incremental writes when changing encryption
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 698, in fill_pdf_direct
+    doc.save(pdf_path, garbage=3, deflate=True, clean=True, pretty=False,
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes with garbage collection
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\demo\Services\GenFiler.py", line 710, in fill_pdf_direct
+    doc.save(pdf_path, incremental=True)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5597, in save
+    mupdf.pdf_save_document(pdf, filename, opts)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\mupdf.py", line 53106, in pdf_save_document
+    return _mupdf.pdf_save_document(doc, filename, opts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Can't do incremental writes when changing encryption
+2025-03-02 17:11:33,458 - WARNING - Some fields may not have been filled correctly.
+2025-03-02 17:11:33,461 - INFO - 
+=== PDF FIELD STATUS ===
+2025-03-02 17:11:33,465 - INFO - Checking page 1...
+2025-03-02 17:11:33,467 - INFO - Field: f431b51d-3177-487f-b993-94b42ba56a21, Value: , Type: 7
+2025-03-02 17:11:33,470 - INFO - Field: 20de19a6-d451-40a1-a43f-f4d5df5ad697, Value: , Type: 7
+2025-03-02 17:11:33,473 - INFO - Field: bcb72dfa-7369-43c9-b9f6-a3a56e7d6a26, Value: Off, Type: 2
+2025-03-02 17:11:33,474 - INFO - Field: 183373c2-504c-487b-a7f2-b1a275c303ef, Value: , Type: 7
+2025-03-02 17:11:33,476 - INFO - Field: 944a4d09-b127-4591-8703-0400f3e158ab, Value: , Type: 7
+2025-03-02 17:11:33,477 - INFO - Field: dbd71e88-3ae5-4421-b4a2-7fe99bef6ff5, Value: , Type: 7
+2025-03-02 17:11:33,478 - INFO - Field: e84e9cfd-6bc6-45db-97d7-0d7cfc4c3bd7, Value: , Type: 7
+2025-03-02 17:11:33,479 - INFO - Field: 73b95e5f-51a7-4263-bf05-fd65b8c063c6, Value: , Type: 7
+2025-03-02 17:11:33,482 - INFO - Field: 5fb2924e-ba95-4ed3-b05f-24e55bdd21a1, Value: , Type: 7
+2025-03-02 17:11:33,485 - INFO - Field: d73a923c-fea8-44b9-9b70-7e680a3a87ff, Value: , Type: 7
+2025-03-02 17:11:33,558 - INFO - Field: d091c7c8-9869-4e02-8730-250d436714cd, Value: , Type: 7
+2025-03-02 17:11:33,572 - INFO - Field: e019a1bc-77b4-4bba-a1db-86593dd0bf22, Value: , Type: 7
+2025-03-02 17:11:33,588 - INFO - Field: c03d1eef-1f75-450f-b3f6-d971a231adb9, Value: , Type: 7
+2025-03-02 17:11:33,592 - INFO - Field: 38854868-c71a-448e-9213-6655a7c8268f, Value: , Type: 7
+2025-03-02 17:11:33,607 - INFO - Field: cfdf70fa-d5fb-4dd2-98df-4e786cea45d3, Value: , Type: 7
+2025-03-02 17:11:33,615 - INFO - Field: b9f2ce17-7adc-4a9f-997c-356ad54545b2, Value: , Type: 7
+2025-03-02 17:11:33,623 - INFO - Field: 73f1d79e-c8c9-4983-beb7-d9ec97336ec5, Value: , Type: 7
+2025-03-02 17:11:33,635 - INFO - Field: ec6987f6-f9c6-4739-b2a3-4a96667103d6, Value: , Type: 7
+2025-03-02 17:11:33,640 - INFO - Field: 57ec6ae6-ad53-4510-b73f-b73eb5f1af44, Value: , Type: 7
+2025-03-02 17:11:33,733 - INFO - Field: 5cea2c91-9d21-422b-ac23-6c865f5d9f31, Value: , Type: 7
+2025-03-02 17:11:33,739 - INFO - Field: 47ce1f07-2519-4fdc-859e-e3372ea4b56b, Value: , Type: 7
+2025-03-02 17:11:33,744 - INFO - Field: 5a847fb5-1341-4b23-947f-abb6091dd2f0, Value: , Type: 7
+2025-03-02 17:11:33,757 - INFO - Field: 0db15218-9bd1-482a-a0cd-b45b9c0381e2, Value: , Type: 7
+2025-03-02 17:11:33,761 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 17:11:33,772 - INFO - Field: radio-group-1, Value: Off, Type: 5
+2025-03-02 17:11:33,920 - INFO - Field: radio-group-1, Value: , Type: 5
+2025-03-02 17:11:33,937 - INFO - Checking page 2...
+2025-03-02 17:11:33,968 - INFO - Field: 60b1628d-bc8c-497d-8fa0-615d8e4b831b, Value: , Type: 7
+2025-03-02 17:11:33,980 - INFO - Field: e4b5ba0d-1673-499e-8b1c-7975b758d130, Value: , Type: 7
+2025-03-02 17:11:33,993 - INFO - Field: 894c8880-018e-4d4c-b470-1fa23681184e, Value: , Type: 7
+2025-03-02 17:11:33,998 - INFO - Field: a00f1bf2-cf01-469d-9131-c4ef90b5d32c, Value: , Type: 7
+2025-03-02 17:11:34,013 - INFO - Field: 42239dc6-f3fe-4bc8-b652-0b31c098ae5a, Value: , Type: 7
+2025-03-02 17:11:34,021 - INFO - Field: 0fa8a08a-9ace-4686-8217-03fac35cc65a, Value: , Type: 7
+2025-03-02 17:11:34,026 - INFO - Field: c60c9eb0-0626-4f6e-8705-7a1415c0cdb8, Value: , Type: 7
+2025-03-02 17:11:34,030 - INFO - 
+=== PDF ANNOTATIONS ===
+2025-03-02 17:11:34,039 - INFO - Page 1: 0 annotations
+2025-03-02 17:11:34,073 - INFO - Page 2: 0 annotations
+2025-03-02 17:11:34,098 - INFO - PDF saved to: D:\demo\Services\filledform6.pdf

@@ -1,0 +1,49 @@
+2025-03-04 11:04:28,197 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 11:04:28,230 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:04:28,300 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 11:04:28,300 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:04:28,381 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 11:04:28,384 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:04:28,388 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-04 11:04:38,177 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-04 11:04:40,312 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-04 11:04:45,509 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-04 11:04:50,868 - TessoFill - INFO - Extracted 773 text elements using OCR
+2025-03-04 11:04:50,870 - TessoFill - ERROR - Error or timeout in field context analysis: This event loop is already running
+2025-03-04 11:04:50,870 - TessoFill - INFO - Performing basic field context analysis as fallback
+2025-03-04 11:04:50,986 - TessoFill - INFO - AI matching attempt 1/3
+2025-03-04 11:04:51,017 - TessoFill - INFO - Analyzing field context using AI agent
+2025-03-04 11:04:51,020 - TessoFill - ERROR - Error during AI field context analysis: 'MultiAgentFormFiller' object has no attribute 'debug_mode'
+2025-03-04 11:04:51,021 - TessoFill - ERROR - Traceback (most recent call last):
+  File "D:\demo\Services\TessoFiller1.py", line 521, in analyze_field_context_with_ai
+    if self.debug_mode:
+       ^^^^^^^^^^^^^^^
+AttributeError: 'MultiAgentFormFiller' object has no attribute 'debug_mode'
+
+2025-03-04 11:04:51,021 - TessoFill - INFO - Falling back to basic context analysis
+2025-03-04 11:04:51,021 - TessoFill - INFO - Performing basic field context analysis as fallback
+2025-03-04 11:05:15,595 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 11:05:15,625 - TessoFill - INFO - Parsing AI response
+2025-03-04 11:05:15,627 - TessoFill - INFO - Successfully parsed 15 field matches and 0 OCR matches
+2025-03-04 11:05:15,627 - TessoFill - INFO - Successfully matched 15 fields and 0 OCR elements
+2025-03-04 11:05:15,631 - TessoFill - INFO - Created temporary working file: D:\demo\Services\filledform18.pdf.temp
+2025-03-04 11:05:15,631 - TessoFill - INFO - Filling form fields and OCR-detected fields together with UUID-based matching
+2025-03-04 11:05:15,631 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf.temp
+2025-03-04 11:05:15,662 - TessoFill - INFO - Filling: 'raymond llc' to 'a81c79ca-f36a-475e-b24b-b81a95a97fab' (Page 1)
+2025-03-04 11:05:15,678 - TessoFill - INFO - Filling: '100 Mbc Dr' to '8aef501d-98b4-425b-b92b-4d9033607490' (Page 1)
+2025-03-04 11:05:15,680 - TessoFill - INFO - Filling: 'Racine' to 'f6bce81c-8e92-4e00-ab9a-ef685e5de4aa' (Page 1)
+2025-03-04 11:05:15,682 - TessoFill - INFO - Filling: 'WI' to 'a55b07b5-f9d2-40d4-9710-9df28220024b' (Page 1)
+2025-03-04 11:05:15,686 - TessoFill - INFO - Filling: '53402' to 'a95da1a1-ead2-4e29-b2f1-08f0f70ab880' (Page 1)
+2025-03-04 11:05:15,689 - TessoFill - INFO - Filling: 'Corporate Creations Network Inc.' to '05c07a14-713b-4da6-9b59-d60c477e6361' (Page 1)
+2025-03-04 11:05:15,693 - TessoFill - INFO - Filling: '301 S. Bedford ST., Ste. 1' to '5bb2e9ee-342f-4383-927b-bfc9a72160ad' (Page 1)
+2025-03-04 11:05:15,697 - TessoFill - INFO - Filling: 'Madison' to '28951763-9553-4f7a-b2bd-745287c86e00' (Page 1)
+2025-03-04 11:05:15,702 - TessoFill - INFO - Filling: 'WI' to 'c147e2a3-03c8-457e-b0ae-6ab1b4aadd55' (Page 1)
+2025-03-04 11:05:15,707 - TessoFill - INFO - Filling: '53703' to '68e8249c-95ff-46c3-b7c7-f152efa54699' (Page 1)
+2025-03-04 11:05:15,712 - TessoFill - INFO - Filling: 'Shreyas' to '88320af8-986a-4e00-9548-4ca7f15614f9' (Page 1)
+2025-03-04 11:05:15,718 - TessoFill - INFO - Filling: 'Deodhare' to 'bcfad094-a1e7-45fd-9938-2ac7713503cc' (Page 1)
+2025-03-04 11:05:15,723 - TessoFill - INFO - Filling: 'deodhare.shreyas@gmail.com' to 'f707998e-0503-4e5d-9506-bdccdd78a374' (Page 1)
+2025-03-04 11:05:15,730 - TessoFill - INFO - Filling: '(573) 834-3992' to 'c0991792-5fcd-4515-99d8-37ec3d90cd98' (Page 1)
+2025-03-04 11:05:15,730 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 11:05:15,911 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 11:05:16,024 - TessoFill - INFO - Finalized PDF saved to: D:\demo\Services\filledform18.pdf
+2025-03-04 11:05:16,069 - TessoFill - INFO - PDF verification successful

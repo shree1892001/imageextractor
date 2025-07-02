@@ -1,0 +1,18 @@
+Assistant Transcript - Session 20250402_173315
+
+Session started at: 2025-04-02 17:36:14
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 17:33:16] Assistant: Assistant initialized successfully
+[2025-04-02 17:34:22] Assistant: You can now ask questions about the content. Say exit to stop.
+[2025-04-02 17:34:37] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:34:53] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:35:08] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:35:22] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:35:37] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:35:48] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:36:01] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 17:36:12] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?

@@ -1,0 +1,15 @@
+Voice Assistant Transcript - Session 20250407_155843
+
+[2025-04-07 15:58:45] Assistant: Assistant initialized successfully
+[2025-04-07 15:58:57] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-07 15:59:03] Assistant: First, please provide the job description.
+[2025-04-07 16:01:43] Assistant: Generating startup-specific screening questions...
+[2025-04-07 16:01:53] Assistant: I ve prepared 9 startup-specific questions. Let s begin the interview.
+[2025-04-07 16:01:59] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-04-07 16:02:05] Assistant: There will be 9 questions in total.
+[2025-04-07 16:02:08] Assistant: Question 1 of 9:
+[2025-04-07 16:02:10] Assistant: This is a Adaptability Handling Ambiguity question: Describe a time you had to adapt to a significant change in plans or priorities at work or in school. How did you handle it?
+[2025-04-07 16:02:45] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-07 16:02:51] Assistant: I didn t catch that. Could you please repeat your answer?
+[2025-04-07 16:03:05] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-07 16:03:10] Assistant: Let s move to the next question.

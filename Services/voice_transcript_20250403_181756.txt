@@ -1,0 +1,8 @@
+Voice Assistant Transcript - Session 20250403_181756
+
+[2025-04-03 18:17:58] Assistant: Assistant initialized successfully
+[2025-04-03 18:18:06] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 18:18:12] Assistant: First, please provide the job description.
+[2025-04-03 18:18:24] Assistant: Generating startup-specific screening questions...
+[2025-04-03 18:18:35] Assistant: I ve prepared 0 startup-specific questions. Let s begin the interview.
+[2025-04-03 18:18:42] Assistant: Let s begin the interview. I ll ask you questions based on the job description.

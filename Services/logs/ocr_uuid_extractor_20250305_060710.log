@@ -1,0 +1,7 @@
+2025-03-05 06:07:10,902 - OCRUUIDExtractor - INFO - OCR UUID Extractor initialized successfully
+2025-03-05 06:07:10,905 - OCRUUIDExtractor - INFO - Extracting OCR text with UUIDs from PDF: D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-05 06:07:27,836 - OCRUUIDExtractor - INFO - Found 0 UUID elements
+2025-03-05 06:07:27,837 - OCRUUIDExtractor - INFO - Starting UUID to JSON field mapping
+2025-03-05 06:07:29,925 - OCRUUIDExtractor - ERROR - Failed to parse AI mapping response
+2025-03-05 06:07:29,925 - OCRUUIDExtractor - INFO - Starting PDF filling process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-05 06:07:29,961 - OCRUUIDExtractor - INFO - PDF successfully filled and saved to D:\demo\Services\filledform18.pdf

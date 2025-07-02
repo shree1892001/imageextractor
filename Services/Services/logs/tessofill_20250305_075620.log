@@ -1,0 +1,28 @@
+2025-03-05 07:56:20,865 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-05 07:56:20,867 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-05 07:56:20,875 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-05 07:56:20,875 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-05 07:56:20,925 - TessoFill - INFO - Extracted 30 fields across 4 pages
+2025-03-05 07:56:20,927 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-05 07:56:20,928 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-05 07:56:20,929 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-05 07:56:20,930 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-05 07:56:20,932 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-05 07:56:23,088 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-05 07:56:24,483 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-05 07:56:27,951 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-05 07:56:31,809 - TessoFill - INFO - Extracted 0 UUID elements out of 805 total text elements
+2025-03-05 07:56:31,811 - TessoFill - INFO - Performing AI-powered field context and nearby text analysis
+2025-03-05 07:56:31,845 - TessoFill - ERROR - Error in AI-powered field context analysis: '"text"'
+2025-03-05 07:56:31,940 - TessoFill - INFO - AI matching attempt 1/3
+2025-03-05 07:57:04,533 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-05 07:57:04,577 - TessoFill - INFO - Parsing AI response
+2025-03-05 07:57:04,581 - TessoFill - INFO - Successfully parsed 23 field matches and 0 OCR matches
+2025-03-05 07:57:04,581 - TessoFill - INFO - Successfully matched 23 fields and 0 OCR elements
+2025-03-05 07:57:04,592 - TessoFill - INFO - Created temporary working file: D:\demo\Services\filledform18.pdf.temp
+2025-03-05 07:57:04,593 - TessoFill - INFO - Filling form fields and OCR-detected fields together with UUID-based matching
+2025-03-05 07:57:04,593 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf.temp
+2025-03-05 07:57:04,958 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-05 07:57:05,088 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-05 07:57:05,297 - TessoFill - INFO - Finalized PDF saved to: D:\demo\Services\filledform18.pdf
+2025-03-05 07:57:05,379 - TessoFill - INFO - PDF verification successful

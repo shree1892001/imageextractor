@@ -1,0 +1,16 @@
+Voice Assistant Transcript - Session 20250403_165247
+
+[2025-04-03 16:52:49] Assistant: Assistant initialized successfully
+[2025-04-03 16:53:01] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 16:53:07] Assistant: First, please provide the job description.
+[2025-04-03 16:53:42] Assistant: Generating startup-specific screening questions...
+[2025-04-03 16:53:54] Assistant: I ve prepared 9 startup-specific questions. Let s begin the interview.
+[2025-04-03 16:54:01] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-04-03 16:54:07] Assistant: There will be 9 questions in total.
+[2025-04-03 16:54:10] Assistant: Question 1 of 9:
+[2025-04-03 16:54:12] Assistant: This is a Adaptability Pace question: Describe a time you had to adapt quickly to a significant change in priorities or workload. How did you manage the shift?
+[2025-04-03 16:54:30] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-03 16:54:36] Assistant: I didn t catch that. Could you please repeat your answer?
+[2025-04-03 16:54:48] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-03 16:54:54] Assistant: Let s move to the next question.
+[2025-04-03 16:54:58] Assistant: Question 2 of 9:

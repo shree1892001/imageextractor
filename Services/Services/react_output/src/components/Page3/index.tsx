@@ -1,0 +1,1 @@
+//Empty page - consider a placeholder component

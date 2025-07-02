@@ -1,0 +1,22 @@
+Voice Assistant Transcript - Session 20250519_182307
+
+[2025-05-19 18:23:07] Assistant: Voice assistant initialized with selected voice profile.
+    [2025-05-19 18:23:27] Assistant: Welcome to the job screening interview. Let s start with a brief introduction.
+    [2025-05-19 18:23:33] Assistant: May I know your name, please?
+    [2025-05-19 18:23:45] User: Rajesh
+[2025-05-19 18:23:45] Assistant: Thank you, Rajesh. It s nice to meet you.
+    [2025-05-19 18:23:50] Assistant: I m an AI assistant conducting this interview. I ll be asking you questions based on the job description, and evaluating your responses.
+    [2025-05-19 18:24:00] Assistant: Let s set up the job screening interview. First, I need the job description.
+    [2025-05-19 18:24:41] Assistant: Analyzing the job description...
+    [2025-05-19 18:24:48] Assistant: Here s what I understand about this position. I ll now generate interview questions.
+    [2025-05-19 18:25:04] Assistant: I ve prepared 8 questions. Let s begin the interview.
+    [2025-05-19 18:25:09] Assistant: There will be 8 questions in total, Rajesh.
+    [2025-05-19 18:25:13] Assistant: Please answer by speaking clearly. I ll listen for up to 60 seconds for each answer.
+    [2025-05-19 18:25:22] Assistant:  Question 1 of 8:
+    [2025-05-19 18:25:24] Assistant: Describe your experience using Microsoft Word and Excel, highlighting specific tasks you ve completed using these programs. Give examples of how you ve used these programs to improve efficiency or accuracy in your previous work (academic or professional).
+    [2025-05-19 18:25:42] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    [2025-05-19 18:26:26] Assistant: I didn t catch that. Let s try again with voice input.
+    [2025-05-19 18:26:31] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    [2025-05-19 18:26:44] Assistant: I didn t catch that. Let s try again with voice input.
+    [2025-05-19 18:26:49] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    

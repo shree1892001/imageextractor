@@ -1,0 +1,18 @@
+Assistant Transcript - Session 20250402_173633
+
+Session started at: 2025-04-02 17:37:39
+
+
+=== CONVERSATION HISTORY ===
+USER: what is the capital of ROme
+ASSISTANT: Rome is the capital of Italy.  There is no country called "ROme".
+
+USER: what is Rome
+ASSISTANT: Rome is the capital city of Italy.  It's also a large metropolitan area with a long and rich history, serving as the center of the Roman Empire and a significant influence on Western culture, law, language, and architecture.
+
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 17:36:34] Assistant: Assistant initialized successfully
+[2025-04-02 17:36:41] Assistant: I m ready to answer your questions. Please type your question.
+[2025-04-02 17:36:59] Assistant: Rome is Italy s capital.
+[2025-04-02 17:37:17] Assistant: Rome: Italy s capital, historically central to the Roman Empire and Western civilization.

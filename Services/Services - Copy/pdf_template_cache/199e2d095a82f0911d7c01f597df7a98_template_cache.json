@@ -1,0 +1,1671 @@
+{
+  "pdf_path": "D:\\demo\\Services\\Maine.pdf",
+  "pdf_fields": {
+    "Text1": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        109.39099884033203,
+        317.5299987792969,
+        574.823974609375,
+        340.69000244140625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box2": {
+      "page_num": 0,
+      "type": 2,
+      "rect": [
+        108.80000305175781,
+        392.6260070800781,
+        121.9219970703125,
+        405.61700439453125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box3": {
+      "page_num": 0,
+      "type": 2,
+      "rect": [
+        222.9219970703125,
+        393.2170104980469,
+        236.04299926757812,
+        406.2090148925781
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text4": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        391.4429931640625,
+        385.5299987792969,
+        578.9630126953125,
+        408.69000244140625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box5": {
+      "page_num": 0,
+      "type": 2,
+      "rect": [
+        108.80000305175781,
+        443.4779968261719,
+        121.9219970703125,
+        456.468994140625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box6": {
+      "page_num": 0,
+      "type": 2,
+      "rect": [
+        108.80000305175781,
+        685.3209838867188,
+        121.9219970703125,
+        698.3128051757812
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text7": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        147.8260040283203,
+        713.1126708984375,
+        562.9979858398438,
+        736.272705078125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box8": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        109.39099884033203,
+        62.677978515625,
+        122.51300048828125,
+        75.66998291015625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text10": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        446.43499755859375,
+        54.99102783203125,
+        547.0330200195312,
+        78.1510009765625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text11": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        141.32200622558594,
+        79.82598876953125,
+        545.8499755859375,
+        102.98602294921875
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box12": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        107.0260009765625,
+        123.5830078125,
+        120.14800262451172,
+        136.573974609375
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text13": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        142.50399780273438,
+        140.13897705078125,
+        548.8070068359375,
+        163.29901123046875
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text14": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        141.91299438476562,
+        176.79998779296875,
+        548.2160034179688,
+        199.96002197265625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text15": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        143.0959930419922,
+        211.68701171875,
+        549.3980102539062,
+        234.84698486328125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Check Box16": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        167.92999267578125,
+        305.7040100097656,
+        181.052001953125,
+        318.6960144042969
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text17": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        278.5039978027344,
+        340.0,
+        306.37200927734375,
+        356.6549987792969
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text18": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        62.678199768066406,
+        392.6260070800781,
+        222.9980010986328,
+        415.7860107421875
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "Text19": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        273.6570129394531,
+        422.8269958496094,
+        572.7459716796875,
+        445.24200439453125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover1": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        32.51890182495117,
+        65.4630126953125,
+        468.9729919433594,
+        87.8790283203125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover2": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        36.48759841918945,
+        94.43798828125,
+        472.9419860839844,
+        116.85400390625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover3": {
+      "page_num": 2,
+      "type": 2,
+      "rect": [
+        68.68250274658203,
+        141.65802001953125,
+        90.31670379638672,
+        163.95001220703125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover4": {
+      "page_num": 2,
+      "type": 2,
+      "rect": [
+        68.68250274658203,
+        164.1939697265625,
+        90.31670379638672,
+        186.48699951171875
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover": {
+      "page_num": 2,
+      "type": 2,
+      "rect": [
+        67.6093978881836,
+        185.656982421875,
+        89.24349975585938,
+        207.95001220703125
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover6": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        312.9110107421875,
+        268.291015625,
+        458.5369873046875,
+        293.9259948730469
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover7": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        35.414398193359375,
+        305.85198974609375,
+        250.7969970703125,
+        335.7799987792969
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover8": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        282.86199951171875,
+        304.77899169921875,
+        524.0,
+        335.7799987792969
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover9": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        35.414398193359375,
+        343.4129943847656,
+        247.57699584960938,
+        369.0480041503906
+      ],
+      "flags": 8388608,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover10": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        281.16900634765625,
+        342.3389892578125,
+        531.9660034179688,
+        369.0480041503906
+      ],
+      "flags": 8388608,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover11": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        35.414398193359375,
+        407.802001953125,
+        502.989990234375,
+        435.5840148925781
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover12": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        37.56079864501953,
+        444.2900085449219,
+        505.135986328125,
+        472.0710144042969
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover13": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        33.26810073852539,
+        482.92401123046875,
+        500.843994140625,
+        510.7049865722656
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cover14": {
+      "page_num": 2,
+      "type": 7,
+      "rect": [
+        31.12179946899414,
+        520.4849853515625,
+        498.6969909667969,
+        548.2659912109375
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": ""
+    }
+  },
+  "ocr_text_elements": [
+    {
+      "page_num": 0,
+      "text": "fillogfee $175.00",
+      "raw_text": "fillogfee $175.00",
+      "confidence": 0.9460212588310242,
+      "position": {
+        "x1": 440.0,
+        "y1": 16.0,
+        "x2": 517.0,
+        "y2": 28.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "state ofmaine",
+      "raw_text": "state ofmaine",
+      "confidence": 0.9343570470809937,
+      "position": {
+        "x1": 116.0,
+        "y1": 60.0,
+        "x2": 211.0,
+        "y2": 70.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "ljmited liabilitycompany",
+      "raw_text": "ljmited liabilitycompany",
+      "confidence": 0.9218900799751282,
+      "position": {
+        "x1": 79.0,
+        "y1": 99.0,
+        "x2": 249.0,
+        "y2": 109.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "certificateof formatton",
+      "raw_text": "certificateof formatton",
+      "confidence": 0.9036076664924622,
+      "position": {
+        "x1": 66.0,
+        "y1": 145.0,
+        "x2": 261.0,
+        "y2": 154.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "pursuant to 31 mrsa1531, thc undersigncd exceutes and delivers e folowing certificate of formation",
+      "raw_text": "pursuant to 31 mrsa1531, thc undersigncd exceutes and delivers e folowing certificate of formation",
+      "confidence": 0.9158010482788086,
+      "position": {
+        "x1": 35.0,
+        "y1": 280.0,
+        "x2": 457.0,
+        "y2": 290.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "first:",
+      "raw_text": "first:",
+      "confidence": 0.975068986415863,
+      "position": {
+        "x1": 35.0,
+        "y1": 304.0,
+        "x2": 68.0,
+        "y2": 314.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "the name of tbe jimited jiability company i9:",
+      "raw_text": "the name of tbe jimited jiability company i9:",
+      "confidence": 0.9229718446731567,
+      "position": {
+        "x1": 106.0,
+        "y1": 302.0,
+        "x2": 286.0,
+        "y2": 316.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "e abbreviotin",
+      "raw_text": "e abbreviotin",
+      "confidence": 0.7263613939285278,
+      "position": {
+        "x1": 512.0,
+        "y1": 339.0,
+        "x2": 576.0,
+        "y2": 348.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "second:",
+      "raw_text": "second:",
+      "confidence": 0.9693025946617126,
+      "position": {
+        "x1": 35.0,
+        "y1": 370.0,
+        "x2": 81.0,
+        "y2": 380.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "filing datesclet one)",
+      "raw_text": "filing datesclet one)",
+      "confidence": 0.8918660283088684,
+      "position": {
+        "x1": 107.0,
+        "y1": 370.0,
+        "x2": 203.0,
+        "y2": 380.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "datc ofthis filingor",
+      "raw_text": "datc ofthis filingor",
+      "confidence": 0.9237631559371948,
+      "position": {
+        "x1": 108.0,
+        "y1": 394.0,
+        "x2": 216.0,
+        "y2": 407.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "latr cffective datespccificd hcrc",
+      "raw_text": "latr cffective datespccificd hcrc",
+      "confidence": 0.7410519123077393,
+      "position": {
+        "x1": 222.0,
+        "y1": 395.0,
+        "x2": 388.0,
+        "y2": 407.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "teird",
+      "raw_text": "teird",
+      "confidence": 0.9516795873641968,
+      "position": {
+        "x1": 36.0,
+        "y1": 420.0,
+        "x2": 71.0,
+        "y2": 431.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "designation as a low profu llc (cbeck only if applicable):",
+      "raw_text": "designation as a low profu llc (cbeck only if applicable):",
+      "confidence": 0.9279924631118774,
+      "position": {
+        "x1": 107.0,
+        "y1": 419.0,
+        "x2": 342.0,
+        "y2": 432.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "this is a low-proft limited lisbility conpany pursuant to 31 mrsa t6l1 mccting all qualitications sct",
+      "raw_text": "this is a low-proft limited lisbility conpany pursuant to 31 mrsa t6l1 mccting all qualitications sct",
+      "confidence": 0.9393869638442993,
+      "position": {
+        "x1": 141.0,
+        "y1": 444.0,
+        "x2": 577.0,
+        "y2": 457.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "forb he:",
+      "raw_text": "forb he:",
+      "confidence": 0.7304286956787109,
+      "position": {
+        "x1": 143.0,
+        "y1": 458.0,
+        "x2": 187.0,
+        "y2": 468.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "the company intends to qualify as a low-profit limited liability company;",
+      "raw_text": "the company intends to qualify as a low-profit limited liability company;",
+      "confidence": 0.9618308544158936,
+      "position": {
+        "x1": 160.0,
+        "y1": 481.0,
+        "x2": 458.0,
+        "y2": 494.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "b.",
+      "raw_text": "b.",
+      "confidence": 0.945414662361145,
+      "position": {
+        "x1": 143.0,
+        "y1": 507.0,
+        "x2": 153.0,
+        "y2": 515.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "the compeny rmust at all times significantly further the sccomplisbcot of one or nore of the",
+      "raw_text": "the compeny rmust at all times significantly further the sccomplisbcot of one or nore of the",
+      "confidence": 0.8837162256240845,
+      "position": {
+        "x1": 159.0,
+        "y1": 505.0,
+        "x2": 579.0,
+        "y2": 518.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "charitable or educational purmoscs within tho mcaning of sectiou 170(e){2)(b) of the iotemal revcoue",
+      "raw_text": "charitable or educational purmoscs within tho mcaning of sectiou 170(e){2)(b) of the iotemal revcoue",
+      "confidence": 0.9030137658119202,
+      "position": {
+        "x1": 159.0,
+        "y1": 517.0,
+        "x2": 579.0,
+        "y2": 530.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "code of t936, as it may be amended, revised or succeeded, and muust list the specific charitable or",
+      "raw_text": "code of t936, as it may be amended, revised or succeeded, and muust list the specific charitable or",
+      "confidence": 0.9381538033485413,
+      "position": {
+        "x1": 159.0,
+        "y1": 529.0,
+        "x2": 579.0,
+        "y2": 542.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "cducational purposes tbe company will furthcr;",
+      "raw_text": "cducational purposes tbe company will furthcr;",
+      "confidence": 0.9519437551498413,
+      "position": {
+        "x1": 159.0,
+        "y1": 542.0,
+        "x2": 353.0,
+        "y2": 554.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "no significant purpose of the company is the production of income or the apprcciation of propcrty. the",
+      "raw_text": "no significant purpose of the company is the production of income or the apprcciation of propcrty. the",
+      "confidence": 0.9578709602355957,
+      "position": {
+        "x1": 157.0,
+        "y1": 563.0,
+        "x2": 579.0,
+        "y2": 578.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "fact that a person produces significant income or capital appreciation is not, in the abscnce of otler",
+      "raw_text": "fact that a person produces significant income or capital appreciation is not, in the abscnce of otler",
+      "confidence": 0.956923246383667,
+      "position": {
+        "x1": 159.0,
+        "y1": 577.0,
+        "x2": 579.0,
+        "y2": 590.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "factors, conelusive cvidcnce of a significant purpose involving tle production of income or the",
+      "raw_text": "factors, conelusive cvidcnce of a significant purpose involving tle production of income or the",
+      "confidence": 0.9304421544075012,
+      "position": {
+        "x1": 159.0,
+        "y1": 589.0,
+        "x2": 579.0,
+        "y2": 602.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "appreciation of pwopcrty, and",
+      "raw_text": "appreciation of pwopcrty, and",
+      "confidence": 0.9156697392463684,
+      "position": {
+        "x1": 158.0,
+        "y1": 601.0,
+        "x2": 281.0,
+        "y2": 614.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "d.",
+      "raw_text": "d.",
+      "confidence": 0.8225595951080322,
+      "position": {
+        "x1": 144.0,
+        "y1": 627.0,
+        "x2": 153.0,
+        "y2": 635.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "no purpose of the company is to accomplish one or more political or iegiglative purmose within the",
+      "raw_text": "no purpose of the company is to accomplish one or more political or iegiglative purmose within the",
+      "confidence": 0.9522760510444641,
+      "position": {
+        "x1": 158.0,
+        "y1": 625.0,
+        "x2": 577.0,
+        "y2": 638.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "meaning of seetion 170(e)(2)(d) of'the intcmnal revemue code of 1986, or its succcssor.",
+      "raw_text": "meaning of seetion 170(e)(2)(d) of'the intcmnal revemue code of 1986, or its succcssor.",
+      "confidence": 0.932848334312439,
+      "position": {
+        "x1": 159.0,
+        "y1": 638.0,
+        "x2": 516.0,
+        "y2": 650.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "fourte:",
+      "raw_text": "fourte:",
+      "confidence": 0.9255542159080505,
+      "position": {
+        "x1": 35.0,
+        "y1": 661.0,
+        "x2": 82.0,
+        "y2": 671.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "designation as a profcssional llc (check only if applicable):",
+      "raw_text": "designation as a profcssional llc (check only if applicable):",
+      "confidence": 0.9536095261573792,
+      "position": {
+        "x1": 107.0,
+        "y1": 661.0,
+        "x2": 351.0,
+        "y2": 674.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "this is a profcssional limited liability company* formcd pususnt io 13 mrsa chapter 22-a to provide",
+      "raw_text": "this is a profcssional limited liability company* formcd pususnt io 13 mrsa chapter 22-a to provide",
+      "confidence": 0.9218403100967407,
+      "position": {
+        "x1": 141.0,
+        "y1": 686.0,
+        "x2": 561.0,
+        "y2": 699.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "the following professional scrviees:",
+      "raw_text": "the following professional scrviees:",
+      "confidence": 0.9450738430023193,
+      "position": {
+        "x1": 141.0,
+        "y1": 698.0,
+        "x2": 287.0,
+        "y2": 712.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "ypeorpcofeanalservioec)",
+      "raw_text": "ypeorpcofeanalservioec)",
+      "confidence": 0.6912991404533386,
+      "position": {
+        "x1": 286.0,
+        "y1": 736.0,
+        "x2": 389.0,
+        "y2": 745.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "form no.mll-61 of2",
+      "raw_text": "form no.mll-61 of2",
+      "confidence": 0.8970690965652466,
+      "position": {
+        "x1": 35.0,
+        "y1": 758.0,
+        "x2": 144.0,
+        "y2": 768.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "fifth",
+      "raw_text": "fifth",
+      "confidence": 0.9960311651229858,
+      "position": {
+        "x1": 35.0,
+        "y1": 40.0,
+        "x2": 69.0,
+        "y2": 50.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "the rcgistercd agent is a: (gclect either a conunercisl or noncommcrcial rcgistered agent)",
+      "raw_text": "the rcgistercd agent is a: (gclect either a conunercisl or noncommcrcial rcgistered agent)",
+      "confidence": 0.9182084798812866,
+      "position": {
+        "x1": 107.0,
+        "y1": 38.0,
+        "x2": 475.0,
+        "y2": 51.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "commeial registed agent",
+      "raw_text": "commeial registed agent",
+      "confidence": 0.8995694518089294,
+      "position": {
+        "x1": 144.0,
+        "y1": 65.0,
+        "x2": 264.0,
+        "y2": 75.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "cra public number:",
+      "raw_text": "cra public number:",
+      "confidence": 0.9087149500846863,
+      "position": {
+        "x1": 360.0,
+        "y1": 65.0,
+        "x2": 445.0,
+        "y2": 75.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "(name of comunercial regigtcred agent)",
+      "raw_text": "(name of comunercial regigtcred agent)",
+      "confidence": 0.8851813077926636,
+      "position": {
+        "x1": 253.0,
+        "y1": 100.0,
+        "x2": 410.0,
+        "y2": 113.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "noncomuncrcigl rcgistcrcd agant",
+      "raw_text": "noncomuncrcigl rcgistcrcd agant",
+      "confidence": 0.8709256052970886,
+      "position": {
+        "x1": 143.0,
+        "y1": 127.0,
+        "x2": 280.0,
+        "y2": 137.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "(name of noncommercial regigtcred agent)",
+      "raw_text": "(name of noncommercial regigtcred agent)",
+      "confidence": 0.9225908517837524,
+      "position": {
+        "x1": 256.0,
+        "y1": 160.0,
+        "x2": 426.0,
+        "y2": 173.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "(physical location, not p.o. boxstect, eity, state and zip code)",
+      "raw_text": "(physical location, not p.o. boxstect, eity, state and zip code)",
+      "confidence": 0.9635949730873108,
+      "position": {
+        "x1": 215.0,
+        "y1": 197.0,
+        "x2": 470.0,
+        "y2": 210.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "{mailing addrces if different from above)",
+      "raw_text": "{mailing addrces if different from above)",
+      "confidence": 0.9226785898208618,
+      "position": {
+        "x1": 265.0,
+        "y1": 233.0,
+        "x2": 428.0,
+        "y2": 246.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "slxth:",
+      "raw_text": "slxth:",
+      "confidence": 0.8914031386375427,
+      "position": {
+        "x1": 35.0,
+        "y1": 269.0,
+        "x2": 70.0,
+        "y2": 280.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "pursuant to 5 mrsa s0s.2,the registered agcnt listcd above bas consented to scrve ss e registercd",
+      "raw_text": "pursuant to 5 mrsa s0s.2,the registered agcnt listcd above bas consented to scrve ss e registercd",
+      "confidence": 0.8519710302352905,
+      "position": {
+        "x1": 104.0,
+        "y1": 267.0,
+        "x2": 553.0,
+        "y2": 282.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "for this limited jiability conpany.",
+      "raw_text": "for this limited jiability conpany.",
+      "confidence": 0.9201422333717346,
+      "position": {
+        "x1": 104.0,
+        "y1": 280.0,
+        "x2": 237.0,
+        "y2": 294.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "agent",
+      "raw_text": "agent",
+      "confidence": 0.9653179049491882,
+      "position": {
+        "x1": 549.0,
+        "y1": 271.0,
+        "x2": 577.0,
+        "y2": 281.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "seventh:",
+      "raw_text": "seventh:",
+      "confidence": 0.9648779630661011,
+      "position": {
+        "x1": 36.0,
+        "y1": 307.0,
+        "x2": 87.0,
+        "y2": 317.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "optional",
+      "raw_text": "optional",
+      "confidence": 0.9966980218887329,
+      "position": {
+        "x1": 108.0,
+        "y1": 307.0,
+        "x2": 166.0,
+        "y2": 317.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "check if providing a statement of authority at this time",
+      "raw_text": "check if providing a statement of authority at this time",
+      "confidence": 0.9412006735801697,
+      "position": {
+        "x1": 161.0,
+        "y1": 306.0,
+        "x2": 403.0,
+        "y2": 319.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "pursuant to 31 mrsa 1542.1 a stasenent of sutlority or any othcr matters xe members dctcmine to",
+      "raw_text": "pursuant to 31 mrsa 1542.1 a stasenent of sutlority or any othcr matters xe members dctcmine to",
+      "confidence": 0.9231012463569641,
+      "position": {
+        "x1": 107.0,
+        "y1": 330.0,
+        "x2": 508.0,
+        "y2": 342.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "jnejude are sct forth jn the attacbed exhibit",
+      "raw_text": "jnejude are sct forth jn the attacbed exhibit",
+      "confidence": 0.8991757035255432,
+      "position": {
+        "x1": 108.0,
+        "y1": 344.0,
+        "x2": 276.0,
+        "y2": 353.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "and madc part hcrcot",
+      "raw_text": "and madc part hcrcot",
+      "confidence": 0.8604389429092407,
+      "position": {
+        "x1": 311.0,
+        "y1": 344.0,
+        "x2": 397.0,
+        "y2": 353.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "dated",
+      "raw_text": "dated",
+      "confidence": 0.9991948008537292,
+      "position": {
+        "x1": 36.0,
+        "y1": 403.0,
+        "x2": 62.0,
+        "y2": 414.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "by",
+      "raw_text": "by",
+      "confidence": 0.7206140756607056,
+      "position": {
+        "x1": 246.0,
+        "y1": 405.0,
+        "x2": 265.0,
+        "y2": 413.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "[uzod pnuoym jo amyp ons ooe",
+      "raw_text": "[uzod pnuoym jo amyp ons ooe",
+      "confidence": 0.5357369184494019,
+      "position": {
+        "x1": 346.0,
+        "y1": 413.0,
+        "x2": 505.0,
+        "y2": 426.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "(type oc print nnne and tinlefsigne)",
+      "raw_text": "(type oc print nnne and tinlefsigne)",
+      "confidence": 0.8369104862213135,
+      "position": {
+        "x1": 362.0,
+        "y1": 444.0,
+        "x2": 485.0,
+        "y2": 456.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "+exaniples of professional service limited liability comyanics an accountants, attomcyg, chiropractors, dentisty, negistered nurscs and",
+      "raw_text": "+exaniples of professional service limited liability comyanics an accountants, attomcyg, chiropractors, dentisty, negistered nurscs and",
+      "confidence": 0.9208350777626038,
+      "position": {
+        "x1": 36.0,
+        "y1": 564.0,
+        "x2": 578.0,
+        "y2": 577.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "veterinarians.this ig not an inchsive list-sce 13 mrsa723.",
+      "raw_text": "veterinarians.this ig not an inchsive list-sce 13 mrsa723.",
+      "confidence": 0.8315436840057373,
+      "position": {
+        "x1": 35.0,
+        "y1": 578.0,
+        "x2": 298.0,
+        "y2": 588.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "++pursusnt to 31 mrsa1676.1 a,certificate offoution m1ust be signcd by at lcast onc authorizcd pcrson.",
+      "raw_text": "++pursusnt to 31 mrsa1676.1 a,certificate offoution m1ust be signcd by at lcast onc authorizcd pcrson.",
+      "confidence": 0.9025097489356995,
+      "position": {
+        "x1": 35.0,
+        "y1": 601.0,
+        "x2": 479.0,
+        "y2": 613.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "the exccution of this centificale constitutes an oath or affimstion under dxe penaltics of falge swcaring under 17-a mrsa 453",
+      "raw_text": "the exccution of this centificale constitutes an oath or affimstion under dxe penaltics of falge swcaring under 17-a mrsa 453",
+      "confidence": 0.9200485944747925,
+      "position": {
+        "x1": 36.0,
+        "y1": 624.0,
+        "x2": 537.0,
+        "y2": 637.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "plcase remit your payment mado payable to the maine secrclary of state.",
+      "raw_text": "plcase remit your payment mado payable to the maine secrclary of state.",
+      "confidence": 0.9102737903594971,
+      "position": {
+        "x1": 34.0,
+        "y1": 648.0,
+        "x2": 322.0,
+        "y2": 661.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "submit complcted fom to:",
+      "raw_text": "submit complcted fom to:",
+      "confidence": 0.9564808011054993,
+      "position": {
+        "x1": 36.0,
+        "y1": 674.0,
+        "x2": 142.0,
+        "y2": 684.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "secretary afstate",
+      "raw_text": "secretary afstate",
+      "confidence": 0.9023022651672363,
+      "position": {
+        "x1": 177.0,
+        "y1": 673.0,
+        "x2": 255.0,
+        "y2": 683.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "divlslon of corporatlons, ucc and comobslons",
+      "raw_text": "divlslon of corporatlons, ucc and comobslons",
+      "confidence": 0.9202523827552795,
+      "position": {
+        "x1": 177.0,
+        "y1": 685.0,
+        "x2": 388.0,
+        "y2": 698.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "101state house stadon",
+      "raw_text": "101state house stadon",
+      "confidence": 0.9160237908363342,
+      "position": {
+        "x1": 180.0,
+        "y1": 698.0,
+        "x2": 279.0,
+        "y2": 708.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "augustsme 04333-0101",
+      "raw_text": "augustsme 04333-0101",
+      "confidence": 0.9153661727905273,
+      "position": {
+        "x1": 179.0,
+        "y1": 710.0,
+        "x2": 288.0,
+        "y2": 720.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "tclephono inquirics207624-7752",
+      "raw_text": "tclephono inquirics207624-7752",
+      "confidence": 0.8953680396080017,
+      "position": {
+        "x1": 178.0,
+        "y1": 722.0,
+        "x2": 327.0,
+        "y2": 732.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "email inquincs:cec.conorations@maine.goy",
+      "raw_text": "email inquincs:cec.conorations@maine.goy",
+      "confidence": 0.939556896686554,
+      "position": {
+        "x1": 359.0,
+        "y1": 723.0,
+        "x2": 552.0,
+        "y2": 733.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "formno.mll-62 of212/23",
+      "raw_text": "formno.mll-62 of212/23",
+      "confidence": 0.8877142071723938,
+      "position": {
+        "x1": 35.0,
+        "y1": 746.0,
+        "x2": 168.0,
+        "y2": 756.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "customer contaet cover letter",
+      "raw_text": "customer contaet cover letter",
+      "confidence": 0.9396923184394836,
+      "position": {
+        "x1": 213.0,
+        "y1": 26.0,
+        "x2": 401.0,
+        "y2": 36.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "name af cntity(s) an the submitted filings:",
+      "raw_text": "name af cntity(s) an the submitted filings:",
+      "confidence": 0.926446259021759,
+      "position": {
+        "x1": 35.0,
+        "y1": 50.0,
+        "x2": 233.0,
+        "y2": 63.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "optional sprcial haadling requcst(s): (chcck only if applicable)",
+      "raw_text": "optional sprcial haadling requcst(s): (chcck only if applicable)",
+      "confidence": 0.9309815168380737,
+      "position": {
+        "x1": 36.0,
+        "y1": 127.0,
+        "x2": 323.0,
+        "y2": 140.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "hold attested copy for pick up will bc rcquired to pick up at our office in augusta, maine",
+      "raw_text": "hold attested copy for pick up will bc rcquired to pick up at our office in augusta, maine",
+      "confidence": 0.9189382195472717,
+      "position": {
+        "x1": 89.0,
+        "y1": 148.0,
+        "x2": 487.0,
+        "y2": 161.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "24-hour expedited filing (next business day) service: $50 additional filing fec per cntity",
+      "raw_text": "24-hour expedited filing (next business day) service: $50 additional filing fec per cntity",
+      "confidence": 0.935559093952179,
+      "position": {
+        "x1": 84.0,
+        "y1": 170.0,
+        "x2": 475.0,
+        "y2": 185.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "imumediate expedited fling (samc busincss day):$100 additional filing fee per cntily",
+      "raw_text": "imumediate expedited fling (samc busincss day):$100 additional filing fee per cntily",
+      "confidence": 0.9546710252761841,
+      "position": {
+        "x1": 88.0,
+        "y1": 193.0,
+        "x2": 461.0,
+        "y2": 206.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "note: qnly one expedite fee is reguirediffiling multiple documents for the same entin/charter srumher ai the saine tine",
+      "raw_text": "note: qnly one expedite fee is reguirediffiling multiple documents for the same entin/charter srumher ai the saine tine",
+      "confidence": 0.9242030382156372,
+      "position": {
+        "x1": 34.0,
+        "y1": 214.0,
+        "x2": 572.0,
+        "y2": 229.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "paymeat can be made by chcck or moacy ordcr (payable to maine secretary of state) or by credit card. you may",
+      "raw_text": "paymeat can be made by chcck or moacy ordcr (payable to maine secretary of state) or by credit card. you may",
+      "confidence": 0.9585906863212585,
+      "position": {
+        "x1": 36.0,
+        "y1": 242.0,
+        "x2": 546.0,
+        "y2": 254.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "abtain a credit card vouchcr at htlps://www.mainc.gov/sos/ccc/forms'credit.pdf.",
+      "raw_text": "abtain a credit card vouchcr at htlps://www.mainc.gov/sos/ccc/forms'credit.pdf.",
+      "confidence": 0.9524477124214172,
+      "position": {
+        "x1": 35.0,
+        "y1": 256.0,
+        "x2": 389.0,
+        "y2": 269.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "total fee(s) enclosed: $",
+      "raw_text": "total fee(s) enclosed: $",
+      "confidence": 0.9371035695075989,
+      "position": {
+        "x1": 199.0,
+        "y1": 283.0,
+        "x2": 313.0,
+        "y2": 296.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(namc of coataet pcrson)",
+      "raw_text": "(namc of coataet pcrson)",
+      "confidence": 0.9336594939231873,
+      "position": {
+        "x1": 68.0,
+        "y1": 333.0,
+        "x2": 188.0,
+        "y2": 346.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(daytimc telephone nomber",
+      "raw_text": "(daytimc telephone nomber",
+      "confidence": 0.868522584438324,
+      "position": {
+        "x1": 333.0,
+        "y1": 332.0,
+        "x2": 469.0,
+        "y2": 345.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "coatact cmail address far this filing",
+      "raw_text": "coatact cmail address far this filing",
+      "confidence": 0.9158620238304138,
+      "position": {
+        "x1": 58.0,
+        "y1": 369.0,
+        "x2": 235.0,
+        "y2": 384.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(email address to use far annual report reminders)",
+      "raw_text": "(email address to use far annual report reminders)",
+      "confidence": 0.969638466835022,
+      "position": {
+        "x1": 282.0,
+        "y1": 370.0,
+        "x2": 522.0,
+        "y2": 383.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "namc and address of person to retorn the attested copy ofthe completed filing.",
+      "raw_text": "namc and address of person to retorn the attested copy ofthe completed filing.",
+      "confidence": 0.964613676071167,
+      "position": {
+        "x1": 35.0,
+        "y1": 397.0,
+        "x2": 392.0,
+        "y2": 410.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(namc of attested copy recipient)",
+      "raw_text": "(namc of attested copy recipient)",
+      "confidence": 0.9450578093528748,
+      "position": {
+        "x1": 231.0,
+        "y1": 433.0,
+        "x2": 380.0,
+        "y2": 448.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(fim or company)",
+      "raw_text": "(fim or company)",
+      "confidence": 0.8919529914855957,
+      "position": {
+        "x1": 263.0,
+        "y1": 472.0,
+        "x2": 350.0,
+        "y2": 485.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "(mailing address)",
+      "raw_text": "(mailing address)",
+      "confidence": 0.926952600479126,
+      "position": {
+        "x1": 265.0,
+        "y1": 509.0,
+        "x2": 348.0,
+        "y2": 522.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "citystate & zip",
+      "raw_text": "citystate & zip",
+      "confidence": 0.9425548315048218,
+      "position": {
+        "x1": 264.0,
+        "y1": 547.0,
+        "x2": 348.0,
+        "y2": 560.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "note: fsilure ta provide a cantact name and iclcphone number or cmail address will result in any crronrous",
+      "raw_text": "note: fsilure ta provide a cantact name and iclcphone number or cmail address will result in any crronrous",
+      "confidence": 0.9531010389328003,
+      "position": {
+        "x1": 33.0,
+        "y1": 570.0,
+        "x2": 576.0,
+        "y2": 585.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "fliags) bciag returcd to the fcr by the srerctany af stste's olfice.",
+      "raw_text": "fliags) bciag returcd to the fcr by the srerctany af stste's olfice.",
+      "confidence": 0.8167200684547424,
+      "position": {
+        "x1": 35.0,
+        "y1": 586.0,
+        "x2": 354.0,
+        "y2": 596.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "for questions regarding the above filing(s), pleese call or cmeil our office at (207) 624-7752 or cec.corporatonsmainc.goy",
+      "raw_text": "for questions regarding the above filing(s), pleese call or cmeil our office at (207) 624-7752 or cec.corporatonsmainc.goy",
+      "confidence": 0.9415300488471985,
+      "position": {
+        "x1": 32.0,
+        "y1": 608.0,
+        "x2": 575.0,
+        "y2": 623.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "sabmit filins to:",
+      "raw_text": "sabmit filins to:",
+      "confidence": 0.860153079032898,
+      "position": {
+        "x1": 35.0,
+        "y1": 647.0,
+        "x2": 117.0,
+        "y2": 657.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "mailing address if using us postal senvice",
+      "raw_text": "mailing address if using us postal senvice",
+      "confidence": 0.9167385101318359,
+      "position": {
+        "x1": 34.0,
+        "y1": 659.0,
+        "x2": 237.0,
+        "y2": 672.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "mailing address if usiag fcdes/ups",
+      "raw_text": "mailing address if usiag fcdes/ups",
+      "confidence": 0.9120524525642395,
+      "position": {
+        "x1": 322.0,
+        "y1": 659.0,
+        "x2": 496.0,
+        "y2": 672.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "department ofthe sewetary of state",
+      "raw_text": "department ofthe sewetary of state",
+      "confidence": 0.9366440773010254,
+      "position": {
+        "x1": 34.0,
+        "y1": 672.0,
+        "x2": 196.0,
+        "y2": 685.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "departmcnt of the secretary of statc",
+      "raw_text": "departmcnt of the secretary of statc",
+      "confidence": 0.9125038981437683,
+      "position": {
+        "x1": 322.0,
+        "y1": 672.0,
+        "x2": 486.0,
+        "y2": 685.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "corporations, ucc and commissions",
+      "raw_text": "corporations, ucc and commissions",
+      "confidence": 0.962458610534668,
+      "position": {
+        "x1": 34.0,
+        "y1": 685.0,
+        "x2": 202.0,
+        "y2": 698.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "101 state house station",
+      "raw_text": "101 state house station",
+      "confidence": 0.9229865670204163,
+      "position": {
+        "x1": 35.0,
+        "y1": 699.0,
+        "x2": 143.0,
+        "y2": 709.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "6 e. chestnut street, sth floor",
+      "raw_text": "6 e. chestnut street, sth floor",
+      "confidence": 0.9690676331520081,
+      "position": {
+        "x1": 323.0,
+        "y1": 696.0,
+        "x2": 459.0,
+        "y2": 711.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "augusta,me04333-01",
+      "raw_text": "augusta,me04333-01",
+      "confidence": 0.9360888004302979,
+      "position": {
+        "x1": 35.0,
+        "y1": 712.0,
+        "x2": 149.0,
+        "y2": 722.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "augusts,me04330",
+      "raw_text": "augusts,me04330",
+      "confidence": 0.9095123410224915,
+      "position": {
+        "x1": 322.0,
+        "y1": 712.0,
+        "x2": 413.0,
+        "y2": 722.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "rev.6/26/2024",
+      "raw_text": "rev.6/26/2024",
+      "confidence": 0.9686838388442993,
+      "position": {
+        "x1": 34.0,
+        "y1": 748.0,
+        "x2": 104.0,
+        "y2": 758.0
+      }
+    }
+  ]
+}

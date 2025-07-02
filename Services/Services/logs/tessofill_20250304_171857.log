@@ -1,0 +1,25 @@
+2025-03-04 17:18:57,628 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 17:18:57,629 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 17:18:57,659 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC_1.pdf.backup
+2025-03-04 17:18:57,660 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 17:18:57,678 - TessoFill - INFO - Extracted 0 fields across 4 pages
+2025-03-04 17:18:57,678 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 17:18:57,680 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-04 17:18:59,832 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-04 17:19:01,012 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-04 17:19:04,392 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-04 17:19:07,788 - TessoFill - INFO - Extracted 751 text elements using OCR
+2025-03-04 17:19:07,789 - TessoFill - INFO - Analyzing field context from OCR data
+2025-03-04 17:19:07,805 - TessoFill - INFO - AI matching attempt 1/3
+2025-03-04 17:19:13,123 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 17:19:13,147 - TessoFill - INFO - Parsing AI response
+2025-03-04 17:19:13,148 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 17:19:13,148 - TessoFill - INFO - AI matching attempt 2/3
+2025-03-04 17:19:20,476 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 17:19:20,480 - TessoFill - INFO - Parsing AI response
+2025-03-04 17:19:20,480 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 17:19:20,480 - TessoFill - INFO - AI matching attempt 3/3
+2025-03-04 17:19:36,134 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 17:19:36,140 - TessoFill - INFO - Parsing AI response
+2025-03-04 17:19:36,140 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 17:19:36,140 - TessoFill - WARNING - No valid field matches were found after all attempts

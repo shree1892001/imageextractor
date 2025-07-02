@@ -1,0 +1,2899 @@
+{
+  "pdf_path": "D:\\demo\\Services\\Connecitcuit.pdf",
+  "pdf_fields": {
+    "8d4de16c-d20b-4756-80a2-bc45dbdd830b": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        45.91350555419922,
+        645.062744140625,
+        291.9905090332031,
+        661.1568603515625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "0a306ff8-6f9f-4703-bd05-b3978a33aef5": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        45.91350555419922,
+        727.9930419921875,
+        266.09283447265625,
+        743.8014526367188
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d81c02dc-4fdd-49df-892c-6fce1a96ceb3": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        53.47572708129883,
+        662.347900390625,
+        172.31068420410156,
+        678.4420166015625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "62074aed-51ec-462f-84b6-8be7988ae03d": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        62.345401763916016,
+        628.6939697265625,
+        213.1393585205078,
+        644.1329956054688
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "a2afe236-2a70-4c18-b33f-21b471dd3cb5": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        119.37510681152344,
+        707.1812133789062,
+        344.2295837402344,
+        723.2753295898438
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "2fef06a2-dc26-4022-a7c4-de434933a04c": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        175.011474609375,
+        744.8817749023438,
+        266.8384704589844,
+        758.9259643554688
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "4e677835-2efd-4a91-8669-4f10f9fdcf08": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        191.21624755859375,
+        662.347900390625,
+        273.86053466796875,
+        678.4420166015625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "c0a25b42-5209-4733-bae0-d18b14ecf5c0": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        213.9029083251953,
+        629.287353515625,
+        301.9488220214844,
+        644.2933349609375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "34a63ef3-3d30-400b-b104-3d765adcb5f5": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        284.76800537109375,
+        552.6950073242188,
+        576.43701171875,
+        568.2000122070312
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "f009ae90-ae30-4b52-8bdb-2bfca398f20e": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        334.35833740234375,
+        645.062744140625,
+        562.3713989257812,
+        661.1568603515625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "62ebbebc-7e64-4eb2-a62b-4c119398a7c8": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        345.1615295410156,
+        707.1812133789062,
+        411.0609130859375,
+        723.2753295898438
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "6ab0e9c8-29b3-4750-a0c9-3ab7c334404c": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        347.8623046875,
+        626.1571044921875,
+        518.552490234375,
+        642.251220703125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "7ec04a71-9b0e-48d9-b0b3-1586d07cca2e": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        459.6752014160156,
+        661.267578125,
+        587.1527099609375,
+        677.3616943359375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "07bde8d0-d60c-4829-b4ba-e2373e000e07": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        519.0926513671875,
+        626.1571044921875,
+        589.3133544921875,
+        642.3468017578125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "08061da1-ee12-4ba2-8e07-1db455052e21": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        22.86989974975586,
+        317.4440002441406,
+        588.6710205078125,
+        335.6919860839844
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d2c4a582-797d-425a-9f87-ff47789e04bb": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91280364990234,
+        213.23699951171875,
+        407.2550048828125,
+        229.20001220703125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "fe51329c-ccf4-420b-921c-24e99ff157aa": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91290283203125,
+        177.08099365234375,
+        246.2294921875,
+        192.52001953125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d8a44647-80e2-4d07-9c68-30b655417ba1": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91290283203125,
+        195.15802001953125,
+        407.2550048828125,
+        210.59698486328125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "29ac111c-82a6-4f90-aa38-ab32aea04fd0": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91290283203125,
+        231.86602783203125,
+        407.2550048828125,
+        247.5009765625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "21d7363e-5315-44dd-8cc9-4642fdc979c0": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91290283203125,
+        249.47698974609375,
+        232.49200439453125,
+        265.30902099609375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "9a13abf2-e147-489a-b47c-9ef584e0dc5d": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        73.91290283203125,
+        267.20599365234375,
+        407.2550048828125,
+        282.9939880371094
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "b5289e63-8a2c-476f-9b7c-3d3e310ac69b": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        123.88099670410156,
+        284.4909973144531,
+        407.2550048828125,
+        300.62799072265625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "df6ab203-467f-4625-b662-022eaf8890d1": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        247.20272827148438,
+        176.7908935546875,
+        403.89422607421875,
+        192.70404052734375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "0c300938-552c-4b1b-bc49-3b24d79282e5": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        279.0450134277344,
+        249.8800048828125,
+        407.2550048828125,
+        265.5889892578125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "92bd92b4-814c-4e36-9f5c-2e2291c3cf9c": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        46.99382019042969,
+        481.8266296386719,
+        321.89947509765625,
+        498.0282897949219
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "9f622ffe-b985-43a2-88ce-6ab071e5b03e": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        54.55604553222656,
+        498.5684509277344,
+        204.38021850585938,
+        514.7732543945312
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "13af443e-8a78-459d-b242-525253dc3e94": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        118.83495330810547,
+        464.2415771484375,
+        299.75299072265625,
+        479.1226501464844
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "73acd906-c239-4f2c-a002-2ddad93f1374": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        119.37510681152344,
+        444.015380859375,
+        394.2807922363281,
+        462.2950439453125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "6e185506-cc5d-430f-9f93-792bf30affd6": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        267.3786315917969,
+        499.2786560058594,
+        381.5097351074219,
+        514.2330932617188
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "61b99948-1f3c-4b22-b8e0-a87a82cc608d": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        46.45366287231445,
+        393.7806091308594,
+        326.0915832519531,
+        409.9820556640625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "c1339fe6-1aa0-444e-893a-1ca00be7b46b": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        53.47572708129883,
+        409.4452819824219,
+        247.93292236328125,
+        425.646728515625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "ca26daea-a056-44fc-b72a-0caa30562ba9": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        60.4977912902832,
+        374.8716125488281,
+        197.15798950195312,
+        393.7772521972656
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "a7bb3ec9-8c11-41ca-9e6d-8282dba1b77e": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        61.0379524230957,
+        354.0970153808594,
+        424.02471923828125,
+        372.7109680175781
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "60f761e0-2b46-4d4a-a7d2-f8b3487afaf4": {
+      "page_num": 0,
+      "type": 7,
+      "rect": [
+        268.9991149902344,
+        410.522216796875,
+        384.429443359375,
+        425.646728515625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "31224400-f5e8-4c7d-919a-fa2884969362": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        22.752700805664062,
+        464.2415771484375,
+        149.19000244140625,
+        484.67987060546875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "de91281d-c57f-48e2-b4b3-ab2ebe1c0950": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        22.752700805664062,
+        573.7097778320312,
+        300.8130187988281,
+        590.7000122070312
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "6845aa8e-ad52-4eda-b3ce-ec1b806420dc": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        23.357738494873047,
+        488.0655212402344,
+        147.93234252929688,
+        505.1181640625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "52e16ea3-f885-454a-b811-15275053b178": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        119.34600067138672,
+        622.7120361328125,
+        184.63600158691406,
+        638.5440063476562
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "c1849c17-825b-43aa-9ab5-2d7bac95c176": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        191.3459930419922,
+        622.7120361328125,
+        256.635986328125,
+        638.5440063476562
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "788e4881-0197-417a-b715-0aba54202ae8": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        262.5172119140625,
+        418.6246337890625,
+        406.199462890625,
+        433.7491455078125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d8472343-bc7d-42d4-8e25-09c4a7cf04e5": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        263.057373046875,
+        508.83148193359375,
+        409.9805908203125,
+        525.0363159179688
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "acf13f7c-8b1d-4bbe-9470-ec530e97a8d8": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        264.3280029296875,
+        622.7120361328125,
+        394.7449951171875,
+        638.5440063476562
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "cb668b91-b96b-49fc-a8fc-12b7617f2acb": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        265.7581787109375,
+        526.6567993164062,
+        327.3362731933594,
+        543.4017944335938
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "472f3f8a-41b9-490a-96ae-f0341edcc871": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        266.2983093261719,
+        438.0704345703125,
+        323.55517578125,
+        453.1949157714844
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "3004c9d3-287f-45d1-92f4-bf84cb821793": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        277.10150146484375,
+        472.6407165527344,
+        411.0609130859375,
+        488.3053894042969
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "c1aad978-8a7d-4bcf-aaab-d9044096de68": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        278.34637451171875,
+        489.9258728027344,
+        411.0609130859375,
+        506.67083740234375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d37e3b93-bdf0-4e1a-b553-d0a1cc102447": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        283.09100341796875,
+        384.2349853515625,
+        407.12701416015625,
+        399.67401123046875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "b3cbc3dd-7761-42c1-8d39-197e356b0748": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        284.1858215332031,
+        401.343994140625,
+        406.5539855957031,
+        416.7829895019531
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "a2d84dab-54b6-47dc-bd54-bcfced2c84b6": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        345.7016906738281,
+        527.1969604492188,
+        409.9805908203125,
+        542.8616333007812
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "126784c9-4d1d-4bd3-9336-953b5b82990c": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        346.2418212890625,
+        437.5302734375,
+        399.1773986816406,
+        452.5625305175781
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "5e9457c5-4dfa-4a03-b215-d3ae6a439b4f": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        440.7696228027344,
+        505.7879638671875,
+        590.3936157226562,
+        525.0363159179688
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "862413ff-a16e-4631-a6e8-cfdf47c7dea1": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        447.2515563964844,
+        526.1166381835938,
+        507.20916748046875,
+        542.8616333007812
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "5411fa29-c97a-4d4c-b92e-e584e85ea6dc": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        461.2956848144531,
+        467.92559814453125,
+        590.9337768554688,
+        487.2250671386719
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "5e262c7f-e86e-44f9-b893-a320d1a78f0f": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        461.3153381347656,
+        487.7652282714844,
+        590.3936157226562,
+        504.51019287109375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "fb5f69d4-318d-4c11-9a79-9d044b367b99": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        526.11474609375,
+        526.6567993164062,
+        589.853515625,
+        543.0750732421875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d08ba569-a585-4a63-932d-ab112624fd2f": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        168.36000061035156,
+        383.1440124511719,
+        183.656005859375,
+        398.4400329589844
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": "Off"
+    },
+    "49e31164-0e58-4d4d-8b31-3d792068a629": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        247.46200561523438,
+        545.8090209960938,
+        262.7590026855469,
+        561.1060180664062
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": "Off"
+    },
+    "72939d49-d7fb-4cbc-b1ab-2a091793f61c": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        344.1600036621094,
+        366.0580139160156,
+        359.45599365234375,
+        381.35400390625
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": "Off"
+    },
+    "3d120941-45b5-4df5-b27a-4340b59e0cfc": {
+      "page_num": 1,
+      "type": 2,
+      "rect": [
+        347.8623046875,
+        458.5965270996094,
+        357.0450134277344,
+        467.77923583984375
+      ],
+      "flags": 0,
+      "is_readonly": false,
+      "current_value": "Off"
+    },
+    "radio-group-2": {
+      "page_num": 1,
+      "type": 5,
+      "rect": [
+        0.0,
+        792.0,
+        0.0,
+        792.0
+      ],
+      "flags": 49152,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "radio-group-1": {
+      "page_num": 1,
+      "type": 5,
+      "rect": [
+        0.0,
+        792.0,
+        0.0,
+        792.0
+      ],
+      "flags": 49152,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "c118702c-2e61-4a9c-8663-d2844144385a": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        24.06170082092285,
+        714.3675537109375,
+        158.63796997070312,
+        737.9454956054688
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "6c71b420-256e-4e3f-8ca6-f98726c60f0e": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        161.5576934814453,
+        714.9910278320312,
+        296.13397216796875,
+        738.5689697265625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "ee2c75ce-6d8d-4f9f-a5da-7cc1cffd9605": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        45.37334442138672,
+        277.64263916015625,
+        183.9421844482422,
+        296.54827880859375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "ce51144d-a9e1-4f88-a478-a03c7a73d255": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        59.95763397216797,
+        259.8173828125,
+        245.2321319580078,
+        277.10247802734375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "79c2f5eb-8826-4f11-b2cc-cd2b90c8a9c5": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        189.59576416015625,
+        293.872314453125,
+        287.7065734863281,
+        314.91375732421875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "825aa1d4-68b6-4617-a55e-d1abe28ea39b": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        200.4872589111328,
+        186.357177734375,
+        577.1307983398438,
+        203.40985107421875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "675020ee-7d36-4f14-899b-5fd7e712a381": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        245.7722930908203,
+        259.2772216796875,
+        312.7519836425781,
+        277.64263916015625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "af856399-9a0d-4bbb-bc17-7eef033a8578": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        252.78500366210938,
+        146.961181640625,
+        578.1640014648438,
+        167.2979736328125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "26173ce0-78b4-4b80-afbb-a4b5e37260d0": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        310.4309997558594,
+        211.635986328125,
+        397.08154296875,
+        227.1400146484375
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "37b9573f-f1a9-46d5-9930-6418751524d5": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        337.59930419921875,
+        279.26312255859375,
+        455.35394287109375,
+        297.08843994140625
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "d7133d49-e0ca-4608-b883-2e2e05ed179f": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        345.0090026855469,
+        568.379638671875,
+        562.5322265625,
+        591.0040283203125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "4c1b837f-3e0d-43c7-bc4b-a2875ebbfc3b": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        398.0547790527344,
+        212.16912841796875,
+        497.3251953125,
+        226.76788330078125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "22df31ec-f6fe-4302-89e3-0268fbb2a84b": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        412.1412048339844,
+        260.897705078125,
+        530.9761962890625,
+        276.56231689453125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "023598d0-803f-429d-a867-c5be1f9dd14e": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        480.20123291015625,
+        297.8153381347656,
+        578.2645874023438,
+        313.29327392578125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "479c3a6b-f274-45ee-b443-78bc1978fc18": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        498.2984313964844,
+        212.16912841796875,
+        577.969970703125,
+        226.76788330078125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "6ef11b41-32c0-4279-9b0a-a61bfdde6e22": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        531.516357421875,
+        260.3575439453125,
+        587.69287109375,
+        276.02215576171875
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "0e3de544-e8fe-45b5-bc8f-35ac06dd0865": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        22.752700805664062,
+        375.3909912109375,
+        149.19000244140625,
+        396.1138610839844
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "fa540d73-691c-48be-abfb-bcfb035a093f": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        23.357738494873047,
+        397.50836181640625,
+        148.90557861328125,
+        415.57891845703125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "4f77984f-7c83-4c66-b819-ef820a1739e5": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        440.7696228027344,
+        418.08447265625,
+        590.3936157226562,
+        433.7491455078125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "35c4c39e-504c-4e20-b0c6-1189a4151b2a": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        447.2515563964844,
+        435.9097900390625,
+        506.1288757324219,
+        452.5625305175781
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "912216ba-c921-45a0-9c06-870bc223e01f": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        461.3153381347656,
+        395.8271179199219,
+        590.9337768554688,
+        415.923828125
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "ada04515-c531-4738-896b-f9cb4688eec3": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        462.3760070800781,
+        378.6527404785156,
+        590.9337768554688,
+        394.8575744628906
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    },
+    "b7ceded4-eb18-477a-8ded-0154202b74db": {
+      "page_num": 1,
+      "type": 7,
+      "rect": [
+        526.11474609375,
+        435.9097900390625,
+        589.853515625,
+        453.1949157714844
+      ],
+      "flags": 4096,
+      "is_readonly": false,
+      "current_value": ""
+    }
+  },
+  "ocr_text_elements": [
+    {
+      "page_num": 0,
+      "text": "secretary of the",
+      "raw_text": "secretary of the",
+      "confidence": 0.9921903610229492,
+      "position": {
+        "x1": 74.0,
+        "y1": 54.0,
+        "x2": 225.0,
+        "y2": 71.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "state of connecticut",
+      "raw_text": "state of connecticut",
+      "confidence": 0.9797403216362,
+      "position": {
+        "x1": 73.0,
+        "y1": 74.0,
+        "x2": 270.0,
+        "y2": 93.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "office use only",
+      "raw_text": "office use only",
+      "confidence": 0.9323959946632385,
+      "position": {
+        "x1": 403.0,
+        "y1": 72.0,
+        "x2": 494.0,
+        "y2": 85.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "b",
+      "raw_text": "b",
+      "confidence": 0.6032431721687317,
+      "position": {
+        "x1": 430.0,
+        "y1": 84.0,
+        "x2": 465.0,
+        "y2": 95.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "phoneds9.webste",
+      "raw_text": "phoneds9.webste",
+      "confidence": 0.6933175921440125,
+      "position": {
+        "x1": 73.0,
+        "y1": 94.0,
+        "x2": 284.0,
+        "y2": 106.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "certificate of organization",
+      "raw_text": "certificate of organization",
+      "confidence": 0.968350350856781,
+      "position": {
+        "x1": 19.0,
+        "y1": 124.0,
+        "x2": 276.0,
+        "y2": 139.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "limited liability company: domestic-usenk.printor type attachs wxiisheetsif mecessary.",
+      "raw_text": "limited liability company: domestic-usenk.printor type attachs wxiisheetsif mecessary.",
+      "confidence": 0.90567547082901,
+      "position": {
+        "x1": 17.0,
+        "y1": 142.0,
+        "x2": 576.0,
+        "y2": 161.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "flngparty(confrnatonwllbeseaitothsaodress",
+      "raw_text": "flngparty(confrnatonwllbeseaitothsaodress",
+      "confidence": 0.775903582572937,
+      "position": {
+        "x1": 20.0,
+        "y1": 161.0,
+        "x2": 310.0,
+        "y2": 171.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "name",
+      "raw_text": "name",
+      "confidence": 0.9841253161430359,
+      "position": {
+        "x1": 22.0,
+        "y1": 180.0,
+        "x2": 50.0,
+        "y2": 190.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "address:",
+      "raw_text": "address:",
+      "confidence": 0.9328572750091553,
+      "position": {
+        "x1": 20.0,
+        "y1": 199.0,
+        "x2": 69.0,
+        "y2": 210.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "filingfee:$120",
+      "raw_text": "filingfee:$120",
+      "confidence": 0.9768828749656677,
+      "position": {
+        "x1": 445.0,
+        "y1": 206.0,
+        "x2": 561.0,
+        "y2": 220.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "city:",
+      "raw_text": "city:",
+      "confidence": 0.9578668475151062,
+      "position": {
+        "x1": 21.0,
+        "y1": 235.0,
+        "x2": 45.0,
+        "y2": 246.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "make checks payable to",
+      "raw_text": "make checks payable to",
+      "confidence": 0.9383041262626648,
+      "position": {
+        "x1": 449.0,
+        "y1": 233.0,
+        "x2": 556.0,
+        "y2": 245.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "state!",
+      "raw_text": "state!",
+      "confidence": 0.9868482947349548,
+      "position": {
+        "x1": 21.0,
+        "y1": 252.0,
+        "x2": 53.0,
+        "y2": 263.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "zip:",
+      "raw_text": "zip:",
+      "confidence": 0.94388347864151,
+      "position": {
+        "x1": 256.0,
+        "y1": 252.0,
+        "x2": 276.0,
+        "y2": 263.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "sacreryotho s",
+      "raw_text": "sacreryotho s",
+      "confidence": 0.7514344453811646,
+      "position": {
+        "x1": 452.0,
+        "y1": 245.0,
+        "x2": 555.0,
+        "y2": 254.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "eaail:",
+      "raw_text": "eaail:",
+      "confidence": 0.7737765908241272,
+      "position": {
+        "x1": 21.0,
+        "y1": 270.0,
+        "x2": 54.0,
+        "y2": 281.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "telephonenumber;",
+      "raw_text": "telephonenumber;",
+      "confidence": 0.9900065064430237,
+      "position": {
+        "x1": 20.0,
+        "y1": 288.0,
+        "x2": 121.0,
+        "y2": 301.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "rincpalfficeaddress-a.p.o.sx",
+      "raw_text": "rincpalfficeaddress-a.p.o.sx",
+      "confidence": 0.796718418598175,
+      "position": {
+        "x1": 21.0,
+        "y1": 342.0,
+        "x2": 423.0,
+        "y2": 353.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "street:",
+      "raw_text": "street:",
+      "confidence": 0.9829776883125305,
+      "position": {
+        "x1": 22.0,
+        "y1": 362.0,
+        "x2": 61.0,
+        "y2": 372.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "state",
+      "raw_text": "state",
+      "confidence": 0.9194635152816772,
+      "position": {
+        "x1": 21.0,
+        "y1": 413.0,
+        "x2": 54.0,
+        "y2": 424.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "3.mangaddressre-pdspo.boxc",
+      "raw_text": "3.mangaddressre-pdspo.boxc",
+      "confidence": 0.8414418697357178,
+      "position": {
+        "x1": 22.0,
+        "y1": 432.0,
+        "x2": 365.0,
+        "y2": 445.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "stretorp.box",
+      "raw_text": "stretorp.box",
+      "confidence": 0.891085684299469,
+      "position": {
+        "x1": 23.0,
+        "y1": 451.0,
+        "x2": 117.0,
+        "y2": 461.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "noje: completeether 4a qrb onthe followingpage not both1",
+      "raw_text": "noje: completeether 4a qrb onthe followingpage not both1",
+      "confidence": 0.8644271492958069,
+      "position": {
+        "x1": 131.0,
+        "y1": 519.0,
+        "x2": 476.0,
+        "y2": 534.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "4.appointmentofregisteredagent reoured):",
+      "raw_text": "4.appointmentofregisteredagent reoured):",
+      "confidence": 0.8741523623466492,
+      "position": {
+        "x1": 22.0,
+        "y1": 538.0,
+        "x2": 291.0,
+        "y2": 550.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "aifagent l an individua.prlntr typo tut logal name",
+      "raw_text": "aifagent l an individua.prlntr typo tut logal name",
+      "confidence": 0.8006468415260315,
+      "position": {
+        "x1": 22.0,
+        "y1": 556.0,
+        "x2": 284.0,
+        "y2": 571.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "slgnatur pccpting appointmont",
+      "raw_text": "slgnatur pccpting appointmont",
+      "confidence": 0.885432779788971,
+      "position": {
+        "x1": 40.0,
+        "y1": 582.0,
+        "x2": 209.0,
+        "y2": 595.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "business address",
+      "raw_text": "business address",
+      "confidence": 0.9558941125869751,
+      "position": {
+        "x1": 23.0,
+        "y1": 604.0,
+        "x2": 126.0,
+        "y2": 614.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "checkboxifnone",
+      "raw_text": "checkboxifnone",
+      "confidence": 0.9832192063331604,
+      "position": {
+        "x1": 179.0,
+        "y1": 604.0,
+        "x2": 307.0,
+        "y2": 614.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "connecticut residence address",
+      "raw_text": "connecticut residence address",
+      "confidence": 0.9666904807090759,
+      "position": {
+        "x1": 307.0,
+        "y1": 601.0,
+        "x2": 495.0,
+        "y2": 615.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "re-p",
+      "raw_text": "re-p",
+      "confidence": 0.6650151610374451,
+      "position": {
+        "x1": 23.0,
+        "y1": 615.0,
+        "x2": 137.0,
+        "y2": 625.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "reqeq-nopo.sx",
+      "raw_text": "reqeq-nopo.sx",
+      "confidence": 0.6587858200073242,
+      "position": {
+        "x1": 308.0,
+        "y1": 614.0,
+        "x2": 425.0,
+        "y2": 626.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "street",
+      "raw_text": "street",
+      "confidence": 0.9888460040092468,
+      "position": {
+        "x1": 308.0,
+        "y1": 632.0,
+        "x2": 348.0,
+        "y2": 643.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "state:",
+      "raw_text": "state:",
+      "confidence": 0.9854786992073059,
+      "position": {
+        "x1": 308.0,
+        "y1": 668.0,
+        "x2": 341.0,
+        "y2": 679.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "ct",
+      "raw_text": "ct",
+      "confidence": 0.9926603436470032,
+      "position": {
+        "x1": 384.0,
+        "y1": 667.0,
+        "x2": 399.0,
+        "y2": 679.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "connecticut mailing address reqnre:",
+      "raw_text": "connecticut mailing address reqnre:",
+      "confidence": 0.8738861680030823,
+      "position": {
+        "x1": 21.0,
+        "y1": 680.0,
+        "x2": 252.0,
+        "y2": 693.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "po.bxsacptab",
+      "raw_text": "po.bxsacptab",
+      "confidence": 0.69717937707901,
+      "position": {
+        "x1": 22.0,
+        "y1": 695.0,
+        "x2": 126.0,
+        "y2": 708.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "streetor po.box",
+      "raw_text": "streetor po.box",
+      "confidence": 0.9137318730354309,
+      "position": {
+        "x1": 21.0,
+        "y1": 711.0,
+        "x2": 117.0,
+        "y2": 725.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "page12",
+      "raw_text": "page12",
+      "confidence": 0.9210858345031738,
+      "position": {
+        "x1": 14.0,
+        "y1": 765.0,
+        "x2": 70.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 0,
+      "text": "re./202",
+      "raw_text": "re./202",
+      "confidence": 0.7653070092201233,
+      "position": {
+        "x1": 542.0,
+        "y1": 765.0,
+        "x2": 594.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "secretary of the.",
+      "raw_text": "secretary of the.",
+      "confidence": 0.9764022827148438,
+      "position": {
+        "x1": 74.0,
+        "y1": 54.0,
+        "x2": 225.0,
+        "y2": 71.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "state of connecticut",
+      "raw_text": "state of connecticut",
+      "confidence": 0.9776579737663269,
+      "position": {
+        "x1": 73.0,
+        "y1": 74.0,
+        "x2": 270.0,
+        "y2": 93.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "officeuse only",
+      "raw_text": "officeuse only",
+      "confidence": 0.9574373960494995,
+      "position": {
+        "x1": 403.0,
+        "y1": 72.0,
+        "x2": 494.0,
+        "y2": 85.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "phoneds9.webste",
+      "raw_text": "phoneds9.webste",
+      "confidence": 0.7445156574249268,
+      "position": {
+        "x1": 73.0,
+        "y1": 94.0,
+        "x2": 284.0,
+        "y2": 106.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "(cabe)",
+      "raw_text": "(cabe)",
+      "confidence": 0.6795323491096497,
+      "position": {
+        "x1": 432.0,
+        "y1": 86.0,
+        "x2": 465.0,
+        "y2": 97.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "emal:dty",
+      "raw_text": "emal:dty",
+      "confidence": 0.7303254008293152,
+      "position": {
+        "x1": 73.0,
+        "y1": 107.0,
+        "x2": 149.0,
+        "y2": 118.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "note; donot complete 4b below ifagentappointed in 4a on the previous page,1",
+      "raw_text": "note; donot complete 4b below ifagentappointed in 4a on the previous page,1",
+      "confidence": 0.871383786201477,
+      "position": {
+        "x1": 95.0,
+        "y1": 127.0,
+        "x2": 512.0,
+        "y2": 140.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "b.if agont ls a busnes,print or lyp",
+      "raw_text": "b.if agont ls a busnes,print or lyp",
+      "confidence": 0.8314346671104431,
+      "position": {
+        "x1": 21.0,
+        "y1": 144.0,
+        "x2": 203.0,
+        "y2": 158.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "name of buslness es ll sppears on our records:",
+      "raw_text": "name of buslness es ll sppears on our records:",
+      "confidence": 0.8517875671386719,
+      "position": {
+        "x1": 39.0,
+        "y1": 157.0,
+        "x2": 251.0,
+        "y2": 169.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "signature acceplng",
+      "raw_text": "signature acceplng",
+      "confidence": 0.8957213163375854,
+      "position": {
+        "x1": 38.0,
+        "y1": 181.0,
+        "x2": 131.0,
+        "y2": 193.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "appointment on behalf of agent",
+      "raw_text": "appointment on behalf of agent",
+      "confidence": 0.9325854182243347,
+      "position": {
+        "x1": 38.0,
+        "y1": 193.0,
+        "x2": 192.0,
+        "y2": 206.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "connecticut businessaddress",
+      "raw_text": "connecticut businessaddress",
+      "confidence": 0.9498670101165771,
+      "position": {
+        "x1": 22.0,
+        "y1": 239.0,
+        "x2": 201.0,
+        "y2": 248.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "connectcutmailingaddress",
+      "raw_text": "connectcutmailingaddress",
+      "confidence": 0.938582718372345,
+      "position": {
+        "x1": 313.0,
+        "y1": 239.0,
+        "x2": 482.0,
+        "y2": 248.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "nop",
+      "raw_text": "nop",
+      "confidence": 0.6753632426261902,
+      "position": {
+        "x1": 23.0,
+        "y1": 250.0,
+        "x2": 136.0,
+        "y2": 260.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "rpo.box",
+      "raw_text": "rpo.box",
+      "confidence": 0.6097155809402466,
+      "position": {
+        "x1": 314.0,
+        "y1": 250.0,
+        "x2": 470.0,
+        "y2": 260.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "street:",
+      "raw_text": "street:",
+      "confidence": 0.9812854528427124,
+      "position": {
+        "x1": 22.0,
+        "y1": 267.0,
+        "x2": 62.0,
+        "y2": 278.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "streeorpo.box",
+      "raw_text": "streeorpo.box",
+      "confidence": 0.9300665259361267,
+      "position": {
+        "x1": 313.0,
+        "y1": 268.0,
+        "x2": 412.0,
+        "y2": 278.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "city",
+      "raw_text": "city",
+      "confidence": 0.9871640205383301,
+      "position": {
+        "x1": 22.0,
+        "y1": 285.0,
+        "x2": 46.0,
+        "y2": 296.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "state:",
+      "raw_text": "state:",
+      "confidence": 0.95530766248703,
+      "position": {
+        "x1": 21.0,
+        "y1": 303.0,
+        "x2": 54.0,
+        "y2": 314.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "ct",
+      "raw_text": "ct",
+      "confidence": 0.9688964486122131,
+      "position": {
+        "x1": 105.0,
+        "y1": 302.0,
+        "x2": 119.0,
+        "y2": 314.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "zp:",
+      "raw_text": "zp:",
+      "confidence": 0.8924393057823181,
+      "position": {
+        "x1": 168.0,
+        "y1": 303.0,
+        "x2": 187.0,
+        "y2": 314.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "zip:",
+      "raw_text": "zip:",
+      "confidence": 0.9658651947975159,
+      "position": {
+        "x1": 458.0,
+        "y1": 302.0,
+        "x2": 477.0,
+        "y2": 314.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "5.manaerormemberinformationrre",
+      "raw_text": "5.manaerormemberinformationrre",
+      "confidence": 0.9239722490310669,
+      "position": {
+        "x1": 23.0,
+        "y1": 322.0,
+        "x2": 285.0,
+        "y2": 332.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "hust sf at tsasi one manager r member of tho lc.afach 8 1/2x 11sheots # nocessary)",
+      "raw_text": "hust sf at tsasi one manager r member of tho lc.afach 8 1/2x 11sheots # nocessary)",
+      "confidence": 0.8105133771896362,
+      "position": {
+        "x1": 21.0,
+        "y1": 334.0,
+        "x2": 402.0,
+        "y2": 347.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "fullnane",
+      "raw_text": "fullnane",
+      "confidence": 0.9896988868713379,
+      "position": {
+        "x1": 60.0,
+        "y1": 349.0,
+        "x2": 112.0,
+        "y2": 359.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "title",
+      "raw_text": "title",
+      "confidence": 0.9654272794723511,
+      "position": {
+        "x1": 179.0,
+        "y1": 350.0,
+        "x2": 208.0,
+        "y2": 359.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "qusinessaddress ndpo.sox",
+      "raw_text": "qusinessaddress ndpo.sox",
+      "confidence": 0.8001889586448669,
+      "position": {
+        "x1": 248.0,
+        "y1": 349.0,
+        "x2": 398.0,
+        "y2": 359.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "residenceaddressnp.b",
+      "raw_text": "residenceaddressnp.b",
+      "confidence": 0.8467774391174316,
+      "position": {
+        "x1": 424.0,
+        "y1": 349.0,
+        "x2": 581.0,
+        "y2": 359.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "chocknone",
+      "raw_text": "chocknone",
+      "confidence": 0.8721488118171692,
+      "position": {
+        "x1": 285.0,
+        "y1": 371.0,
+        "x2": 360.0,
+        "y2": 381.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "member",
+      "raw_text": "member",
+      "confidence": 0.6909596920013428,
+      "position": {
+        "x1": 167.0,
+        "y1": 384.0,
+        "x2": 218.0,
+        "y2": 398.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "adoress:",
+      "raw_text": "adoress:",
+      "confidence": 0.9226943254470825,
+      "position": {
+        "x1": 237.0,
+        "y1": 386.0,
+        "x2": 283.0,
+        "y2": 397.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "address.",
+      "raw_text": "address.",
+      "confidence": 0.9445024728775024,
+      "position": {
+        "x1": 414.0,
+        "y1": 386.0,
+        "x2": 462.0,
+        "y2": 396.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "manage",
+      "raw_text": "manage",
+      "confidence": 0.9106361269950867,
+      "position": {
+        "x1": 168.0,
+        "y1": 417.0,
+        "x2": 223.0,
+        "y2": 434.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "city:",
+      "raw_text": "city:",
+      "confidence": 0.8805381655693054,
+      "position": {
+        "x1": 237.0,
+        "y1": 421.0,
+        "x2": 261.0,
+        "y2": 432.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "state",
+      "raw_text": "state",
+      "confidence": 0.9341551661491394,
+      "position": {
+        "x1": 234.0,
+        "y1": 440.0,
+        "x2": 266.0,
+        "y2": 451.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "zip|",
+      "raw_text": "zip|",
+      "confidence": 0.6927541494369507,
+      "position": {
+        "x1": 506.0,
+        "y1": 440.0,
+        "x2": 525.0,
+        "y2": 452.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "adfess",
+      "raw_text": "adfess",
+      "confidence": 0.727756917476654,
+      "position": {
+        "x1": 238.0,
+        "y1": 477.0,
+        "x2": 277.0,
+        "y2": 487.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "address:",
+      "raw_text": "address:",
+      "confidence": 0.8824487924575806,
+      "position": {
+        "x1": 415.0,
+        "y1": 476.0,
+        "x2": 461.0,
+        "y2": 487.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "manegor",
+      "raw_text": "manegor",
+      "confidence": 0.8788967728614807,
+      "position": {
+        "x1": 168.0,
+        "y1": 508.0,
+        "x2": 223.0,
+        "y2": 526.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "cty:",
+      "raw_text": "cty:",
+      "confidence": 0.744489312171936,
+      "position": {
+        "x1": 237.0,
+        "y1": 511.0,
+        "x2": 261.0,
+        "y2": 523.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "zip",
+      "raw_text": "zip",
+      "confidence": 0.867133617401123,
+      "position": {
+        "x1": 326.0,
+        "y1": 533.0,
+        "x2": 344.0,
+        "y2": 544.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "6.entity e-mailaddress (required:",
+      "raw_text": "6.entity e-mailaddress (required:",
+      "confidence": 0.891781747341156,
+      "position": {
+        "x1": 20.0,
+        "y1": 546.0,
+        "x2": 221.0,
+        "y2": 561.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "none",
+      "raw_text": "none",
+      "confidence": 0.6008560061454773,
+      "position": {
+        "x1": 248.0,
+        "y1": 546.0,
+        "x2": 293.0,
+        "y2": 561.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "7.naics code requred-sxdigs",
+      "raw_text": "7.naics code requred-sxdigs",
+      "confidence": 0.8288962841033936,
+      "position": {
+        "x1": 327.0,
+        "y1": 546.0,
+        "x2": 516.0,
+        "y2": 561.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "chock box none.do not avo benk",
+      "raw_text": "chock box none.do not avo benk",
+      "confidence": 0.851520299911499,
+      "position": {
+        "x1": 34.0,
+        "y1": 560.0,
+        "x2": 208.0,
+        "y2": 572.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "8.xecuton/signature re/re-subjed to penaea cfase stalemsn:",
+      "raw_text": "8.xecuton/signature re/re-subjed to penaea cfase stalemsn:",
+      "confidence": 0.7619107961654663,
+      "position": {
+        "x1": 20.0,
+        "y1": 598.0,
+        "x2": 383.0,
+        "y2": 613.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "date(mmt/y",
+      "raw_text": "date(mmt/y",
+      "confidence": 0.8323637247085571,
+      "position": {
+        "x1": 33.0,
+        "y1": 629.0,
+        "x2": 119.0,
+        "y2": 642.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "naofrganzr/pe",
+      "raw_text": "naofrganzr/pe",
+      "confidence": 0.8564600348472595,
+      "position": {
+        "x1": 85.0,
+        "y1": 658.0,
+        "x2": 238.0,
+        "y2": 673.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "signature",
+      "raw_text": "signature",
+      "confidence": 0.9660651683807373,
+      "position": {
+        "x1": 423.0,
+        "y1": 660.0,
+        "x2": 477.0,
+        "y2": 670.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "the llc cannot beits own organizer)",
+      "raw_text": "the llc cannot beits own organizer)",
+      "confidence": 0.9072225093841553,
+      "position": {
+        "x1": 62.0,
+        "y1": 673.0,
+        "x2": 261.0,
+        "y2": 683.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "page22",
+      "raw_text": "page22",
+      "confidence": 0.8681624531745911,
+      "position": {
+        "x1": 14.0,
+        "y1": 766.0,
+        "x2": 70.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 1,
+      "text": "rev./2021",
+      "raw_text": "rev./2021",
+      "confidence": 0.8217321038246155,
+      "position": {
+        "x1": 542.0,
+        "y1": 765.0,
+        "x2": 595.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "certificate of organization",
+      "raw_text": "certificate of organization",
+      "confidence": 0.9658927917480469,
+      "position": {
+        "x1": 220.0,
+        "y1": 27.0,
+        "x2": 416.0,
+        "y2": 40.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "hmiedlariltycompanydouestic",
+      "raw_text": "hmiedlariltycompanydouestic",
+      "confidence": 0.8292459845542908,
+      "position": {
+        "x1": 198.0,
+        "y1": 42.0,
+        "x2": 436.0,
+        "y2": 51.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "nstrucnqn (asegured seclons must e completed:",
+      "raw_text": "nstrucnqn (asegured seclons must e completed:",
+      "confidence": 0.7534646987915039,
+      "position": {
+        "x1": 29.0,
+        "y1": 62.0,
+        "x2": 297.0,
+        "y2": 75.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "nolo:this form can ba led ontlna at wwwbnesct.ay.",
+      "raw_text": "nolo:this form can ba led ontlna at wwwbnesct.ay.",
+      "confidence": 0.8155180215835571,
+      "position": {
+        "x1": 27.0,
+        "y1": 81.0,
+        "x2": 314.0,
+        "y2": 95.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "1, name of l1mited liaaity ccmpany; tha nama ctst ctn a buslnoss dosignation, such as",
+      "raw_text": "1, name of l1mited liaaity ccmpany; tha nama ctst ctn a buslnoss dosignation, such as",
+      "confidence": 0.7890469431877136,
+      "position": {
+        "x1": 29.0,
+        "y1": 102.0,
+        "x2": 492.0,
+        "y2": 115.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "prolesslonal llcs mus contein p,ll,c.pllc, or profassional llmited ltability company. limited may",
+      "raw_text": "prolesslonal llcs mus contein p,ll,c.pllc, or profassional llmited ltability company. limited may",
+      "confidence": 0.8514105677604675,
+      "position": {
+        "x1": 38.0,
+        "y1": 126.0,
+        "x2": 500.0,
+        "y2": 139.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "be abbrevlated ltd and company mnay be abbreylated co and the name must be distlngulshable from",
+      "raw_text": "be abbrevlated ltd and company mnay be abbreylated co and the name must be distlngulshable from",
+      "confidence": 0.9218218326568604,
+      "position": {
+        "x1": 38.0,
+        "y1": 139.0,
+        "x2": 505.0,
+        "y2": 151.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "all othor activa bualness names on rocord wlth thi atfico,",
+      "raw_text": "all othor activa bualness names on rocord wlth thi atfico,",
+      "confidence": 0.937488317489624,
+      "position": {
+        "x1": 38.0,
+        "y1": 150.0,
+        "x2": 297.0,
+        "y2": 163.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "2.prncpal offceincde ctrtnymbrstrelnamecity.and zip cod",
+      "raw_text": "2.prncpal offceincde ctrtnymbrstrelnamecity.and zip cod",
+      "confidence": 0.7131709456443787,
+      "position": {
+        "x1": 28.0,
+        "y1": 170.0,
+        "x2": 470.0,
+        "y2": 183.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "4.appointment of registered agentthe medabty companmay nof be s own agen",
+      "raw_text": "4.appointment of registered agentthe medabty companmay nof be s own agen",
+      "confidence": 0.7861459255218506,
+      "position": {
+        "x1": 28.0,
+        "y1": 210.0,
+        "x2": 494.0,
+        "y2": 222.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "an indlvidual or businoss ontity (olher than thls llc) musl ba appointed ta accopt logal procass, nolica,",
+      "raw_text": "an indlvidual or businoss ontity (olher than thls llc) musl ba appointed ta accopt logal procass, nolica,",
+      "confidence": 0.9303589463233948,
+      "position": {
+        "x1": 37.0,
+        "y1": 222.0,
+        "x2": 499.0,
+        "y2": 236.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "a. any indlvldual who is a reskdenl oi connecticul, including a member or manager of the tlc.",
+      "raw_text": "a. any indlvldual who is a reskdenl oi connecticul, including a member or manager of the tlc.",
+      "confidence": 0.9245559573173523,
+      "position": {
+        "x1": 38.0,
+        "y1": 254.0,
+        "x2": 460.0,
+        "y2": 267.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "an indlvidusl must provida hls/her complote businoss address (or state \"nona),",
+      "raw_text": "an indlvidusl must provida hls/her complote businoss address (or state \"nona),",
+      "confidence": 0.8900855183601379,
+      "position": {
+        "x1": 50.0,
+        "y1": 269.0,
+        "x2": 413.0,
+        "y2": 283.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "conneclcut residence address and connectlct mangaddress",
+      "raw_text": "conneclcut residence address and connectlct mangaddress",
+      "confidence": 0.9018064141273499,
+      "position": {
+        "x1": 59.0,
+        "y1": 284.0,
+        "x2": 348.0,
+        "y2": 294.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "the agenl must slgn accepting the appointment.",
+      "raw_text": "the agenl must slgn accepting the appointment.",
+      "confidence": 0.9549576044082642,
+      "position": {
+        "x1": 52.0,
+        "y1": 299.0,
+        "x2": 276.0,
+        "y2": 312.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "of",
+      "raw_text": "of",
+      "confidence": 0.5333057045936584,
+      "position": {
+        "x1": 54.0,
+        "y1": 321.0,
+        "x2": 64.0,
+        "y2": 329.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": ",ne f the flkowing busines lypsalready on record with ihis fficewh a cornectict edtres",
+      "raw_text": ",ne f the flkowing busines lypsalready on record with ihis fficewh a cornectict edtres",
+      "confidence": 0.8035678267478943,
+      "position": {
+        "x1": 28.0,
+        "y1": 339.0,
+        "x2": 481.0,
+        "y2": 351.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "a coanectcut corporation, lmited gabillty company, emited abity parinership, or slatutory tnust",
+      "raw_text": "a coanectcut corporation, lmited gabillty company, emited abity parinership, or slatutory tnust",
+      "confidence": 0.8518531322479248,
+      "position": {
+        "x1": 52.0,
+        "y1": 354.0,
+        "x2": 490.0,
+        "y2": 367.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "tho lmed abty conpany may not be s own agen",
+      "raw_text": "tho lmed abty conpany may not be s own agen",
+      "confidence": 0.8466448187828064,
+      "position": {
+        "x1": 52.0,
+        "y1": 370.0,
+        "x2": 313.0,
+        "y2": 383.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "which has obtained a certiflcale of authority to transacl buslness in connecticut and has",
+      "raw_text": "which has obtained a certiflcale of authority to transacl buslness in connecticut and has",
+      "confidence": 0.9424425363540649,
+      "position": {
+        "x1": 56.0,
+        "y1": 398.0,
+        "x2": 457.0,
+        "y2": 411.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "acnncticut drssn re wih thi ce,",
+      "raw_text": "acnncticut drssn re wih thi ce,",
+      "confidence": 0.7260659337043762,
+      "position": {
+        "x1": 58.0,
+        "y1": 412.0,
+        "x2": 259.0,
+        "y2": 422.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "provide the coanecscut principal office address al auslness address\" and the connectlcurt",
+      "raw_text": "provide the coanecscut principal office address al auslness address\" and the connectlcurt",
+      "confidence": 0.922383725643158,
+      "position": {
+        "x1": 52.0,
+        "y1": 426.0,
+        "x2": 468.0,
+        "y2": 439.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "mailing sddross at \"malting address\"the agant must sign accepting tho appointment, and ths",
+      "raw_text": "mailing sddross at \"malting address\"the agant must sign accepting tho appointment, and ths",
+      "confidence": 0.8949972987174988,
+      "position": {
+        "x1": 56.0,
+        "y1": 438.0,
+        "x2": 482.0,
+        "y2": 450.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "person signing on behalf of a buslness musl print hls/her name and title nexl to this/her signature.",
+      "raw_text": "person signing on behalf of a buslness musl print hls/her name and title nexl to this/her signature.",
+      "confidence": 0.9431416392326355,
+      "position": {
+        "x1": 57.0,
+        "y1": 450.0,
+        "x2": 490.0,
+        "y2": 463.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "the agenl must sign accepting the appointment.",
+      "raw_text": "the agenl must sign accepting the appointment.",
+      "confidence": 0.9618440270423889,
+      "position": {
+        "x1": 52.0,
+        "y1": 466.0,
+        "x2": 277.0,
+        "y2": 479.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "5.meheer or manager tnformation: tho limited llability company mus lst tha namo, tte, buslnos",
+      "raw_text": "5.meheer or manager tnformation: tho limited llability company mus lst tha namo, tte, buslnos",
+      "confidence": 0.7928468585014343,
+      "position": {
+        "x1": 27.0,
+        "y1": 484.0,
+        "x2": 523.0,
+        "y2": 499.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "address, and resldence address of at least one member or manager of the linited liahity compary (if no",
+      "raw_text": "address, and resldence address of at least one member or manager of the linited liahity compary (if no",
+      "confidence": 0.953057587146759,
+      "position": {
+        "x1": 38.0,
+        "y1": 498.0,
+        "x2": 514.0,
+        "y2": 511.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "busineas address, mu stato *nona) |nctude stoal numbar, stral namo,clty, elata, and zlp codo, and",
+      "raw_text": "busineas address, mu stato *nona) |nctude stoal numbar, stral namo,clty, elata, and zlp codo, and",
+      "confidence": 0.7927034497261047,
+      "position": {
+        "x1": 38.0,
+        "y1": 510.0,
+        "x2": 500.0,
+        "y2": 523.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "on an attachod 81/ x 11 hoat.)",
+      "raw_text": "on an attachod 81/ x 11 hoat.)",
+      "confidence": 0.8256884217262268,
+      "position": {
+        "x1": 38.0,
+        "y1": 535.0,
+        "x2": 188.0,
+        "y2": 547.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "concord buslness inqulry page. additlonal names w be avalable by requesting coples ci the original flling.",
+      "raw_text": "concord buslness inqulry page. additlonal names w be avalable by requesting coples ci the original flling.",
+      "confidence": 0.9531736373901367,
+      "position": {
+        "x1": 39.0,
+        "y1": 567.0,
+        "x2": 520.0,
+        "y2": 580.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "6.emall address: i none, must check box none.\"the secretary of tho state will notlfy entlles vla ema",
+      "raw_text": "6.emall address: i none, must check box none.\"the secretary of tho state will notlfy entlles vla ema",
+      "confidence": 0.8659188747406006,
+      "position": {
+        "x1": 27.0,
+        "y1": 585.0,
+        "x2": 513.0,
+        "y2": 599.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "wheniheir anral repors ats due.",
+      "raw_text": "wheniheir anral repors ats due.",
+      "confidence": 0.7889472842216492,
+      "position": {
+        "x1": 39.0,
+        "y1": 600.0,
+        "x2": 199.0,
+        "y2": 610.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "7. naics c0de: (go to w/ww.census.gov/nalcs)1-be8-756-2427. (business/ ocoupation / profession.code)",
+      "raw_text": "7. naics c0de: (go to w/ww.census.gov/nalcs)1-be8-756-2427. (business/ ocoupation / profession.code)",
+      "confidence": 0.8780800104141235,
+      "position": {
+        "x1": 27.0,
+        "y1": 617.0,
+        "x2": 506.0,
+        "y2": 632.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "8.execution/signature:the organzer (person forming the llc must print or type his/her fu name",
+      "raw_text": "8.execution/signature:the organzer (person forming the llc must print or type his/her fu name",
+      "confidence": 0.8489620089530945,
+      "position": {
+        "x1": 27.0,
+        "y1": 637.0,
+        "x2": 508.0,
+        "y2": 651.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "and provida a ignabure.nol that execlinignatur s made ndr ho penatties t fs etatement",
+      "raw_text": "and provida a ignabure.nol that execlinignatur s made ndr ho penatties t fs etatement",
+      "confidence": 0.777380108833313,
+      "position": {
+        "x1": 38.0,
+        "y1": 650.0,
+        "x2": 509.0,
+        "y2": 662.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "yn",
+      "raw_text": "yn",
+      "confidence": 0.5241258144378662,
+      "position": {
+        "x1": 38.0,
+        "y1": 675.0,
+        "x2": 520.0,
+        "y2": 688.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "llcmey be the arganizer,",
+      "raw_text": "llcmey be the arganizer,",
+      "confidence": 0.8251217007637024,
+      "position": {
+        "x1": 39.0,
+        "y1": 699.0,
+        "x2": 159.0,
+        "y2": 712.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "instructions",
+      "raw_text": "instructions",
+      "confidence": 0.982997477054596,
+      "position": {
+        "x1": 16.0,
+        "y1": 765.0,
+        "x2": 94.0,
+        "y2": 777.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "donotscan",
+      "raw_text": "donotscan",
+      "confidence": 0.9376338124275208,
+      "position": {
+        "x1": 273.0,
+        "y1": 765.0,
+        "x2": 338.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 2,
+      "text": "re.32021",
+      "raw_text": "re.32021",
+      "confidence": 0.8303561210632324,
+      "position": {
+        "x1": 542.0,
+        "y1": 765.0,
+        "x2": 596.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "contact yo tax advlsor or the laxpayer servlce center at the departmenl of revenue services as la any",
+      "raw_text": "contact yo tax advlsor or the laxpayer servlce center at the departmenl of revenue services as la any",
+      "confidence": 0.8864670395851135,
+      "position": {
+        "x1": 27.0,
+        "y1": 61.0,
+        "x2": 498.0,
+        "y2": 75.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "pona yrainpyrbestepyerseviecenterb60259r",
+      "raw_text": "pona yrainpyrbestepyerseviecenterb60259r",
+      "confidence": 0.7251628637313843,
+      "position": {
+        "x1": 29.0,
+        "y1": 77.0,
+        "x2": 502.0,
+        "y2": 87.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "you are required to file a certificate of dissolution if you dissolve your business.",
+      "raw_text": "you are required to file a certificate of dissolution if you dissolve your business.",
+      "confidence": 0.8998506665229797,
+      "position": {
+        "x1": 59.0,
+        "y1": 134.0,
+        "x2": 554.0,
+        "y2": 146.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "officeofthesecretaryofthestate",
+      "raw_text": "officeofthesecretaryofthestate",
+      "confidence": 0.9508578181266785,
+      "position": {
+        "x1": 29.0,
+        "y1": 196.0,
+        "x2": 244.0,
+        "y2": 206.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "mailing address:",
+      "raw_text": "mailing address:",
+      "confidence": 0.9003472328186035,
+      "position": {
+        "x1": 29.0,
+        "y1": 218.0,
+        "x2": 127.0,
+        "y2": 230.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "business services diwision",
+      "raw_text": "business services diwision",
+      "confidence": 0.9143668413162231,
+      "position": {
+        "x1": 30.0,
+        "y1": 231.0,
+        "x2": 181.0,
+        "y2": 241.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "connecticutsecretaryof the$tate",
+      "raw_text": "connecticutsecretaryof the$tate",
+      "confidence": 0.9526211023330688,
+      "position": {
+        "x1": 28.0,
+        "y1": 242.0,
+        "x2": 239.0,
+        "y2": 255.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "po.b0x150470",
+      "raw_text": "po.b0x150470",
+      "confidence": 0.8558468818664551,
+      "position": {
+        "x1": 29.0,
+        "y1": 255.0,
+        "x2": 110.0,
+        "y2": 265.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "hartfrdct06115-047",
+      "raw_text": "hartfrdct06115-047",
+      "confidence": 0.8485237956047058,
+      "position": {
+        "x1": 29.0,
+        "y1": 268.0,
+        "x2": 159.0,
+        "y2": 278.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "deliveryaddress",
+      "raw_text": "deliveryaddress",
+      "confidence": 0.9371657967567444,
+      "position": {
+        "x1": 29.0,
+        "y1": 291.0,
+        "x2": 133.0,
+        "y2": 301.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "businessservices division",
+      "raw_text": "businessservices division",
+      "confidence": 0.9267436265945435,
+      "position": {
+        "x1": 29.0,
+        "y1": 303.0,
+        "x2": 181.0,
+        "y2": 313.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "connecticutsecretaryofthe$tate",
+      "raw_text": "connecticutsecretaryofthe$tate",
+      "confidence": 0.9827093482017517,
+      "position": {
+        "x1": 29.0,
+        "y1": 315.0,
+        "x2": 239.0,
+        "y2": 328.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "185 capitolavenue,suite1000",
+      "raw_text": "185 capitolavenue,suite1000",
+      "confidence": 0.9381919503211975,
+      "position": {
+        "x1": 28.0,
+        "y1": 325.0,
+        "x2": 196.0,
+        "y2": 339.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "hartfordct06106",
+      "raw_text": "hartfordct06106",
+      "confidence": 0.8378692865371704,
+      "position": {
+        "x1": 28.0,
+        "y1": 339.0,
+        "x2": 136.0,
+        "y2": 351.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "phone:60-5095003",
+      "raw_text": "phone:60-5095003",
+      "confidence": 0.8217167854309082,
+      "position": {
+        "x1": 28.0,
+        "y1": 362.0,
+        "x2": 135.0,
+        "y2": 375.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "instructions",
+      "raw_text": "instructions",
+      "confidence": 0.9917468428611755,
+      "position": {
+        "x1": 16.0,
+        "y1": 766.0,
+        "x2": 93.0,
+        "y2": 776.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "donotscan",
+      "raw_text": "donotscan",
+      "confidence": 0.9567244052886963,
+      "position": {
+        "x1": 272.0,
+        "y1": 765.0,
+        "x2": 337.0,
+        "y2": 775.0
+      }
+    },
+    {
+      "page_num": 3,
+      "text": "rev.32021",
+      "raw_text": "rev.32021",
+      "confidence": 0.7900659441947937,
+      "position": {
+        "x1": 542.0,
+        "y1": 765.0,
+        "x2": 595.0,
+        "y2": 776.0
+      }
+    }
+  ]
+}

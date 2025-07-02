@@ -1,0 +1,9 @@
+2025-03-04 09:57:03,326 - FormFiller - INFO - AI agent initialized successfully
+2025-03-04 09:57:03,327 - FormFiller - INFO - Initializing OCR reader...
+2025-03-04 09:57:03,331 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-03-04 09:57:17,904 - FormFiller - INFO - OCR reader initialized successfully
+2025-03-04 09:57:17,907 - FormFiller - INFO - Starting field matching and filling process for: D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 09:57:17,937 - FormFiller - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 09:57:18,054 - FormFiller - INFO - Processing OCR for page 1/4...
+2025-03-04 09:57:53,313 - FormFiller - INFO - Extracted 15 text elements from page 1
+2025-03-04 09:57:53,313 - FormFiller - INFO - Processing OCR for page 2/4...

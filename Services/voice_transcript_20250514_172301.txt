@@ -1,0 +1,41 @@
+Voice Assistant Transcript - Session 20250514_172301
+
+[2025-05-14 17:23:02] Assistant: Assistant initialized successfully
+[2025-05-14 17:23:19] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 17:23:25] Assistant: First, please provide the job description.
+[2025-05-14 17:23:50] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-14 17:24:11] Assistant: I ve prepared 9 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-14 17:24:22] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-14 17:24:29] Assistant: There will be 9 questions in total.
+[2025-05-14 17:24:32] Assistant:  Question 1 of 9:
+[2025-05-14 17:24:34] Assistant: Describe a time you had to adapt to a significant and unexpected change at work or in your studies. How did you handle it?
+[2025-05-14 17:24:43] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:29:02] Assistant: That was an excellent answer!
+[2025-05-14 17:29:05] Assistant:  Question 2 of 9:
+[2025-05-14 17:29:07] Assistant: Describe a situation where you had to solve a problem with limited resources (time, budget, personnel). What was your approach?
+[2025-05-14 17:29:18] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:31:28] Assistant: That was an excellent answer!
+[2025-05-14 17:31:31] Assistant:  Question 3 of 9:
+[2025-05-14 17:31:33] Assistant: This role requires juggling many tasks. Describe a time you successfully managed competing priorities. How did you prioritize?
+[2025-05-14 17:31:43] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:41:46] Assistant: That was an excellent answer!
+[2025-05-14 17:41:49] Assistant:  Question 4 of 9:
+[2025-05-14 17:41:53] Assistant: What aspects of a startup environment appeal to you most? What challenges might you find difficult?
+[2025-05-14 17:42:00] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:44:03] Assistant: That was an excellent answer!
+[2025-05-14 17:44:06] Assistant:  Question 5 of 9:
+[2025-05-14 17:44:08] Assistant: Why are you interested in this specific role at Company Name ? What about our mission resonates with you?
+[2025-05-14 17:44:16] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:44:37] Assistant: I didn t get a response. Let s move on.
+[2025-05-14 17:44:42] Assistant: Let s move on to the next question.
+[2025-05-14 17:44:45] Assistant:  Question 6 of 9:
+[2025-05-14 17:44:47] Assistant: Describe a time you took a calculated risk. What was the outcome?
+[2025-05-14 17:44:53] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:45:09] Assistant: Thank you for your answer.
+[2025-05-14 17:45:12] Assistant:  Question 7 of 9:
+[2025-05-14 17:45:14] Assistant: Have you worked in a startup environment before? If so, what were your key takeaways from that experience?
+[2025-05-14 17:45:23] Assistant: Please provide your answer. You can speak or type your response.
+[2025-05-14 17:46:00] Assistant: Good answer. You covered the main points.
+[2025-05-14 17:46:04] Assistant:  Question 8 of 9:
+[2025-05-14 17:46:06] Assistant: Describe a situation where you had to handle sensitive information. How did you ensure confidentiality?
+[2025-05-14 17:46:16] Assistant: Please provide your answer. You can speak or type your response.

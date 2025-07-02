@@ -1,0 +1,5 @@
+2025-04-15 13:36:52,888 - INFO - Imported existing <module 'comtypes.gen' from 'D:\\demo\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-15 13:36:52,889 - INFO - Using writeable comtypes cache directory: 'D:\demo\venv\Lib\site-packages\comtypes\gen'
+2025-04-15 13:37:05,152 - INFO - Assistant initialized in text mode
+2025-04-15 13:43:29,469 - INFO - Browser resources cleaned up successfully
+2025-04-15 13:43:29,470 - ERROR - Cleanup error: Event loop is closed! Is Playwright already stopped?

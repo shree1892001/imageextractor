@@ -1,0 +1,71 @@
+Assistant Transcript - Session 20250403_181756
+
+Session started at: 2025-04-03 18:18:48
+
+=== JOB SCREENING DETAILS ===
+Job Description:
+[Job Title]
+
+[Company Name]
+
+[Location]
+
+About [Company Name]:
+
+[Briefly describe your company – what you do, your mission, and your culture. Make it engaging and give candidates a reason to be excited about joining.]
+
+About the Role:
+
+We're on the lookout for a talented and enthusiastic [Job Title] to join our vibrant team. In this role, you'll be instrumental in [mention 2-3 key responsibilities or the overall impact of the role]. You'll have the opportunity to [mention exciting aspects like learning new skills, working on interesting projects, or contributing to a significant goal]. If you're passionate about [mention relevant industry or area] and thrive in a [describe the work environment, e.g., collaborative, fast-paced] setting, we'd love to hear from you!
+
+Responsibilities:
+
+[Clearly list 5-8 key responsibilities using action verbs. Be specific about what the person will do.]
+[Example: Develop and execute marketing campaigns across various channels.]
+[Example: Provide exceptional customer support via email and phone.]
+[Example: Collaborate with cross-functional teams to deliver projects on time and within budget.]
+[Example: Analyze data and provide insights to improve performance.]
+[Example: Stay up-to-date with industry trends and best practices.]
+Qualifications:
+
+[List essential skills, experience, and education required for the role.]
+[Example: Bachelor's degree in Marketing or a related field.]
+[Example: 2+ years of experience in [relevant area].]
+[Example: Proven ability to [key skill, e.g., manage social media accounts effectively].]
+[Example: Strong communication and interpersonal skills.]
+Bonus Points (Optional):
+
+[List any desirable but not essential skills or experience.]
+[Example: Experience with [specific software or tool].]
+[Example: Familiarity with [relevant industry].]
+[Example: Portfolio showcasing relevant work.]
+Benefits:
+
+[Briefly mention key benefits your company offers. This could include health insurance, paid time off, professional development opportunities, etc.]
+
+To Apply:
+
+Interested candidates are encouraged to apply by submitting their resume and a cover letter highlighting their relevant experience to [email protected] or through our online application portal at [link to application].   
+
+[Equal Opportunity Employer Statement (Highly Recommended)]
+
+[Your company name] is an equal opportunity employer and values diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.   
+
+Remember to replace the bracketed information with details specific to the job you're hiring for! Good luck!
+
+Generated Questions:
+
+=== INTERVIEW RESPONSES ===
+
+=== FINAL FEEDBACk ===
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-03 18:17:58] Assistant: Assistant initialized successfully
+[2025-04-03 18:18:06] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 18:18:12] Assistant: First, please provide the job description.
+[2025-04-03 18:18:24] Assistant: Generating startup-specific screening questions...
+[2025-04-03 18:18:35] Assistant: I ve prepared 0 startup-specific questions. Let s begin the interview.
+[2025-04-03 18:18:42] Assistant: Let s begin the interview. I ll ask you questions based on the job description.

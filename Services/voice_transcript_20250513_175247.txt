@@ -1,0 +1,22 @@
+Voice Assistant Transcript - Session 20250513_175247
+
+[2025-05-13 17:52:48] Assistant: Assistant initialized successfully
+[2025-05-13 17:52:55] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-13 17:53:00] Assistant: First, please provide the job description.
+[2025-05-13 17:54:12] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-13 17:54:30] Assistant: I ve prepared 9 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-13 17:54:38] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-13 17:54:44] Assistant: There will be 9 questions in total.
+[2025-05-13 17:54:47] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-05-13 17:54:58] Assistant: Question 1 of 9:
+[2025-05-13 17:55:00] Assistant: This is a Adaptability Handling Ambiguity question: Describe a time you had to adapt to a significant, unexpected change in a project or work environment. How did you handle it?
+[2025-05-13 17:55:12] Assistant: Please speak your answer now.
+[2025-05-13 17:55:22] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-05-13 17:55:49] Assistant: Thank you. I ve rated that response as 1 out of 5 based on how well it matched the key concepts we were looking for.
+[2025-05-13 17:55:49] Assistant: You did well addressing: None...
+[2025-05-13 17:55:49] Assistant: Consider including: Everything. The candidate response provides no information about a situation, the nature of the chan...
+[2025-05-13 17:55:49] Assistant: Question 2 of 9:
+[2025-05-13 17:55:49] Assistant: This is a Problem-Solving Resource Constraints question: Describe a situation where you had to solve a complex technical problem with limited resources (e.g., time, budget, personnel). What was your approach?
+[2025-05-13 17:55:49] Assistant: Please speak your answer now.
+[2025-05-13 17:56:10] Assistant: I didn t get a response. Please try again.
+[2025-05-13 17:56:10] Assistant: Please speak your answer now.

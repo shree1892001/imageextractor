@@ -1,0 +1,43 @@
+2025-03-04 12:48:30,275 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 12:48:30,276 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:48:30,282 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:48:38,328 - TessoFill - INFO - Extracting form field information from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:48:38,332 - TessoFill - ERROR - Failed to extract form fields: 'Widget' object has no attribute 'is_read_only'
+2025-03-04 12:48:38,335 - TessoFill - INFO - Matching JSON fields to OCR text
+2025-03-04 12:48:50,577 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:48:50,592 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:48:50,592 - TessoFill - INFO - Successfully parsed 21 field matches and 0 OCR matches
+2025-03-04 12:48:50,592 - TessoFill - INFO - Enhancing matches with pattern matching
+2025-03-04 12:48:50,866 - TessoFill - INFO - Identified 21 field matches
+2025-03-04 12:48:50,866 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'county' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'orderTypeID.orderShortName' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'orderTypeID.orderFullDesc' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'contactDetails.firstName' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'contactDetails.lastName' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'contactDetails.displayName' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'contactDetails.emailId' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'contactDetails.mobileNo' not found in PDF
+2025-03-04 12:48:50,888 - TessoFill - WARNING - Field 'orderDetails.orderTitle' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.orderId' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.orderAmount' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.orderDate' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.tentativeFulfillmentDate' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.entityShortName' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.stateShortName' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name' not found in PDF
+2025-03-04 12:48:50,889 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1' not found in PDF
+2025-03-04 12:48:50,890 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name' not found in PDF
+2025-03-04 12:48:50,890 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.legalName' not found in PDF
+2025-03-04 12:48:50,890 - TessoFill - WARNING - Field 'companyId.companyName' not found in PDF
+2025-03-04 12:48:50,890 - TessoFill - WARNING - Field 'statusId.statusName' not found in PDF
+2025-03-04 12:48:50,890 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 12:48:50,923 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 12:48:50,923 - TessoFill - INFO - Identifying OCR field locations
+2025-03-04 12:49:07,306 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:49:07,310 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:49:07,311 - TessoFill - INFO - Successfully parsed 0 field matches and 16 OCR matches
+2025-03-04 12:49:07,311 - TessoFill - INFO - Identified 16 OCR fields to fill
+2025-03-04 12:49:07,311 - TessoFill - INFO - Filling OCR fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:49:07,328 - TessoFill - INFO - Adding text 'raymond llc' at position (485.0, 92.0) on page 1
+2025-03-04 12:49:07,328 - TessoFill - ERROR - Error filling OCR fields: 'dict' object has no attribute '_validate'

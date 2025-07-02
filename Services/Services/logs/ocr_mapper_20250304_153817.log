@@ -1,0 +1,35 @@
+2025-03-04 15:38:18,363 - OCRMapper - INFO - OCRJSONMapper initialized successfully
+2025-03-04 15:38:18,366 - OCRMapper - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 15:38:18,396 - OCRMapper - INFO - Processing OCR for page 1/4
+2025-03-04 15:38:22,162 - OCRMapper - INFO - Processing OCR for page 2/4
+2025-03-04 15:38:23,996 - OCRMapper - INFO - Processing OCR for page 3/4
+2025-03-04 15:38:29,370 - OCRMapper - INFO - Processing OCR for page 4/4
+2025-03-04 15:38:36,143 - OCRMapper - INFO - Extracted 773 text elements using OCR
+2025-03-04 15:38:36,144 - OCRMapper - INFO - Identifying potential form fields from OCR elements
+2025-03-04 15:38:36,280 - OCRMapper - INFO - Identified 740 potential form fields
+2025-03-04 15:38:36,281 - OCRMapper - INFO - Matching JSON fields to OCR elements
+2025-03-04 15:38:36,345 - OCRMapper - INFO - AI matching attempt 1/3
+2025-03-04 15:39:09,679 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 15:39:09,701 - OCRMapper - INFO - Parsing AI response
+2025-03-04 15:39:09,703 - OCRMapper - INFO - Successfully parsed 15 field matches
+2025-03-04 15:39:09,703 - OCRMapper - INFO - Successfully matched 15 fields
+2025-03-04 15:39:09,703 - OCRMapper - INFO - Filling PDF with text annotations: D:\demo\Services\filledform19.pdf
+2025-03-04 15:39:09,708 - OCRMapper - INFO - Created copy of original PDF for filling
+2025-03-04 15:39:09,827 - OCRMapper - INFO - Adding text 'raymond llc' near 'Limited Company Name' on page 1
+2025-03-04 15:39:09,849 - OCRMapper - INFO - Adding text '9043022025' near 'Entity Number' on page 1
+2025-03-04 15:39:09,850 - OCRMapper - INFO - Adding text 'Corporate Creations Network Inc.' near 'Registered Agent Name' on page 1
+2025-03-04 15:39:09,851 - OCRMapper - INFO - Adding text '301 S. Bedford ST., Ste. 1' near 'Agent Street Address' on page 1
+2025-03-04 15:39:09,852 - OCRMapper - INFO - Adding text 'Madison' near 'City no abbreviations_3' on page 1
+2025-03-04 15:39:09,852 - OCRMapper - INFO - Adding text '53703' near 'Zip Code_3' on page 1
+2025-03-04 15:39:09,853 - OCRMapper - INFO - Adding text 'WI' near 'Agent State' on page 1
+2025-03-04 15:39:09,854 - OCRMapper - INFO - Adding text 'agentservice@vstatefilings.com' near 'Agent Email' on page 1
+2025-03-04 15:39:09,856 - OCRMapper - INFO - Adding text '(718) 569-2703' near 'Agent Phone' on page 1
+2025-03-04 15:39:09,857 - OCRMapper - INFO - Adding text '100 Mbc Dr' near 'Initial Street Address of Principal Office' on page 1
+2025-03-04 15:39:09,858 - OCRMapper - INFO - Adding text 'Racine' near 'City no abbreviations_2' on page 1
+2025-03-04 15:39:09,859 - OCRMapper - INFO - Adding text '53402' near 'Zip Code_2' on page 1
+2025-03-04 15:39:09,860 - OCRMapper - INFO - Adding text 'WI' near 'State_2' on page 1
+2025-03-04 15:39:09,861 - OCRMapper - INFO - Adding text 'Shreyas' near 'Organizer Name' on page 1
+2025-03-04 15:39:09,862 - OCRMapper - INFO - Adding text 'Deodhare' near 'Organizer Name' on page 1
+2025-03-04 15:39:09,863 - OCRMapper - ERROR - Error saving PDF with annotations: save to original must be incremental
+2025-03-04 15:39:09,942 - OCRMapper - INFO - Saved annotations using alternative method
+2025-03-04 15:39:09,943 - OCRMapper - INFO - Successfully filled PDF: D:\demo\Services\filledform19.pdf

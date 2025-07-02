@@ -1,0 +1,8 @@
+2025-03-04 20:48:46,134 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 20:48:46,136 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 20:48:46,147 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 20:48:46,148 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 20:48:46,234 - TessoFill - INFO - Extracted 30 fields across 4 pages
+2025-03-04 20:48:46,237 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 20:48:46,238 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 20:48:46,239 - TessoFill - INFO - Extracted 33 fields across 4 pages

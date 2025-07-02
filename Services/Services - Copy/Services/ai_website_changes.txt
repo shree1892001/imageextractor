@@ -1,0 +1,711 @@
+=== Website Monitoring Log ===
+Started: 2025-02-12 04:04:41.724238
+==================================================
+
+
+=== Newly Discovered Selectors ===
+Selector: .usa-skipnav
+Reason: reason for tracking - Accessibility link, should always be present
+----------------------------------------
+Selector: .usa-banner
+Reason: reason for tracking - Top banner, might change content or styling
+----------------------------------------
+Selector: .usa-banner__button
+Reason: reason for tracking - Button to expand/collapse banner content, tracks user interaction
+----------------------------------------
+Selector: .usa-logo
+Reason: reason for tracking - Logo section, might change image or text
+----------------------------------------
+Selector: .usa-menu-btn
+Reason: reason for tracking - Mobile menu button, tracks user interaction
+----------------------------------------
+Selector: #primaryNav
+Reason: reason for tracking - Main navigation, tracks changes in menu items
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: reason for tracking - Primary navigation links, tracks changes in links and their order
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: reason for tracking - Secondary navigation links, tracks changes in links and their order
+----------------------------------------
+Selector: .usa-nav-link
+Reason: reason for tracking - Navigation links, monitor for broken links or changes in href attributes
+----------------------------------------
+Selector: .usa-section
+Reason: reason for tracking - Generic section, could have changing content
+----------------------------------------
+Selector: h1
+Reason: reason for tracking - Main heading, track for changes in page title
+----------------------------------------
+Selector: .slideshow-container
+Reason: reason for tracking - Slideshow, tracks changes in images and content
+----------------------------------------
+Selector: .mySlides
+Reason: reason for tracking - Individual Slides, tracks changes in images and content
+----------------------------------------
+Selector: .usa-hero__callout
+Reason: reason for tracking - Call to action within the slideshow
+----------------------------------------
+Selector: .usa-hero__heading
+Reason: reason for tracking - Heading within the slideshow call to action
+----------------------------------------
+Selector: .usa-button-group
+Reason: reason for tracking - Group of buttons, tracks changes in button text and links
+----------------------------------------
+Selector: .usa-button
+Reason: reason for tracking - Buttons, monitor for changes in text, links, and styling
+----------------------------------------
+Selector: .usa-summary-box
+Reason: reason for tracking - Summary boxes, tracks changes in titles, links, and content within each box
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: reason for tracking - Links within summary boxes, monitor for broken links or changes in href attributes
+----------------------------------------
+Selector: .usa-card-group
+Reason: reason for tracking - Group of cards containing featured news
+----------------------------------------
+Selector: .usa-card
+Reason: reason for tracking - News cards, tracks changes in titles, content, and links
+----------------------------------------
+Selector: .usa-card__heading
+Reason: reason for tracking - News card headings, monitor for changes in titles
+----------------------------------------
+Selector: .usa-footer
+Reason: reason for tracking - Footer, tracks changes in links and content
+----------------------------------------
+Selector: .usa-footer__nav
+Reason: reason for tracking - Footer navigation links
+----------------------------------------
+Selector: .usa-footer__contact-links
+Reason: reason for tracking - Contact information, tracks for changes in contact details
+----------------------------------------
+Selector: .usa-social-link
+Reason: reason for tracking - Social media links, monitor for broken links or changes in href attributes
+----------------------------------------
+Selector: #alertsDiv
+Reason: reason for tracking - Dynamic alert area, content likely to change frequently
+----------------------------------------
+Selector: .float-message
+Reason: reason for tracking - Alert message container, monitors appearance and content changes
+----------------------------------------
+Selector: #surveyDiv
+Reason: reason for tracking - Dynamic survey area, content likely to change frequently
+----------------------------------------
+
+[2025-02-12 04:06:19] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The most significant change is that the `#alertsDiv` element is now hidden, as indicated by the `style="display: none;"` attribute in the `outerHTML` and the `display: none` style.  The initial state showed it as displayed (`display: block`). This is a major change because it means the important announcements and notifications are no longer visible to the website visitor.  While the inner content remains largely the same, the change in visibility drastically impacts user experience and information access.  The bounding box also reflects the element being hidden with 0 dimensions.  This change surpasses the 0.7 threshold.
+Importance: 0.8
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: #main-content
+Reason: Main content area
+----------------------------------------
+Selector: .usa-header
+Reason: Primary navigation bar
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: Main navigation links
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: Secondary navigation links
+----------------------------------------
+Selector: .slideshow-container
+Reason: Slideshow images and text
+----------------------------------------
+Selector: .usa-button-group
+Reason: Main action buttons
+----------------------------------------
+Selector: .usa-summary-box
+Reason: Summary boxes with links to different sections
+----------------------------------------
+Selector: .usa-card-group
+Reason: Featured news cards
+----------------------------------------
+Selector: .usa-footer
+Reason: Footer section with links and contact information
+----------------------------------------
+Selector: #alertsDiv
+Reason: Alert messages section
+----------------------------------------
+Selector: #surveyDiv
+Reason: Survey messages section
+----------------------------------------
+Selector: .fb-page
+Reason: Facebook feed
+----------------------------------------
+Selector: .twitter-timeline
+Reason: Twitter feed
+----------------------------------------
+Selector: .usa-skipnav
+Reason: Skip navigation link
+----------------------------------------
+
+[2025-02-12 04:07:31] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The most significant change is that the `#alertsDiv` element's `style` attribute now includes `"display:none;"`. This means the alert div is now hidden from the user, making the information it contains inaccessible.  While the inner content of the alert itself remains largely unchanged (except for some minor whitespace differences in `innerText`), the change in visibility represents a major alteration in functionality and user experience.  The fact that the alert is no longer displayed is a critical change that likely indicates a shift in the website's messaging or the resolution of previously reported issues. The bounding box also reflects the change in visibility, indicating that the element is no longer rendered on the page.
+Importance: 0.8
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: .usa-skipnav
+Reason: reason for tracking - Accessibility link, should always be present
+----------------------------------------
+Selector: .usa-banner
+Reason: reason for tracking - Banner section, might change content
+----------------------------------------
+Selector: .usa-banner__button
+Reason: reason for tracking - Banner button, tracks user interaction
+----------------------------------------
+Selector: .usa-logo
+Reason: reason for tracking - Logo section, should always be present
+----------------------------------------
+Selector: .usa-nav
+Reason: reason for tracking - Main navigation, important for site structure
+----------------------------------------
+Selector: .usa-nav__primary a
+Reason: reason for tracking - Primary navigation links, content might change
+----------------------------------------
+Selector: .usa-nav__secondary a
+Reason: reason for tracking - Secondary navigation links, content might change
+----------------------------------------
+Selector: .usa-menu-btn
+Reason: reason for tracking - Mobile menu button, tracks user interaction
+----------------------------------------
+Selector: .usa-nav__close
+Reason: reason for tracking - Mobile navigation close button, tracks user interaction
+----------------------------------------
+Selector: #main-content
+Reason: reason for tracking - Main content section, might contain dynamic content
+----------------------------------------
+Selector: .slideshow-container
+Reason: reason for tracking - Slideshow, dynamic content area
+----------------------------------------
+Selector: .mySlides
+Reason: reason for tracking - Individual slides, dynamic content area
+----------------------------------------
+Selector: .usa-hero__heading a
+Reason: reason for tracking - Slideshow headings, links might change
+----------------------------------------
+Selector: .usa-hero__callout
+Reason: reason for tracking - Slideshow content, might change
+----------------------------------------
+Selector: .usa-button-group a
+Reason: reason for tracking - Button group, links might change
+----------------------------------------
+Selector: .usa-summary-box
+Reason: reason for tracking - Summary boxes, might contain dynamic content
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: reason for tracking - Links within summary boxes, content might change
+----------------------------------------
+Selector: .usa-card-group
+Reason: reason for tracking - Featured news section, dynamic content area
+----------------------------------------
+Selector: .usa-card__heading
+Reason: reason for tracking - News card headings, content might change
+----------------------------------------
+Selector: .usa-card__body
+Reason: reason for tracking - News card bodies, content might change
+----------------------------------------
+Selector: #fb-page
+Reason: reason for tracking - Facebook feed, dynamic content area
+----------------------------------------
+Selector: .twitter-timeline
+Reason: reason for tracking - Twitter feed, dynamic content area
+----------------------------------------
+Selector: .usa-footer
+Reason: reason for tracking - Footer section, might change content
+----------------------------------------
+Selector: .usa-footer__nav a
+Reason: reason for tracking - Footer navigation links, content might change
+----------------------------------------
+Selector: .usa-footer__social-links a
+Reason: reason for tracking - Footer social media links, might change
+----------------------------------------
+Selector: #alertsDiv
+Reason: reason for tracking - Alerts section, dynamic content area
+----------------------------------------
+Selector: #surveyDiv
+Reason: reason for tracking - Survey section, dynamic content area
+----------------------------------------
+
+[2025-02-12 04:08:51] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The most significant change is that the `#alertsDiv` element's `style` attribute now includes `"display:none;"`.  This means the alert div is now hidden from the user, indicating that the alerts have either been resolved or are no longer considered important to display prominently.  The change in `boundingBox` from a non-zero size to zero further confirms this change in visibility. While the inner content of the alerts remains largely the same, the fact that the entire alert section is hidden constitutes a major change in user experience and information presentation.  The change exceeds the 0.7 threshold because it directly affects the visibility and therefore the accessibility of critical information for website users.
+Importance: 0.8
+----------------------------------------
+Selector: .usa-card-group
+Type: significant_change
+Significance: 0.6
+Description: The iframe `name` attribute within the Facebook element has changed from "f4add69504b801fb7" to "f193b7c61a72bbe81".  The Twitter iframe's `sessionId` attribute has also changed from "233993747d51fd1eed6b3d54babf9b5d23a88f0f" to "2586ef3cebb49913f562129e40a505c165af6883", and the Twitter iframe width changed from 470px to 422px.  These changes are indicative of updates to the embedded content, suggesting that either new posts have appeared on the Facebook and/or Twitter feeds, or that the embedded code was updated for the widgets.  The significance is moderate because while the news cards themselves remain the same, the change in the embedded social media elements shows that the page is dynamically updating with fresh, real-time information, which is important for keeping the content current and relevant.
+Importance: 0.8
+----------------------------------------
+
+[2025-02-12 04:11:34] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The `#alertsDiv` element has changed from being displayed (`display: block`) to being hidden (`display: none`).  This is a significant change because it directly impacts the user experience.  The alert messages, containing important information about website updates and potential technical issues, are no longer visible to the user.  The `boundingBox` also reflects the change in visibility, showing dimensions of 0.0 after the change.  The innerText has minor whitespace changes which are insignificant compared to the display change.  The change surpasses the defined threshold of 0.7.
+Importance: 0.8
+----------------------------------------
+Selector: .usa-card-group
+Type: significant_change
+Significance: 0.6
+Description: The iframe `name` attribute within the Facebook feed has changed from "f4add69504b801fb7" to "f275a416292ea1530", and the `src` attribute's `cb` parameter and  `origin` parameter have also changed.  The Twitter feed's `sessionId` parameter has also changed from  `233993747d51fd1eed6b3d54babf9b5d23a88f0f` to `eea4439a43d6fdce13006139453cb103efa21bcc`.  These changes are indicative of updates to the embedded social media feeds, likely reflecting new posts or changes in the Facebook and Twitter APIs. While the news card content remains the same, the dynamic nature of these embedded elements means that even small changes like these session and iframe identifiers signify an update and should be considered significant in the context of website monitoring.
+Importance: 0.8
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: .usa-skipnav
+Reason: reason for tracking - Navigation element, accessibility link
+----------------------------------------
+Selector: .usa-banner
+Reason: reason for tracking - Dynamic content area, banner section
+----------------------------------------
+Selector: .usa-accordion__button
+Reason: reason for tracking - Interactive element, banner toggle
+----------------------------------------
+Selector: .usa-banner__content
+Reason: reason for tracking - Dynamic content area, banner content
+----------------------------------------
+Selector: .usa-logo
+Reason: reason for tracking - Logo element, branding
+----------------------------------------
+Selector: .usa-nav
+Reason: reason for tracking - Main navigation
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: reason for tracking - Primary navigation items
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: reason for tracking - Secondary navigation items
+----------------------------------------
+Selector: .usa-nav-link
+Reason: reason for tracking - Navigation links, potential changes in links
+----------------------------------------
+Selector: .usa-link
+Reason: reason for tracking - Navigation links, potential changes in links
+----------------------------------------
+Selector: .usa-menu-btn
+Reason: reason for tracking - Interactive element, mobile menu toggle
+----------------------------------------
+Selector: .usa-nav__close
+Reason: reason for tracking - Interactive element, mobile menu close button
+----------------------------------------
+Selector: #main-content
+Reason: reason for tracking - Main content section
+----------------------------------------
+Selector: h1
+Reason: reason for tracking - Main heading, potential changes in title
+----------------------------------------
+Selector: .slideshow-container
+Reason: reason for tracking - Dynamic content area, slideshow
+----------------------------------------
+Selector: .mySlides
+Reason: reason for tracking - Slides in the slideshow
+----------------------------------------
+Selector: .usa-hero
+Reason: reason for tracking - Dynamic content area, hero image and content
+----------------------------------------
+Selector: .usa-hero__callout
+Reason: reason for tracking - Dynamic content area, callout section in the hero image
+----------------------------------------
+Selector: .usa-hero__heading
+Reason: reason for tracking - Heading within the callout
+----------------------------------------
+Selector: .usa-button-group
+Reason: reason for tracking - Dynamic content area, button group
+----------------------------------------
+Selector: .usa-button
+Reason: reason for tracking - Interactive element, buttons
+----------------------------------------
+Selector: .usa-summary-box
+Reason: reason for tracking - Dynamic content area, summary boxes
+----------------------------------------
+Selector: .usa-summary-box__heading
+Reason: reason for tracking - Headings in the summary boxes
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: reason for tracking - Links within the summary boxes
+----------------------------------------
+Selector: .usa-collection
+Reason: reason for tracking - Dynamic content area, news items
+----------------------------------------
+Selector: .usa-collection__item
+Reason: reason for tracking - Individual news items
+----------------------------------------
+Selector: .usa-collection__heading
+Reason: reason for tracking - News item headings
+----------------------------------------
+Selector: .usa-label
+Reason: reason for tracking - Dates of news items
+----------------------------------------
+Selector: .usa-card-group
+Reason: reason for tracking - Dynamic content area, featured news cards
+----------------------------------------
+Selector: .usa-card
+Reason: reason for tracking - Individual featured news cards
+----------------------------------------
+Selector: .usa-card__header
+Reason: reason for tracking - Card headers
+----------------------------------------
+Selector: .usa-card__heading
+Reason: reason for tracking - Card headings
+----------------------------------------
+Selector: .usa-card__body
+Reason: reason for tracking - Card body content
+----------------------------------------
+Selector: .usa-card__footer
+Reason: reason for tracking - Card footer
+----------------------------------------
+Selector: .fb-page
+Reason: reason for tracking - Dynamic content area, Facebook feed
+----------------------------------------
+Selector: .twitter-timeline
+Reason: reason for tracking - Dynamic content area, Twitter feed
+----------------------------------------
+Selector: .usa-footer
+Reason: reason for tracking - Footer section
+----------------------------------------
+Selector: .usa-footer__nav
+Reason: reason for tracking - Footer navigation
+----------------------------------------
+Selector: .usa-footer__primary-link
+Reason: reason for tracking - Links in the footer
+----------------------------------------
+Selector: .usa-footer__secondary-link
+Reason: reason for tracking - Links in the footer
+----------------------------------------
+Selector: .usa-social-link
+Reason: reason for tracking - Social media links
+----------------------------------------
+Selector: #alertsDiv
+Reason: reason for tracking - Dynamic content area, alerts
+----------------------------------------
+Selector: .float-message
+Reason: reason for tracking - Alert message container
+----------------------------------------
+Selector: .usa-site-alert
+Reason: reason for tracking - Alert message
+----------------------------------------
+Selector: .usa-alert__heading
+Reason: reason for tracking - Alert heading
+----------------------------------------
+Selector: #surveyDiv
+Reason: reason for tracking - Dynamic content area, survey prompt
+----------------------------------------
+
+[2025-02-12 04:15:00] Significant Changes Detected
+----------------------------------------
+Selector: .usa-section
+Type: significant_change
+Significance: 0.6
+Description: The iframe `name` attribute in the Facebook embed has changed from "f4add69504b801fb7" to "f6f851ef9630e5cbc", and the `src` attribute's `cb` parameter has also changed.  Similarly, the iframe `src` attribute in the Twitter embed shows a different `sessionId` ("e7ff9a98a17932b1ec389ed2490ee25a18b6b86e" instead of "233993747d51fd1eed6b3d54babf9b5d23a88f0f"). These changes likely indicate updates to the embedded content from Facebook and Twitter, reflecting new posts or activity on those platforms.  While the main text content appears identical, these are significant as they directly impact the displayed social media feeds, providing up-to-date information for users.  The change is above the threshold of 0.5.
+Importance: 0.8
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: .usa-skipnav
+Reason: reason for tracking - Accessibility link, should always be present
+----------------------------------------
+Selector: .usa-banner
+Reason: reason for tracking - Banner section, might contain important announcements.
+----------------------------------------
+Selector: .usa-banner__content
+Reason: reason for tracking - Expandable content within the banner.
+----------------------------------------
+Selector: .usa-header
+Reason: reason for tracking - Main header section, contains navigation.
+----------------------------------------
+Selector: .usa-menu-btn
+Reason: reason for tracking - Mobile menu button.
+----------------------------------------
+Selector: .usa-nav
+Reason: reason for tracking - Primary navigation.
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: reason for tracking - Main navigation list items.
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: reason for tracking - Secondary navigation.
+----------------------------------------
+Selector: .usa-nav__secondary-links
+Reason: reason for tracking - List of secondary navigation links.
+----------------------------------------
+Selector: .usa-logo
+Reason: reason for tracking - Site logo, should always be present
+----------------------------------------
+Selector: .main-content
+Reason: reason for tracking - Main content area of the page.
+----------------------------------------
+Selector: .slideshow-container
+Reason: reason for tracking - Slideshow, dynamic content.
+----------------------------------------
+Selector: .mySlides
+Reason: reason for tracking - Individual slides in the slideshow.
+----------------------------------------
+Selector: .usa-hero
+Reason: reason for tracking - Hero section within the slides.
+----------------------------------------
+Selector: .usa-hero__callout
+Reason: reason for tracking - Call to action within hero section.
+----------------------------------------
+Selector: .usa-button-group
+Reason: reason for tracking - Button group, likely contains important actions.
+----------------------------------------
+Selector: .usa-button
+Reason: reason for tracking - Individual buttons within the group, track clicks and text changes.
+----------------------------------------
+Selector: .usa-summary-box
+Reason: reason for tracking - Summary boxes, track headings and links.
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: reason for tracking - Links within summary boxes.
+----------------------------------------
+Selector: .usa-section
+Reason: reason for tracking - Section of the page, might contain important content blocks.
+----------------------------------------
+Selector: .usa-card-group
+Reason: reason for tracking - Card group, containing featured news.
+----------------------------------------
+Selector: .usa-card
+Reason: reason for tracking - Individual news cards, track headings and content changes.
+----------------------------------------
+Selector: .usa-card__heading
+Reason: reason for tracking - Heading of a news card.
+----------------------------------------
+Selector: .usa-card__body
+Reason: reason for tracking - Body content of a news card.
+----------------------------------------
+Selector: #fb-page
+Reason: reason for tracking - Facebook feed, dynamic content.
+----------------------------------------
+Selector: .twitter-timeline
+Reason: reason for tracking - Twitter feed, dynamic content.
+----------------------------------------
+Selector: .usa-footer
+Reason: reason for tracking - Footer section, contains contact info and links.
+----------------------------------------
+Selector: .usa-footer__nav
+Reason: reason for tracking - Footer navigation links.
+----------------------------------------
+Selector: .usa-footer__logo
+Reason: reason for tracking - Footer logo.
+----------------------------------------
+Selector: .usa-footer__contact-links
+Reason: reason for tracking - Footer contact links.
+----------------------------------------
+Selector: #alertsDiv
+Reason: reason for tracking - Alert messages section, dynamic content.
+----------------------------------------
+Selector: .float-message
+Reason: reason for tracking - Floating message container (alerts, survey).
+----------------------------------------
+Selector: .usa-site-alert
+Reason: reason for tracking - Alert message box.
+----------------------------------------
+Selector: #surveyDiv
+Reason: reason for tracking - Survey messages section, dynamic content.
+----------------------------------------
+
+[2025-02-12 04:16:29] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The `#alertsDiv` element has changed from a visible state (`display: block`) to a hidden state (`display: none`).  The `innerText` and `innerHTML` are almost identical, but the crucial difference is the change in display style. This is significant because it indicates that the alerts have been dismissed or are no longer being actively shown to the user. The bounding box also reflects the change in visibility; it has collapsed to (0,0,0,0) indicating it is no longer rendered on the screen.  The change in display directly impacts the user experience, as important information is now hidden.  The change surpasses the defined threshold of 0.7.
+Importance: 0.8
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: #main-content
+Reason: Main content area
+----------------------------------------
+Selector: .usa-banner
+Reason: Top banner, may contain announcements
+----------------------------------------
+Selector: .usa-header
+Reason: Website header, including navigation
+----------------------------------------
+Selector: #primaryNav
+Reason: Primary navigation menu
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: Primary navigation items
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: Secondary navigation items
+----------------------------------------
+Selector: .slideshow-container
+Reason: Slideshow, likely containing rotating promotional content
+----------------------------------------
+Selector: .usa-button-group
+Reason: Group of action buttons
+----------------------------------------
+Selector: .usa-summary-box
+Reason: Summary boxes with links to different sections
+----------------------------------------
+Selector: .usa-card-group
+Reason: Group of news cards
+----------------------------------------
+Selector: #fb-page
+Reason: Facebook feed
+----------------------------------------
+Selector: .twitter-timeline
+Reason: Twitter feed
+----------------------------------------
+Selector: .usa-footer
+Reason: Website footer, including contact information and links
+----------------------------------------
+Selector: #alertsDiv
+Reason: Div containing site alerts, likely dynamic
+----------------------------------------
+Selector: #surveyDiv
+Reason: Div containing site surveys, likely dynamic
+----------------------------------------
+Selector: .usa-nav-link
+Reason: Navigation links - for tracking changes in links
+----------------------------------------
+Selector: .usa-button
+Reason: Buttons - for tracking changes in button text or links
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: Links in summary boxes - for tracking changes in links
+----------------------------------------
+Selector: .usa-card__heading
+Reason: Headings of news cards - for monitoring news updates
+----------------------------------------
+Selector: .usa-collection__heading
+Reason: Headings in collection (News section) - for monitoring news updates
+----------------------------------------
+Selector: .usa-footer__secondary-link
+Reason: Links in footer - for tracking changes in links
+----------------------------------------
+
+[2025-02-12 04:18:00] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The `#alertsDiv` element has transitioned from a visible state (`display: block`) to a hidden state (`display: none`).  This is a significant change because it directly impacts the user experience.  The alert messages, containing crucial information about website updates and troubleshooting, are no longer visible to the user. The `boundingBox` also reflects this change, going from actual dimensions to 0,0.  This change surpasses the defined change threshold of 0.7.
+Importance: 0.8
+----------------------------------------
+Selector: #fb-page
+Type: significant_change
+Significance: 0.6
+Description: The `iframe`'s `name` and `src` attributes have changed.  The `name` attribute now has a different randomly generated value (`faa07cc8d2e7b68f4` instead of `f193b7c61a72bbe81`).  More importantly, the `src` attribute's `channel` parameter contains a different randomly generated callback ID (`f3b3bdc62ef41351f` instead of `f8853b35b4a1918af`) and a different `origin` parameter (`f3b055947f2f69834` instead of `fd660eef3c184bfe9`).  These changes are indicative of a Facebook embed refresh or update, likely due to normal Facebook activity.  While the displayed content might be visually identical, the underlying URLs reflect a change in the Facebook plugin's state and could signal the need to investigate if the update impacted functionality, such as comments or like counts.  The change exceeds the threshold of 0.5 because the URL changes suggest a refreshed state, even if the visible content is unchanged.
+Importance: 0.7
+----------------------------------------
+
+=== Newly Discovered Selectors ===
+Selector: .usa-skipnav
+Reason: reason for tracking - Navigation element, accessibility link
+----------------------------------------
+Selector: .usa-banner
+Reason: reason for tracking - Dynamic content area, potentially changes based on announcements
+----------------------------------------
+Selector: .usa-banner__button
+Reason: reason for tracking - Interactive element, expands/collapses banner content
+----------------------------------------
+Selector: .usa-logo
+Reason: reason for tracking -  Main logo, branding element
+----------------------------------------
+Selector: .usa-menu-btn
+Reason: reason for tracking -  Interactive element, toggles navigation menu
+----------------------------------------
+Selector: #primaryNav
+Reason: reason for tracking - Main navigation menu
+----------------------------------------
+Selector: .usa-nav__primary
+Reason: reason for tracking - Primary navigation items
+----------------------------------------
+Selector: .usa-nav__secondary
+Reason: reason for tracking - Secondary navigation items
+----------------------------------------
+Selector: .usa-nav__primary-item a
+Reason: reason for tracking - Links in primary navigation, potential for changes
+----------------------------------------
+Selector: .usa-nav__secondary-item a
+Reason: reason for tracking - Links in secondary navigation, potential for changes
+----------------------------------------
+Selector: .slideshow-container
+Reason: reason for tracking -  Dynamic content area, image slideshow
+----------------------------------------
+Selector: .mySlides
+Reason: reason for tracking - Slides within the slideshow
+----------------------------------------
+Selector: .usa-hero__heading a
+Reason: reason for tracking - Links within hero image section
+----------------------------------------
+Selector: .usa-button-group
+Reason: reason for tracking - Button group, could change based on promotions or available services.
+----------------------------------------
+Selector: .usa-button
+Reason: reason for tracking -  Buttons, interactive elements
+----------------------------------------
+Selector: .usa-summary-box
+Reason: reason for tracking - Summary boxes with key service links, potential for content changes
+----------------------------------------
+Selector: .usa-summary-box__link
+Reason: reason for tracking - Links within summary boxes
+----------------------------------------
+Selector: .usa-collection
+Reason: reason for tracking - News section, dynamic content
+----------------------------------------
+Selector: .usa-card
+Reason: reason for tracking - Featured news cards, dynamic content
+----------------------------------------
+Selector: .usa-card__heading
+Reason: reason for tracking - Titles of featured news, likely to change
+----------------------------------------
+Selector: .usa-footer
+Reason: reason for tracking - Footer, potentially contains links and contact information which can change
+----------------------------------------
+Selector: .usa-footer__nav
+Reason: reason for tracking - Footer navigation links
+----------------------------------------
+Selector: .usa-footer__social-links
+Reason: reason for tracking - Social media links, which can change
+----------------------------------------
+Selector: #alertsDiv
+Reason: reason for tracking - Alert messages, dynamic content area.
+----------------------------------------
+Selector: #surveyDiv
+Reason: reason for tracking - Survey messages, dynamic content area
+----------------------------------------
+Selector: .usa-social-link
+Reason: reason for tracking - Social media links
+----------------------------------------
+
+[2025-02-12 04:19:24] Significant Changes Detected
+----------------------------------------
+Selector: #alertsDiv
+Type: significant_change
+Significance: 0.8
+Description: The most significant change is that the `#alertsDiv` element is now hidden, as indicated by the `style="display:none;"` attribute in the `outerHTML` and the `display: none` style.  In the initial state,  `style=""` and `display: block` indicated that it was visible.  The `boundingBox` also reflects this change, going from a non-zero size to zero size. This is a major change because it directly impacts the user experience; important alerts are no longer visible to the user.  While the inner content of the alert itself remains largely unchanged, the fact that it is hidden constitutes a significant alteration.
+Importance: 0.8
+----------------------------------------
+Selector: .usa-section
+Type: significant_change
+Significance: 0.6
+Description: The iframe `name` attribute in the Facebook embed has changed from "f4add69504b801fb7" to "f20f1c7f34e902c22".  Similarly, the `sessionId` parameter in the Twitter embed URL changed from "233993747d51fd1eed6b3d54babf9b5d23a88f0f" to "9ac2288f373e0a8ba6506a5facc574b7ef386a3f".  These changes indicate updates to the embedded content, likely reflecting new posts or tweets. While the text content of the news section remains largely the same, the dynamic nature of these embeds (Facebook and Twitter) makes even a slight change in their identifying attributes indicative of a content refresh.  The change is significant because it implies new information is being displayed in those social media sections, making it relevant to monitor these attributes alongside the textual content changes.
+Importance: 0.8
+----------------------------------------
+
+[ERROR] Error: Page.reload: Timeout 30000ms exceeded.
+Call log:
+  - waiting for navigation until "load"
+  -     - navigated to "https://www.sosnc.gov/"
+

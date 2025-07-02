@@ -1,0 +1,21 @@
+Assistant Transcript - Session 20250402_200224
+
+Session started at: 2025-04-02 20:10:38
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 20:02:26] Assistant: Assistant initialized successfully
+[2025-04-02 20:05:30] Assistant: I m ready to answer your questions. Please type your question.
+[2025-04-02 20:06:14] Assistant: You can now ask questions about the content. Say exit to stop.
+[2025-04-02 20:06:25] User: what is the document about
+[2025-04-02 20:06:26] Assistant: The document is a sample job description for a Human Resources Assistant internship at Company XYZ. It outlines the position s responsibilities, the skills an intern will learn, and the required qualifications.
+[2025-04-02 20:06:55] User: kaun-kaun se responsibility state Hain
+[2025-04-02 20:06:56] Assistant: The responsibilities stated in the job description are: Employee orientation and training logistics and recordkeeping Company-wide committee facilitation and participation Employee safety, welfare, wellness, and health reporting Providing direct support to employees during the implementation of HR services, policies, and programs
+[2025-04-02 20:07:23] User: recruitment recruitment
+[2025-04-02 20:07:24] Assistant: The provided text mentions recruitment as one of the functional areas the intern will gain exposure to, but it doesn t detail specific responsibilities related to recruitment. The job description focuses more on the assistant s role in supporting existing HR processes rather than actively participating in the recruitment process itself.
+[2025-04-02 20:07:56] User: kaun se document hai
+[2025-04-02 20:07:58] Assistant: यह एक न कर व वरण (ज ब ड स क र प शन) क नम न ह
+[2025-04-02 20:08:06] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 20:08:16] User: exit

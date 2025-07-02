@@ -1,0 +1,4 @@
+Voice Assistant Transcript - Session 20250519_155019
+
+[2025-05-19 15:50:19] Assistant: Voice assistant initialized with selected voice profile.
+    

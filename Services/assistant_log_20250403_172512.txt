@@ -1,0 +1,11 @@
+Assistant Transcript - Session 20250403_172512
+
+Session started at: 2025-04-03 17:29:01
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-03 17:25:14] Assistant: Assistant initialized successfully
+[2025-04-03 17:27:52] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 17:27:58] Assistant: First, please provide the job description.

@@ -1,0 +1,43 @@
+2025-03-04 11:46:25,059 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 11:46:25,060 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:46:25,066 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 11:46:25,066 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:46:25,100 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 11:46:25,101 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 11:46:25,102 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-04 11:46:27,442 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-04 11:46:28,882 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-04 11:46:32,805 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-04 11:46:37,143 - TessoFill - INFO - Extracted 773 text elements using OCR
+2025-03-04 11:46:37,144 - TessoFill - INFO - Analyzing field context from OCR data using AI agent
+2025-03-04 11:47:57,945 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 11:47:57,969 - TessoFill - INFO - Parsing AI field context response
+2025-03-04 11:47:57,971 - TessoFill - INFO - Successfully parsed context for 33 fields
+2025-03-04 11:47:57,989 - TessoFill - INFO - AI matching attempt 1/3
+2025-03-04 11:48:23,336 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 11:48:23,344 - TessoFill - INFO - Parsing AI response
+2025-03-04 11:48:23,347 - TessoFill - INFO - Successfully parsed 16 field matches and 0 OCR matches
+2025-03-04 11:48:23,347 - TessoFill - INFO - Successfully matched 16 fields and 0 OCR elements
+2025-03-04 11:48:23,352 - TessoFill - INFO - Created temporary working file: D:\demo\Services\filledform18.pdf.temp
+2025-03-04 11:48:23,353 - TessoFill - INFO - Filling form fields with UUID-based matching
+2025-03-04 11:48:23,353 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf.temp
+2025-03-04 11:48:23,395 - TessoFill - WARNING - Field '209.32667541503906, 356.2424621582031, 268.1844787597656, 371.3486328125' not found in PDF
+2025-03-04 11:48:23,399 - TessoFill - INFO - Filling: 'raymond llc' to 'a81c79ca-f36a-475e-b24b-b81a95a97fab' (Page 1)
+2025-03-04 11:48:23,411 - TessoFill - INFO - Filling: '100 Mbc Dr' to '8aef501d-98b4-425b-b92b-4d9033607490' (Page 1)
+2025-03-04 11:48:23,414 - TessoFill - INFO - Filling: 'Racine' to '05c07a14-713b-4da6-9b59-d60c477e6361' (Page 1)
+2025-03-04 11:48:23,418 - TessoFill - INFO - Filling: '53402' to '5bb2e9ee-342f-4383-927b-bfc9a72160ad' (Page 1)
+2025-03-04 11:48:23,419 - TessoFill - INFO - Filling: 'Corporate Creations Network Inc.' to 'f37a322f-328a-45cb-854f-99d1788c9666' (Page 1)
+2025-03-04 11:48:23,420 - TessoFill - INFO - Filling: 'agentservice@vstatefilings.com' to 'c5e0fe98-a872-435a-9228-4f7d719cb348' (Page 1)
+2025-03-04 11:48:23,420 - TessoFill - INFO - Filling: '(718) 569-2703' to '9dac91b1-6039-41a9-8585-cd8ecf328366' (Page 1)
+2025-03-04 11:48:23,424 - TessoFill - INFO - Filling: '301 S. Bedford ST., Ste. 1' to '28951763-9553-4f7a-b2bd-745287c86e00' (Page 1)
+2025-03-04 11:48:23,426 - TessoFill - INFO - Filling: 'Madison' to 'a95da1a1-ead2-4e29-b2f1-08f0f70ab880' (Page 1)
+2025-03-04 11:48:23,429 - TessoFill - INFO - Filling: 'WI' to '5bb2e9ee-342f-4383-927b-bfc9a72160ad' (Page 1)
+2025-03-04 11:48:23,432 - TessoFill - INFO - Filling: '53703' to '5292e72d-ec81-47c8-8f98-8e38477c0202' (Page 1)
+2025-03-04 11:48:23,433 - TessoFill - INFO - Filling: 'Shreyas' to 'b51880d7-5a33-4ce0-9ac3-16b82e1881b6' (Page 2)
+2025-03-04 11:48:23,434 - TessoFill - INFO - Filling: 'Deodhare' to '49dc42f4-dbbc-43e2-8d6a-1bde97acfaa9' (Page 2)
+2025-03-04 11:48:23,435 - TessoFill - INFO - Filling: 'deodhare.shreyas@gmail.com' to '2ad5ff96-88eb-4ec6-b380-8b65aa84cc56' (Page 2)
+2025-03-04 11:48:23,435 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 11:48:23,482 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 11:48:23,482 - TessoFill - INFO - Filling OCR-detected fields using text position matching
+2025-03-04 11:48:23,560 - TessoFill - INFO - Finalized PDF saved to: D:\demo\Services\filledform18.pdf
+2025-03-04 11:48:23,629 - TessoFill - INFO - PDF verification successful

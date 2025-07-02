@@ -1,0 +1,24 @@
+Voice Assistant Transcript - Session 20250514_115219
+
+[2025-05-14 11:52:21] Assistant: Assistant initialized successfully
+[2025-05-14 12:42:46] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 12:43:00] Assistant: First, please provide the job description.
+[2025-05-14 12:48:01] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-14 12:48:18] Assistant: I ve prepared 8 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-14 12:48:25] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-14 12:48:31] Assistant: There will be 8 questions in total.
+[2025-05-14 12:48:34] Assistant:  Question 1 of 8:
+[2025-05-14 12:48:36] Assistant: Describe a time you had to adapt to a significant, unexpected change at work or in your studies. How did you handle it?
+[2025-05-14 12:48:45] Assistant: Please provide your answer.
+[2025-05-14 12:50:19] Assistant: Thank you for your answer.
+[2025-05-14 12:50:21] Assistant:  Question 2 of 8:
+[2025-05-14 12:50:24] Assistant: Imagine you need to implement a new employee onboarding process with limited budget and time. How would you approach this?
+[2025-05-14 12:50:32] Assistant: Please provide your answer.
+[2025-05-14 12:52:16] Assistant: Thank you for your answer.
+[2025-05-14 12:52:18] Assistant:  Question 3 of 8:
+[2025-05-14 12:52:21] Assistant: Describe your experience working in a team environment, particularly in situations where you had to handle multiple tasks simultaneously.
+[2025-05-14 12:52:30] Assistant: Please provide your answer.
+[2025-05-14 17:10:07] Assistant: Good answer. You covered the main points.
+[2025-05-14 17:10:12] Assistant:  Question 4 of 8:
+[2025-05-14 17:10:14] Assistant: What interests you most about working for a startup like Company Name , and how do you see your skills contributing to our mission?
+[2025-05-14 17:10:22] Assistant: Please provide your answer.

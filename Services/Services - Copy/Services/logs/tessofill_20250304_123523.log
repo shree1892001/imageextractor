@@ -1,0 +1,303 @@
+2025-03-04 12:35:24,570 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 12:35:24,572 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:35:24,581 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:35:35,146 - TessoFill - INFO - Extracting form field information from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:35:35,160 - TessoFill - ERROR - Failed to extract form fields: 'Widget' object has no attribute 'is_read_only'
+2025-03-04 12:35:35,162 - TessoFill - INFO - Matching JSON fields to OCR text
+2025-03-04 12:35:43,328 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:35:43,345 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Principal_Address.PA_Address_Line_1', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': '100 Mbc Dr', 'reasoning': 'No direct OCR match found for this address field.  Address fields are often missed by basic OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Principal_Address.PA_City', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': 'Racine', 'reasoning': 'No direct OCR match found for this city field. Address fields are often missed by basic OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Principal_Address.PA_Zip_Code', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': '53402', 'reasoning': 'No direct OCR match found for this zip code field. Address fields are often missed by basic OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Principal_Address.PA_State', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': 'WI', 'reasoning': 'No direct OCR match found for this state field. Address fields are often missed by basic OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Registered_Agent.RA_Name', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': 'Corporate Creations Network Inc.', 'reasoning': 'No clear OCR match for this field.  Agent information is frequently found in less structured parts of forms.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Registered_Agent.RA_Email_Address', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': 'agentservice@vstatefilings.com', 'reasoning': 'No clear OCR match for email address. Email addresses are often missed or poorly recognized by OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,346 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Registered_Agent.RA_Contact_No', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': '(718) 569-2703', 'reasoning': 'Phone numbers are difficult for OCR to extract accurately. No clear match here.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,347 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'orderDetails.strapiOrderFormJson.Payload.Registered_Agent.Address.RA_Address_Line_1', 'ocr_text': None, 'confidence': 0.0, 'suggested_value': '301 S. Bedford ST., Ste. 1', 'reasoning': 'Address fields are frequently missed by basic OCR.'} | Error: 1 validation error for FieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 12:35:43,347 - TessoFill - INFO - Successfully parsed 3 field matches and 0 OCR matches
+2025-03-04 12:35:43,347 - TessoFill - INFO - Identified 3 field matches
+2025-03-04 12:35:43,347 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:35:43,405 - TessoFill - WARNING - Field 'orderDetails.orderTitle' not found in PDF
+2025-03-04 12:35:43,405 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.entityShortName' not found in PDF
+2025-03-04 12:35:43,405 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name' not found in PDF
+2025-03-04 12:35:43,405 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 12:35:43,459 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 12:35:43,459 - TessoFill - INFO - Identifying OCR field locations
+2025-03-04 12:36:00,488 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:36:00,492 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:36:00,493 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.county', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': None, 'reasoning': 'No county information found in the OCR text.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,493 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderTypeID.orderShortName', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'Entity Formation', 'reasoning': 'This is derived from the JSON and not present in the OCR text.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,494 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderTypeID.orderFullDesc', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'Entity Formation', 'reasoning': 'This is derived from the JSON and not present in the OCR text.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,498 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.contactDetails.firstName', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'Shreyas', 'reasoning': 'No explicit field for first name found.  Information is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,498 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.contactDetails.lastName', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'Deodhare', 'reasoning': 'No explicit field for last name found. Information is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,498 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.contactDetails.emailId', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'deodhare.shreyas@gmail.com', 'reasoning': 'No email field found in the OCR text. Information is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,499 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.contactDetails.mobileNo', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': '(573) 834-3992', 'reasoning': 'No mobile number field found in the OCR text. Information is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,499 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.EntityType.entityShortName', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'LLC', 'reasoning': 'This value is in the JSON and not present in the OCR text.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,499 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.State.stateShortName', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'WI', 'reasoning': 'This value is in the JSON and not present in the OCR text.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,500 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': '100 Mbc Dr', 'reasoning': 'No address field found.  Value is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,500 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'Racine', 'reasoning': 'No city field found.  Value is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,500 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': '53402', 'reasoning': 'No zip code field found.  Value is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,502 - TessoFill - WARNING - Skipping malformed OCR match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State', 'ocr_text': None, 'page_num': None, 'x1': None, 'y1': None, 'x2': None, 'y2': None, 'confidence': 0.0, 'suggested_value': 'WI', 'reasoning': 'No state field found. Value is in the JSON.'} | Error: 6 validation errors for OCRFieldMatch
+ocr_text
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+page_num
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+x1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y1
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+x2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+y2
+  Input should be a valid number [type=float_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/float_type
+2025-03-04 12:36:00,502 - TessoFill - INFO - Successfully parsed 0 field matches and 6 OCR matches
+2025-03-04 12:36:00,502 - TessoFill - INFO - Identified 6 OCR fields to fill
+2025-03-04 12:36:00,502 - TessoFill - INFO - Filling OCR fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:36:00,518 - TessoFill - INFO - Adding text 'raymond llc' at position (485.0, 92.0) on page 1
+2025-03-04 12:36:00,518 - TessoFill - ERROR - Error filling OCR fields: 'dict' object has no attribute '_validate'

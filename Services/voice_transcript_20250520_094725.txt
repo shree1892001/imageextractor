@@ -1,0 +1,24 @@
+Voice Assistant Transcript - Session 20250520_094725
+
+[2025-05-20 09:47:25] Assistant: Voice assistant initialized with selected voice profile.
+    [2025-05-20 09:47:59] Assistant: Welcome to the job screening interview. Let s start with a brief introduction.
+    [2025-05-20 09:48:05] Assistant: May I know your name, please?
+    [2025-05-20 09:48:25] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+    [2025-05-20 09:48:31] Assistant: I didn t catch your name. Let me call you Candidate for now.
+    [2025-05-20 09:48:36] Assistant: I m an AI assistant conducting this interview. I ll be asking you questions based on the job description, and evaluating your responses.
+    [2025-05-20 09:48:45] Assistant: Let s set up the job screening interview. First, I need the job description.
+    [2025-05-20 09:49:27] Assistant: Analyzing the job description...
+    [2025-05-20 09:49:34] Assistant: Here s what I understand about this position. I ll now generate interview questions.
+    [2025-05-20 09:49:55] Assistant: I ve prepared 7 questions. Let s begin the interview.
+    [2025-05-20 09:50:00] Assistant: There will be 7 questions in total, Candidate.
+    [2025-05-20 09:50:04] Assistant: Please answer by speaking clearly. I ll listen for up to 60 seconds for each answer.
+    [2025-05-20 09:50:13] Assistant:  Question 1 of 7:
+    [2025-05-20 09:50:15] Assistant: Explain the difference between useState and useEffect hooks in React. Provide examples of when you d use each.
+    [2025-05-20 09:50:24] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    [2025-05-20 09:50:41] Assistant: I didn t catch that. Let s try again with voice input.
+    [2025-05-20 09:50:47] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    [2025-05-20 09:51:06] Assistant: I didn t catch that. Let s try again with voice input.
+    [2025-05-20 09:51:11] Assistant: Please speak your answer now. I ll listen for up to 60 seconds.
+    [2025-05-20 09:51:27] Assistant: Voice input not working. Let s switch to text input.
+    [2025-05-20 09:51:32] Assistant: Please type your answer instead:
+    

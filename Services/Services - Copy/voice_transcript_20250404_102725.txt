@@ -1,0 +1,4 @@
+Voice Assistant Transcript - Session 20250404_102725
+
+[2025-04-04 10:27:27] Assistant: Assistant initialized successfully
+[2025-04-04 10:27:47] Assistant: I m ready to answer your questions. Please type your question.

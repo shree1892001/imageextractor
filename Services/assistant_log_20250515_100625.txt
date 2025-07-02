@@ -1,0 +1,83 @@
+Assistant Transcript - Session 20250515_100625
+
+Session started at: 2025-05-15 10:07:56
+
+=== JOB SCREENING DETAILS ===
+Job Description:
+Position Title:  React Developer  
+Location:  Pune  
+Job Type:  Full-Time / Contract  
+ 
+Company Overview:  
+RedBeryl is an innovative tech company focused on creating state -of-the-art solutions for 
+clients worldwide. We are currently seeking a skilled and experienced React Developer to 
+join our growing development team. The ideal candidate will have a passion fo r building 
+scalable, efficient, and user -friendly web applications.  
+Role Overview:  
+As a React Developer with 5+ years of experience, you will play a pivotal role in designing, 
+developing, and maintaining complex, high -performance applications using React.j s. You 
+will work closely with cross -functional teams to deliver dynamic and responsive user 
+interfaces and ensure smooth interactions between front -end and back -end components.  
+Key Responsibilities:  
+● Develop new user -facing features with React.js, Redux, an d related libraries.  
+● Build reusable code and libraries for future use, optimizing components for maximum 
+performance across a wide range of devices and browsers.  
+● Collaborate with back -end developers and web designers to improve usability and 
+meet technical  requirements.  
+● Ensure the technical feasibility of UI/UX designs and provide feedback on potential 
+design solutions.  
+● Maintain, improve, and optimize existing React applications.  
+● Develop and maintain clean, maintainable code following best practices and cod ing 
+standards.  
+● Work with version control systems such as Git and participate in code reviews.  
+● Troubleshoot and debug applications to ensure optimal performance and 
+responsiveness.  
+● Keep up -to-date with the latest trends in web development, specifically with in the 
+React ecosystem.  
+● Work closely with QA teams to ensure smooth application testing and deployment 
+processes.  
+Required Skills & Qualifications:  
+● 5+ years of professional experience in React.js and front -end web development.  
+● Strong experience in React.js , Redux, React Hooks, and other modern React features.  
+● Proficient understanding of HTML5, CSS3, JavaScript (ES6+), and modern web 
+development standards.  
+● Familiarity with RESTful APIs, GraphQL, or other API integration techniques.  
+● Experience with testing frameworks (e.g., Jest, Mocha, Enzyme).  
+● Strong knowledge of Git and version control workflows.  
+● Excellent problem -solving skills and a passion for writing clean, maintainable code.  ● Experience working in Agile environments and familia rity with tools like Jira or 
+Trello.  
+● Solid understanding of responsive design principles and mobile -first development.  
+● Experience with performance optimization techniques.  
+● Familiarity with cloud platforms like AWS, Azure, or Google Cloud is a plus.  
+Preferr ed Skills & Qualifications:  
+● Knowledge of TypeScript.  
+● Experience with Next.js or other SSR frameworks.  
+● Familiarity with UI frameworks like Material -UI, Ant Design, or Bootstrap.  
+● Familiarity with Webpack, Babel, and other build tools.  
+● Understanding of CI/CD pipelines.  
+● Familiarity with Node.js for full -stack development.  
+Benefits:  
+● Competitive salary and benefits package.  
+● Flexible working hours / Remote work options.  
+● Opportunities for professional growth and skill development.  
+● A collaborative and innovative team environment.  
+How to Apply:  
+Please submit your resume, along with a portfolio or GitHub profile showcasing your work, 
+to hr@redberyltech.com  
+ 
+
+Generated Questions:
+
+=== INTERVIEW RESPONSES ===
+
+=== FINAL FEEDBACK ===
+
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-05-15 10:06:27] Assistant: Assistant initialized successfully
+[2025-05-15 10:06:46] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-15 10:06:52] Assistant: First, please provide the job description.
+[2025-05-15 10:07:50] Assistant: Generating startup-specific screening questions with ideal answers...

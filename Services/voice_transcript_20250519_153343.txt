@@ -1,0 +1,5 @@
+Voice Assistant Transcript - Session 20250519_153343
+
+[2025-05-19 15:33:44] Assistant: Assistant initialized successfully
+    [2025-05-19 15:33:52] Assistant: Let s set up a job screening interview. First, I need the job description.
+    

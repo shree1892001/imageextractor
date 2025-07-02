@@ -1,0 +1,16 @@
+Voice Assistant Transcript - Session 20250514_113937
+
+[2025-05-14 11:39:39] Assistant: Assistant initialized successfully
+[2025-05-14 11:39:49] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 11:39:55] Assistant: First, please provide the job description.
+[2025-05-14 11:40:12] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-05-14 11:40:17] Assistant: First, please provide the job description.
+[2025-05-14 11:40:43] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-05-14 11:40:58] Assistant: I ve prepared 8 startup-specific questions with model answers. Let s begin the interview.
+[2025-05-14 11:41:05] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-05-14 11:41:11] Assistant: There will be 8 questions in total.
+[2025-05-14 11:41:14] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-05-14 11:41:25] Assistant:  Question 1 of 8: Describe a time you had to quickly adapt to a significant change in plans or priorities. How did you handle it?
+[2025-05-14 11:41:35] Assistant: Please speak your answer now.
+[2025-05-14 11:51:27] Assistant: I didn t get a response. Please try again.
+[2025-05-14 11:51:32] Assistant: Please speak your answer now.

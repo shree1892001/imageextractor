@@ -1,0 +1,16 @@
+2025-03-04 15:55:19,546 - OCRMapper - INFO - OCRJSONMapper initialized successfully
+2025-03-04 15:55:19,556 - OCRMapper - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 15:55:19,652 - OCRMapper - INFO - Processing OCR for page 1/4
+2025-03-04 15:55:40,386 - OCRMapper - INFO - Processing OCR for page 2/4
+2025-03-04 15:55:53,308 - OCRMapper - INFO - Processing OCR for page 3/4
+2025-03-04 15:56:29,123 - OCRMapper - INFO - Processing OCR for page 4/4
+2025-03-04 15:57:10,690 - OCRMapper - INFO - Extracted 773 text elements using OCR
+2025-03-04 15:57:10,695 - OCRMapper - INFO - Identifying potential form fields from OCR elements
+2025-03-04 15:57:11,878 - OCRMapper - INFO - Identified 740 potential form fields
+2025-03-04 15:57:11,881 - OCRMapper - INFO - Matching JSON fields to OCR elements
+2025-03-04 15:57:12,446 - OCRMapper - INFO - AI matching attempt 1/3
+2025-03-04 15:57:45,001 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 15:57:45,210 - OCRMapper - INFO - Parsing AI response
+2025-03-04 15:57:45,225 - OCRMapper - INFO - Successfully parsed 15 field matches
+2025-03-04 15:57:45,227 - OCRMapper - INFO - Successfully matched 15 fields
+2025-03-04 15:57:45,229 - OCRMapper - ERROR - Error processing PDF: OCRJSONMapper.fill_pdf_with_text() takes 3 positional arguments but 4 were given

@@ -1,0 +1,33 @@
+{
+  "session_id": "20250402_151731",
+  "session_start": "2025-04-02 15:17:56",
+  "interactions": [
+    {
+      "timestamp": "2025-04-02 15:17:41",
+      "role": "assistant",
+      "content": "I'm ready to answer your questions. Please type your question.",
+      "mode": "text_chat"
+    },
+    {
+      "timestamp": "2025-04-02 15:17:54",
+      "role": "user",
+      "content": "what is maine",
+      "input_type": "text",
+      "mode": "text_chat"
+    },
+    {
+      "timestamp": "2025-04-02 15:17:56",
+      "role": "assistant",
+      "content": "Maine is the northeasternmost state in the United States.  It's known for its:\n\n* **Rugged coastline:**  Featuring rocky shores, dramatic cliffs, and numerous islands.\n* **Lighthouses:**  A significant part of its maritime history and scenic beauty.\n* **Forests and mountains:**  Offering opportunities for hiking, camping, and outdoor recreation.\n* **Lobster industry:**  A major part of its economy and culture.\n* **Small towns and charming villages:**  Providing a quaint and peaceful atmosphere.\n* **Cold, snowy winters and mild summers:**  Resulting in distinct seasonal changes.\n\nIn short, Maine is a state with a strong maritime heritage, beautiful natural landscapes, and a distinctive cultural identity.\n",
+      "mode": "text_chat"
+    },
+    {
+      "timestamp": "2025-04-02 15:17:56",
+      "role": "assistant",
+      "content": "Maine is the northeasternmost state in the United States.  It's known for its:\n\n* **Rugged coastline:**  Featuring rocky shores, dramatic cliffs, and numerous islands.\n* **Lighthouses:**  A significant part of its maritime history and scenic beauty.\n* **Forests and mountains:**  Offering opportunities for hiking, camping, and outdoor recreation.\n* **Lobster industry:**  A major part of its economy and culture.\n* **Small towns and charming villages:**  Providing a quaint and peaceful atmosphere.\n* **Cold, snowy winters and mild summers:**  Resulting in distinct seasonal changes.\n\nIn short, Maine is a state with a strong maritime heritage, beautiful natural landscapes, and a distinctive cultural identity.\n",
+      "mode": "text_chat"
+    }
+  ],
+  "job_description": "",
+  "interview_data": {}
+}

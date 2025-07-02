@@ -1,0 +1,3 @@
+interface PdfRendererProps {
+  pdfData: any;
+}

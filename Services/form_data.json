@@ -1,0 +1,132 @@
+{
+    "data": {
+        "EntityType": {
+            "id": 1,
+            "entityShortName": "CORP",
+            "entityFullDesc": "Certificate of Incorporation",
+            "onlineFormFilingFlag": false
+        },
+        "State":{
+        "createdBy": null,
+        "creationDate": null,
+        "lastModifiedBy": "Og2NjNGr/Kdyrx1hkk3l0f/ykBxyJ8wFUzOvexPdBZxr13fDFnEzv+ttYNgmwvpF",
+        "lastModifiedDate": "2024-10-15T11:58:06.128+0000",
+        "id": 22,
+        "stateShortName": "MI",
+        "stateFullDesc": "Arizona",
+        "stateUrl": "https://cofs.lara.state.mi.us/corpweb/LoginSystem/ListNewFilings.aspx?FilingMethod=I",
+        "filingWebsiteUsername": null,
+        "filingWebsitePassword": null,
+        "strapiDisplayName": "Michigan",
+        "countryMaster": {
+            "createdBy": null,
+            "creationDate": null,
+            "lastModifiedBy": null,
+            "lastModifiedDate": null,
+            "id": 3,
+            "countryShortName": "US",
+            "countryFullDesc": "United States"
+        }
+    },
+        "County": {
+            "id": 1734,
+            "countyCode": "Niagara",
+            "countyName": "Niagara"
+        },"State": {
+            "stateId": {
+                "id": 32
+            },
+                "stateShortName": "NY",
+                "stateFullDesc": "Arizona",
+
+                "stateUrl": "https://filings.dos.ny.gov/ords/corpanc/r/ecorp/login_desktop",
+                "filingWebsiteUsername": "redberyl",
+                "filingWebsitePassword": "yD7?ddG0!$09189",
+                "strapiDisplayName": "New-York",
+                "countryMaster": {
+                    "id": 3,
+                    "countryShortName": "USA",
+                    "countryFullDesc": "United States Of America"
+                }
+
+        },
+        "Payload": {
+            "Entity_Formation": {
+                "Name": {
+                    "CD_Corporation_Name": "Capital One Bank Corp.",
+                    "CD_Alternate_Corporation_Name" : "Capital One Bank Corp."
+                },
+                "Principal_Address": {
+                    "PA_Address_Line_1": "1 Hadaway Ct",
+                    "PA_Address_Line_2": null,
+                    "PA_City": "Lagrange",
+                    "PA_Zip_Code": "30240",
+                    "PA_State": "GA"
+                },
+                "Registered_Agent": {
+                    "Address": {
+                        "RA_Address_Line_1": "hadapsar",
+                        "RA_Address_Line_2": "",
+                        "RA_City": "Pune",
+                        "RA_State": "NY",
+                        "RA_Zip_Code": "41220"
+                    },
+                    "Billing_Information": {
+                        "BI_Name": "Mayuri Chavan",
+                        "BI_Email_Address": "mayuri.chavan@redberyltech.com",
+                        "BI_Contact_No": "(388) 383-8388",
+                        "BI_Address_Line_1": "Satara",
+                        "BI_Address_Line_2": null,
+                        "BI_City": "Pune",
+                        "BI_Zip_Code": "38388",
+                        "BI_State": "AL"
+                    },
+                    "Mailing_Information": {
+                        "MI_Name": "Mayuri Chavan",
+                        "MI_Email_Address": "mayuri.chavan@redberyltech.com",
+                        "MI_Contact_No": "(388) 383-8388",
+                        "MI_Address_Line_1": "Satara",
+                        "MI_Address_Line_2": null,
+                        "MI_City": "Parker Crossroads",
+                        "MI_State": "AL",
+                        "MI_Zip_Code": "38388"
+                    },
+                    "RA_Name": "Saumyaranjan Patra",
+                    "RA_Email_Address": "saumya@gmail.com",
+                    "RA_Contact_No": "(993) 993-9939"
+                  },
+            "County":{
+                "county_Name":"Addison County"
+            },
+           "Stock_Details": {
+            "SI_Number_Of_Shares" : 23 ,
+            "SI_Par_Value" : 0.01
+
+            },
+                "Incorporator_Information": {
+                    "Incorporator_Details": {
+                        "Inc_Name": "Prathamesh Kadam",
+                        "Inc_Email_Address": "prathamesh.kadam@redberyltech.com",
+                        "Inc_Contact_No": "(839) 393-9939"
+                    },
+                    "Address": {
+                        "Inc_Address_Line_1": "hadapsar",
+                        "Inc_Address_Line_2": null,
+                        "Inc_City": "Pune",
+                        "Inc_Zip_Code": "83838",
+                        "Inc_State": "AL"
+
+                    }
+
+                },
+                "Naics_Code":{
+                        "NC_NAICS_Code": "111110-Soybean Farming "
+                    }
+            },
+            "County":{
+                "county_Name":"Addison County"
+            }
+            }
+        }
+    }
+

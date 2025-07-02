@@ -1,0 +1,110 @@
+2025-03-04 15:11:49,600 - OCRMapper - INFO - OCRJSONMapper initialized successfully
+2025-03-04 15:11:49,603 - OCRMapper - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 15:11:49,811 - OCRMapper - INFO - Processing OCR for page 1/4
+2025-03-04 15:11:53,221 - OCRMapper - INFO - Processing OCR for page 2/4
+2025-03-04 15:11:56,264 - OCRMapper - INFO - Processing OCR for page 3/4
+2025-03-04 15:12:00,490 - OCRMapper - INFO - Processing OCR for page 4/4
+2025-03-04 15:12:05,241 - OCRMapper - INFO - Extracted 773 text elements using OCR
+2025-03-04 15:12:05,242 - OCRMapper - INFO - Identifying potential form fields from OCR elements
+2025-03-04 15:12:05,358 - OCRMapper - INFO - Identified 740 potential form fields
+2025-03-04 15:12:05,360 - OCRMapper - INFO - Matching JSON fields to OCR elements
+2025-03-04 15:12:05,431 - OCRMapper - INFO - AI matching attempt 1/3
+2025-03-04 15:12:07,270 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2025-03-04 15:12:07,277 - OCRMapper - ERROR - Error during AI matching attempt 1: Unexpected response from gemini 400, body:
+{
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+2025-03-04 15:12:07,277 - OCRMapper - INFO - Retrying AI matching...
+2025-03-04 15:12:07,278 - OCRMapper - INFO - AI matching attempt 2/3
+2025-03-04 15:12:08,870 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2025-03-04 15:12:08,873 - OCRMapper - ERROR - Error during AI matching attempt 2: Unexpected response from gemini 400, body:
+{
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+2025-03-04 15:12:08,873 - OCRMapper - INFO - Retrying AI matching...
+2025-03-04 15:12:08,874 - OCRMapper - INFO - AI matching attempt 3/3
+2025-03-04 15:12:10,201 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+2025-03-04 15:12:10,204 - OCRMapper - ERROR - Error during AI matching attempt 3: Unexpected response from gemini 400, body:
+{
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+2025-03-04 15:12:10,204 - OCRMapper - ERROR - Error processing PDF: All AI matching attempts failed: Unexpected response from gemini 400, body:
+{
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}

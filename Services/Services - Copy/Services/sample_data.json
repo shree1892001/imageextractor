@@ -1,0 +1,13 @@
+{
+    "full_name": "John Doe",
+    "email_address": "john.doe@example.com",
+    "phone_number": "123-456-7890",
+    "mailing_address": "123 Main St, City, State 12345",
+    "job_title": "Software Engineer",
+    "department": "Engineering",
+    "start_date": "2024-01-01",
+    "employee_id": "EMP001",
+    "emergency_contact_name": "Jane Doe",
+    "emergency_contact_phone": "987-654-3210",
+    "emergency_contact_relation": "Spouse"
+}

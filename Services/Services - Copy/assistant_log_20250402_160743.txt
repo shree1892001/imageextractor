@@ -1,0 +1,11 @@
+Assistant Transcript - Session 20250402_160743
+
+Session started at: 2025-04-02 16:08:50
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 16:07:45] Assistant: Assistant initialized successfully
+[2025-04-02 16:08:10] Assistant: You can now ask questions about the content. Say exit to stop.
+[2025-04-02 16:08:28] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?

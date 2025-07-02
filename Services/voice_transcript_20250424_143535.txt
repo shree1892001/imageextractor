@@ -1,0 +1,17 @@
+Voice Assistant Transcript - Session 20250424_143535
+
+[2025-04-24 14:35:41] Assistant: Assistant initialized successfully
+[2025-04-24 14:35:59] Assistant: Let s set up a job screening interview. First, I need the job description.
+[2025-04-24 14:37:40] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-24 14:37:50] Assistant: First, please provide the job description.
+[2025-04-24 14:38:23] Assistant: Generating startup-specific screening questions with ideal answers...
+[2025-04-24 14:38:40] Assistant: I ve prepared 9 startup-specific questions with model answers. Let s begin the interview.
+[2025-04-24 14:38:47] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-04-24 14:38:54] Assistant: There will be 9 questions in total.
+[2025-04-24 14:38:57] Assistant: You can answer by speaking or typing your responses. Your answers will be evaluated based on how well they match the concepts in our model answers, not exact wording.
+[2025-04-24 14:39:08] Assistant: Question 1 of 9:
+[2025-04-24 14:39:11] Assistant: This is a Adaptability Handling Ambiguity question: Describe a time you had to adapt to a significant change in project priorities or requirements. How did you handle the shift?
+[2025-04-24 14:39:23] Assistant: Please speak your answer now.
+[2025-04-24 14:39:30] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-24 14:39:48] Assistant: I didn t get a response. Please try again.
+[2025-04-24 14:39:48] Assistant: Please speak your answer now.

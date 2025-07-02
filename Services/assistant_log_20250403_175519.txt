@@ -1,0 +1,19 @@
+Assistant Transcript - Session 20250403_175519
+
+Session started at: 2025-04-03 18:17:40
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-03 17:55:21] Assistant: Assistant initialized successfully
+[2025-04-03 18:06:58] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 18:07:12] Assistant: First, please provide the job description.
+[2025-04-03 18:10:19] Assistant: Welcome to Startup Pre-screening Mode. Let s set up the interview.
+[2025-04-03 18:10:25] Assistant: First, please provide the job description.
+[2025-04-03 18:16:45] Assistant: Generating startup-specific screening questions...
+[2025-04-03 18:17:00] Assistant: I ve prepared 0 startup-specific questions. Let s begin the interview.
+[2025-04-03 18:17:07] Assistant: Let s begin the interview. I ll ask you questions based on the job description.
+[2025-04-03 18:17:13] Assistant: There will be 0 questions in total.
+[2025-04-03 18:17:17] Assistant: The interview is now complete. I ll provide your overall feedback.
+[2025-04-03 18:17:22] Assistant: Please provide the interview responses you d like me to analyze. I need the text of the candidate s answers to the pre-screening questions to give you feedback on their overall strengths, areas for improvement, suggestions for preparation, and a final recommendation. 

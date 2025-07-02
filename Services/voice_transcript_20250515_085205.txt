@@ -1,0 +1,7 @@
+Voice Assistant Transcript - Session 20250515_085205
+
+[2025-05-15 08:52:07] Assistant: Assistant initialized successfully
+[2025-05-15 08:52:23] Assistant: Let s set up a job screening interview. First, I need the job description.
+[2025-05-15 08:54:44] Assistant: Analyzing the job description...
+[2025-05-15 08:54:51] Assistant: Here s what I understand about this position. I ll now generate interview questions.
+[2025-05-15 08:55:06] Assistant: I ve prepared 7 questions. Let s begin the interview.

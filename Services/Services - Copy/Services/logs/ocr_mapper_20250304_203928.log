@@ -1,0 +1,33 @@
+2025-03-04 20:39:31,348 - OCRMapper - INFO - OCRJSONMapper initialized successfully
+2025-03-04 20:39:31,372 - OCRMapper - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 20:39:31,475 - OCRMapper - INFO - Processing OCR for page 1/4
+2025-03-04 20:39:39,524 - OCRMapper - INFO - Processing OCR for page 2/4
+2025-03-04 20:39:43,369 - OCRMapper - INFO - Processing OCR for page 3/4
+2025-03-04 20:39:51,398 - OCRMapper - INFO - Processing OCR for page 4/4
+2025-03-04 20:39:59,561 - OCRMapper - INFO - Extracted 773 text elements using OCR
+2025-03-04 20:39:59,563 - OCRMapper - INFO - Identifying potential form fields from OCR elements
+2025-03-04 20:39:59,765 - OCRMapper - INFO - Identified 740 potential form fields
+2025-03-04 20:39:59,775 - OCRMapper - INFO - Matching JSON fields to OCR elements
+2025-03-04 20:39:59,885 - OCRMapper - INFO - AI matching attempt 1/3
+2025-03-04 20:40:30,704 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 20:40:30,744 - OCRMapper - INFO - Parsing AI response
+2025-03-04 20:40:30,747 - OCRMapper - INFO - Successfully parsed 15 field matches
+2025-03-04 20:40:30,748 - OCRMapper - INFO - Successfully matched 15 fields
+2025-03-04 20:40:30,748 - OCRMapper - INFO - Filling PDF form fields: D:\demo\Services\filledform19.pdf
+2025-03-04 20:40:30,847 - OCRMapper - INFO - Added text annotation for 'raymond llc' at Rect(453.0, 105.0, 473.0, 116.0)
+2025-03-04 20:40:30,871 - OCRMapper - INFO - Added text annotation for '9043022025' at Rect(42.0, 128.0, 69.0, 134.0)
+2025-03-04 20:40:30,889 - OCRMapper - INFO - Added text annotation for 'Corporate Creations Network Inc.' at Rect(326.0, 211.0, 349.0, 220.0)
+2025-03-04 20:40:30,910 - OCRMapper - INFO - Added text annotation for '301 S. Bedford ST., Ste. 1' at Rect(112.0, 323.0, 143.0, 351.0)
+2025-03-04 20:40:30,994 - OCRMapper - INFO - Added text annotation for 'Madison' at Rect(213.0, 323.0, 248.0, 351.0)
+2025-03-04 20:40:31,047 - OCRMapper - INFO - Added text annotation for 'WI' at Rect(301.0, 323.0, 344.0, 351.0)
+2025-03-04 20:40:31,076 - OCRMapper - INFO - Added text annotation for '53703' at Rect(348.0, 323.0, 372.0, 351.0)
+2025-03-04 20:40:31,150 - OCRMapper - INFO - Added text annotation for 'agentservice@vstatefilings.com' at Rect(348.0, 323.0, 372.0, 351.0)
+2025-03-04 20:40:31,181 - OCRMapper - INFO - Added text annotation for '(718) 569-2703' at Rect(42.0, 148.0, 57.0, 156.0)
+2025-03-04 20:40:31,201 - OCRMapper - INFO - Added text annotation for '100 Mbc Dr' at Rect(139.0, 344.0, 178.0, 353.0)
+2025-03-04 20:40:31,237 - OCRMapper - INFO - Added text annotation for 'Racine' at Rect(205.0, 344.0, 252.0, 355.0)
+2025-03-04 20:40:31,268 - OCRMapper - INFO - Added text annotation for 'WI' at Rect(205.0, 344.0, 252.0, 355.0)
+2025-03-04 20:40:31,295 - OCRMapper - INFO - Added text annotation for '53402' at Rect(205.0, 344.0, 252.0, 355.0)
+2025-03-04 20:40:31,299 - OCRMapper - INFO - Added text annotation for 'Shreyas' at Rect(50.0, 108.0, 100.0, 136.0)
+2025-03-04 20:40:31,301 - OCRMapper - INFO - Added text annotation for 'Deodhare' at Rect(50.0, 108.0, 100.0, 136.0)
+2025-03-04 20:40:31,455 - OCRMapper - INFO - Successfully filled 0 form fields and added 15 text annotations.
+2025-03-04 20:40:31,455 - OCRMapper - INFO - Successfully filled PDF: D:\demo\Services\filledform19.pdf

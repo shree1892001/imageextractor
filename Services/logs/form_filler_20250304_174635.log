@@ -1,0 +1,50 @@
+2025-03-04 17:46:35,961 - FormFiller - INFO - AI agent initialized successfully
+2025-03-04 17:46:35,961 - FormFiller - INFO - Initializing OCR reader...
+2025-03-04 17:46:35,962 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-03-04 17:46:42,313 - FormFiller - INFO - OCR reader initialized successfully
+2025-03-04 17:46:42,315 - FormFiller - INFO - Starting field matching and filling process for: D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 17:46:42,321 - FormFiller - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 17:46:42,386 - FormFiller - INFO - Processing OCR for page 1/4...
+2025-03-04 17:47:06,464 - FormFiller - INFO - Extracted 15 text elements from page 1
+2025-03-04 17:47:06,465 - FormFiller - INFO - Processing OCR for page 2/4...
+2025-03-04 17:47:24,628 - FormFiller - INFO - Extracted 13 text elements from page 2
+2025-03-04 17:47:24,628 - FormFiller - INFO - Processing OCR for page 3/4...
+2025-03-04 17:48:52,648 - FormFiller - INFO - Extracted 22 text elements from page 3
+2025-03-04 17:48:52,648 - FormFiller - INFO - Processing OCR for page 4/4...
+2025-03-04 17:50:33,352 - FormFiller - INFO - Extracted 20 text elements from page 4
+2025-03-04 17:50:33,432 - FormFiller - INFO - Analyzing field context from OCR elements
+2025-03-04 17:50:33,436 - FormFiller - INFO - Context analysis complete for 33 fields
+2025-03-04 17:50:33,451 - FormFiller - INFO - AI matching attempt 1/3
+2025-03-04 17:50:51,875 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 17:50:51,951 - FormFiller - INFO - Parsing AI response...
+2025-03-04 17:50:51,959 - FormFiller - INFO - Successfully parsed AI response: 17 field matches, 0 OCR matches
+2025-03-04 17:50:51,959 - FormFiller - INFO - Successfully got 17 field matches and 0 OCR matches
+2025-03-04 17:50:51,971 - FormFiller - INFO - Created temporary working copy: D:\demo\Services\filledform18.pdf.temp
+2025-03-04 17:50:51,971 - FormFiller - INFO - Filling form fields and OCR-detected fields...
+2025-03-04 17:50:51,972 - FormFiller - INFO - Filling PDF form fields in: D:\demo\Services\filledform18.pdf.temp
+2025-03-04 17:50:52,108 - FormFiller - INFO - Preparing to update 13 fields
+2025-03-04 17:50:52,143 - FormFiller - INFO - Filling: 'raymond llc' to 'a81c79ca-f36a-475e-b24b-b81a95a97fab' (Page 1)
+2025-03-04 17:50:52,182 - FormFiller - INFO - Filling: '100 Mbc Dr' to 'f37a322f-328a-45cb-854f-99d1788c9666' (Page 1)
+2025-03-04 17:50:52,184 - FormFiller - INFO - Filling: 'Racine' to 'c5e0fe98-a872-435a-9228-4f7d719cb348' (Page 1)
+2025-03-04 17:50:52,189 - FormFiller - INFO - Filling: 'WI' to 'a95da1a1-ead2-4e29-b2f1-08f0f70ab880' (Page 1)
+2025-03-04 17:50:52,193 - FormFiller - INFO - Filling: '53402' to '28951763-9553-4f7a-b2bd-745287c86e00' (Page 1)
+2025-03-04 17:50:52,194 - FormFiller - INFO - Filling: 'Corporate Creations Network Inc.' to '9dac91b1-6039-41a9-8585-cd8ecf328366' (Page 1)
+2025-03-04 17:50:52,198 - FormFiller - INFO - Filling: '301 S. Bedford ST., Ste. 1' to '8aef501d-98b4-425b-b92b-4d9033607490' (Page 1)
+2025-03-04 17:50:52,200 - FormFiller - INFO - Filling: 'Madison' to 'f6bce81c-8e92-4e00-ab9a-ef685e5de4aa' (Page 1)
+2025-03-04 17:50:52,202 - FormFiller - INFO - Filling: 'WI' to 'a55b07b5-f9d2-40d4-9710-9df28220024b' (Page 1)
+2025-03-04 17:50:52,207 - FormFiller - INFO - Filling: '53703' to '05c07a14-713b-4da6-9b59-d60c477e6361' (Page 1)
+2025-03-04 17:50:52,215 - FormFiller - INFO - Filling: 'Shreyas' to 'bcfad094-a1e7-45fd-9938-2ac7713503cc' (Page 1)
+2025-03-04 17:50:52,222 - FormFiller - INFO - Filling: 'Deodhare' to 'bcfad094-a1e7-45fd-9938-2ac7713503cc' (Page 1)
+2025-03-04 17:50:52,231 - FormFiller - INFO - Filling: 'deodhare.shreyas@gmail.com' to 'c0991792-5fcd-4515-99d8-37ec3d90cd98' (Page 1)
+2025-03-04 17:50:52,232 - FormFiller - INFO - Saving PDF with 13 filled fields
+2025-03-04 17:50:52,233 - FormFiller - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 17:50:52,241 - FormFiller - ERROR - Traceback (most recent call last):
+  File "D:\demo\Services\FillerGEn.py", line 669, in fill_pdf_immediately
+    doc.save(output_pdf, deflate=True, clean=True)
+  File "D:\demo\venv\Lib\site-packages\pymupdf\__init__.py", line 5552, in save
+    raise ValueError("save to original must be incremental")
+ValueError: save to original must be incremental
+
+2025-03-04 17:50:52,241 - FormFiller - INFO - Attempting alternative save method...
+2025-03-04 17:50:52,439 - FormFiller - INFO - Cleaned up temporary file: D:\demo\Services\filledform18.pdf.temp
+2025-03-04 17:50:52,493 - FormFiller - INFO - PDF verification successful

@@ -1,0 +1,93 @@
+2025-03-04 14:43:40,458 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 14:43:40,460 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 14:43:40,467 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC_1.pdf.backup
+2025-03-04 14:43:40,468 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 14:43:40,472 - TessoFill - INFO - Extracted 0 fields across 4 pages
+2025-03-04 14:43:40,473 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC_1.pdf
+2025-03-04 14:43:40,475 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-04 14:43:50,964 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-04 14:43:52,640 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-04 14:43:56,503 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-04 14:44:00,887 - TessoFill - INFO - Extracted 751 text elements using OCR
+2025-03-04 14:44:00,888 - TessoFill - INFO - Analyzing field context from OCR data
+2025-03-04 14:44:00,910 - TessoFill - INFO - AI matching attempt 1/3
+2025-03-04 14:44:23,795 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 14:44:23,836 - TessoFill - INFO - Parsing AI response
+2025-03-04 14:44:23,842 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name', 'pdf_field': None, 'confidence': 0.95, 'suggested_value': 'raymond llc', 'reasoning': "This is the LLC name from the JSON, matching the 'raymond llc' mentioned in multiple places in the OCR text and likely to be the entity name in the PDF."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,842 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': '100 Mbc Dr', 'reasoning': "Matches the 'Initial Street Address of Principal Office' field based on instruction 5,  and JSON key for principal address line 1."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,843 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': 'Racine', 'reasoning': 'Matches the city in the principal address based on instruction 5 and JSON key.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,843 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': '53402', 'reasoning': 'Matches the zip code in the principal address based on instruction 5 and JSON key.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,844 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': 'WI', 'reasoning': 'Matches the state in the principal address based on instruction 5 and JSON key.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,845 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name', 'pdf_field': None, 'confidence': 0.98, 'suggested_value': 'Corporate Creations Network Inc.', 'reasoning': "Instruction 3 explicitly states to use this JSON field for the registered agent name.  The field name is a clear match for the PDF field 'initial regisered agent' or 'registered agent'."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,845 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': 'agentservice@vstatefilings.com', 'reasoning': 'Likely matches an email field for the registered agent based on field context (if available in the PDF). Semantic match.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,847 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': '(718) 569-2703', 'reasoning': 'Likely matches a phone number field for the registered agent. Semantic match.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,847 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': '301 S. Bedford ST., Ste. 1', 'reasoning': "Likely matches the registered agent's address line 1 based on context. Semantic match."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,847 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': 'Madison', 'reasoning': "Likely matches the registered agent's city based on context. Semantic match."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,848 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': '53703', 'reasoning': "Likely matches the registered agent's zip code based on context. Semantic match."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,848 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State', 'pdf_field': None, 'confidence': 0.8, 'suggested_value': 'WI', 'reasoning': "Likely matches the registered agent's state based on context. Semantic match."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,848 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Organizer_Information.Organizer_Details.Org_Name', 'pdf_field': None, 'confidence': 0.85, 'suggested_value': None, 'reasoning': "Requires further information to determine the Organizer's name from the JSON.  The JSON structure provided doesn't directly give a single 'Organizer Name' field."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,849 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.contactDetails.firstName', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': 'Shreyas', 'reasoning': "Instruction 17 indicates using 'data.contactDetails.firstName' for a name field in the PDF.  Semantic match for a person's name."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,849 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.contactDetails.lastName', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': 'Deodhare', 'reasoning': "Instruction 17 indicates using 'data.contactDetails.lastName' for a name field in the PDF. Semantic match for a person's name."} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,849 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.contactDetails.emailId', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': 'deodhare.shreyas@gmail.com', 'reasoning': 'Instruction 16 mentions using this field for an email address. Clear semantic match.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,849 - TessoFill - WARNING - Skipping malformed field match: {'json_field': 'data.contactDetails.mobileNo', 'pdf_field': None, 'confidence': 0.9, 'suggested_value': '(573) 834-3992', 'reasoning': 'Instruction 9 mentions fetching phone numbers from relevant JSON fields.  This is a likely match for a phone number field in the PDF.'} | Error: 1 validation error for FieldMatch
+pdf_field
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-03-04 14:44:23,850 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 14:44:23,850 - TessoFill - INFO - AI matching attempt 2/3
+2025-03-04 14:44:29,229 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 14:44:29,242 - TessoFill - INFO - Parsing AI response
+2025-03-04 14:44:29,243 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 14:44:29,243 - TessoFill - INFO - AI matching attempt 3/3
+2025-03-04 14:44:39,024 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 14:44:39,033 - TessoFill - INFO - Parsing AI response
+2025-03-04 14:44:39,033 - TessoFill - INFO - Successfully parsed 0 field matches and 0 OCR matches
+2025-03-04 14:44:39,033 - TessoFill - WARNING - No valid field matches were found after all attempts

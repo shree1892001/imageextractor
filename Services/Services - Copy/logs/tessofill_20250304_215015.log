@@ -1,0 +1,15 @@
+2025-03-04 21:50:17,176 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 21:50:17,191 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 21:50:17,215 - TessoFill - INFO - Created backup of original PDF: D:\demo\Services\PennsylvaniaLLC.pdf.backup
+2025-03-04 21:50:17,216 - TessoFill - INFO - Extracting fillable fields from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 21:50:17,243 - TessoFill - INFO - Extracted 30 fields across 4 pages
+2025-03-04 21:50:17,245 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 21:50:17,245 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 21:50:17,246 - TessoFill - INFO - Extracted 33 fields across 4 pages
+2025-03-04 21:50:17,246 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 21:50:17,247 - TessoFill - INFO - Processing OCR for page 1/4
+2025-03-04 21:50:19,469 - TessoFill - INFO - Processing OCR for page 2/4
+2025-03-04 21:50:20,676 - TessoFill - INFO - Processing OCR for page 3/4
+2025-03-04 21:50:23,877 - TessoFill - INFO - Processing OCR for page 4/4
+2025-03-04 21:50:27,590 - TessoFill - INFO - Extracted 0 UUID elements out of 805 total text elements
+2025-03-04 21:50:27,660 - TessoFill - ERROR - Unexpected error in match_and_fill_fields: Object of type coroutine is not JSON serializable

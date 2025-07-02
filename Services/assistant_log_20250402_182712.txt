@@ -1,0 +1,14 @@
+Assistant Transcript - Session 20250402_182712
+
+Session started at: 2025-04-02 18:28:37
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 18:27:14] Assistant: Assistant initialized successfully
+[2025-04-02 18:27:36] Assistant: You can now ask questions about the content. Say exit to stop.
+[2025-04-02 18:27:51] User: new movie
+[2025-04-02 18:27:57] Assistant: Gyan Data Pvt. Ltd. seeks a Lead Developer proficient in Python (Flask, SQLAlchemy, Celery), Java (Spring, Hibernate), Linux, cloud deployment, databases, and Docker. The description contains no movie information.
+[2025-04-02 18:28:21] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 18:28:31] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?

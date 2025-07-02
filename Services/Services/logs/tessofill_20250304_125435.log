@@ -1,0 +1,18 @@
+2025-03-04 12:54:36,274 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 12:54:36,275 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:54:36,281 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:54:44,421 - TessoFill - INFO - Extracting form field information from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:54:44,424 - TessoFill - ERROR - Failed to extract form fields: range() takes no keyword arguments
+2025-03-04 12:54:44,425 - TessoFill - INFO - Matching JSON fields to OCR text
+2025-03-04 12:54:44,427 - TessoFill - ERROR - Error matching JSON fields to OCR text: 'pdf_fields'
+2025-03-04 12:54:44,428 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:54:44,448 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 12:54:44,490 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 12:54:44,490 - TessoFill - INFO - Identifying OCR field locations
+2025-03-04 12:54:57,076 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:54:57,094 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:54:57,095 - TessoFill - INFO - Successfully parsed 0 field matches and 11 OCR matches
+2025-03-04 12:54:57,095 - TessoFill - INFO - Identified 11 OCR fields to fill
+2025-03-04 12:54:57,095 - TessoFill - INFO - Filling OCR fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:54:57,112 - TessoFill - INFO - Adding text 'raymond llc' at position (485.0, 92.0) on page 1
+2025-03-04 12:54:57,113 - TessoFill - ERROR - Error filling OCR fields: 'dict' object has no attribute '_validate'

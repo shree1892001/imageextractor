@@ -1,0 +1,107 @@
+2025-03-04 12:49:20,856 - TessoFill - INFO - MultiAgentFormFiller initialized successfully
+2025-03-04 12:49:20,858 - TessoFill - INFO - Starting match_and_fill_fields process for D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:49:20,864 - TessoFill - INFO - Extracting text using OCR from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:49:28,981 - TessoFill - INFO - Extracting form field information from D:\demo\Services\PennsylvaniaLLC.pdf
+2025-03-04 12:49:28,986 - TessoFill - ERROR - Failed to extract form fields: 'Widget' object has no attribute 'is_read_only'
+2025-03-04 12:49:28,990 - TessoFill - INFO - Matching JSON fields to OCR text
+2025-03-04 12:50:13,951 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:50:13,973 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:50:13,977 - TessoFill - INFO - Successfully parsed 85 field matches and 0 OCR matches
+2025-03-04 12:50:13,977 - TessoFill - INFO - Enhancing matches with pattern matching
+2025-03-04 12:50:16,948 - TessoFill - INFO - Identified 85 field matches
+2025-03-04 12:50:16,948 - TessoFill - INFO - Filling PDF fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:50:16,977 - TessoFill - WARNING - Field 'county' not found in PDF
+2025-03-04 12:50:16,978 - TessoFill - WARNING - Field 'orderTypeID.orderShortName' not found in PDF
+2025-03-04 12:50:16,978 - TessoFill - WARNING - Field 'orderTypeID.orderFullDesc' not found in PDF
+2025-03-04 12:50:16,978 - TessoFill - WARNING - Field 'contactDetails.firstName' not found in PDF
+2025-03-04 12:50:16,978 - TessoFill - WARNING - Field 'contactDetails.lastName' not found in PDF
+2025-03-04 12:50:16,978 - TessoFill - WARNING - Field 'contactDetails.displayName' not found in PDF
+2025-03-04 12:50:16,979 - TessoFill - WARNING - Field 'contactDetails.emailId' not found in PDF
+2025-03-04 12:50:16,979 - TessoFill - WARNING - Field 'contactDetails.mobileNo' not found in PDF
+2025-03-04 12:50:16,979 - TessoFill - WARNING - Field 'contactDetails.statusId' not found in PDF
+2025-03-04 12:50:16,979 - TessoFill - WARNING - Field 'contactDetails.userId' not found in PDF
+2025-03-04 12:50:16,980 - TessoFill - WARNING - Field 'contactDetails.quickbooksId' not found in PDF
+2025-03-04 12:50:16,980 - TessoFill - WARNING - Field 'contactDetails.hubspotId' not found in PDF
+2025-03-04 12:50:16,980 - TessoFill - WARNING - Field 'orderDetails.id' not found in PDF
+2025-03-04 12:50:16,980 - TessoFill - WARNING - Field 'orderDetails.orderTitle' not found in PDF
+2025-03-04 12:50:16,980 - TessoFill - WARNING - Field 'orderDetails.orderId' not found in PDF
+2025-03-04 12:50:16,981 - TessoFill - WARNING - Field 'orderDetails.contactId' not found in PDF
+2025-03-04 12:50:16,981 - TessoFill - WARNING - Field 'orderDetails.companyId' not found in PDF
+2025-03-04 12:50:16,981 - TessoFill - WARNING - Field 'orderDetails.statusId' not found in PDF
+2025-03-04 12:50:16,981 - TessoFill - WARNING - Field 'orderDetails.orderAmount' not found in PDF
+2025-03-04 12:50:16,981 - TessoFill - WARNING - Field 'orderDetails.orderDate' not found in PDF
+2025-03-04 12:50:16,982 - TessoFill - WARNING - Field 'orderDetails.tentativeFulfillmentDate' not found in PDF
+2025-03-04 12:50:16,982 - TessoFill - WARNING - Field 'orderDetails.billingAddress' not found in PDF
+2025-03-04 12:50:16,982 - TessoFill - WARNING - Field 'orderDetails.shippingAddress' not found in PDF
+2025-03-04 12:50:16,982 - TessoFill - WARNING - Field 'orderDetails.hubspotDealId' not found in PDF
+2025-03-04 12:50:16,982 - TessoFill - WARNING - Field 'orderDetails.keyPersonalId' not found in PDF
+2025-03-04 12:50:16,983 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.id' not found in PDF
+2025-03-04 12:50:16,983 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.entityShortName' not found in PDF
+2025-03-04 12:50:16,984 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.entityFullDesc' not found in PDF
+2025-03-04 12:50:16,984 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.EntityType.onlineFormFilingFlag' not found in PDF
+2025-03-04 12:50:16,984 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.id' not found in PDF
+2025-03-04 12:50:16,984 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.stateShortName' not found in PDF
+2025-03-04 12:50:16,984 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.stateFullDesc' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.countryMaster.id' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.countryMaster.countryShortName' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.State.countryMaster.countryFullDesc' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_LLC_Name' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Name.CD_Alternate_LLC_Name' not found in PDF
+2025-03-04 12:50:16,985 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Address_Line_1' not found in PDF
+2025-03-04 12:50:16,986 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_City' not found in PDF
+2025-03-04 12:50:16,986 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_Zip_Code' not found in PDF
+2025-03-04 12:50:16,986 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Principal_Address.PA_State' not found in PDF
+2025-03-04 12:50:16,986 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Name' not found in PDF
+2025-03-04 12:50:16,987 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Email_Address' not found in PDF
+2025-03-04 12:50:16,987 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.RA_Contact_No' not found in PDF
+2025-03-04 12:50:16,987 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_1' not found in PDF
+2025-03-04 12:50:16,988 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Address_Line_2' not found in PDF
+2025-03-04 12:50:16,988 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_City' not found in PDF
+2025-03-04 12:50:16,988 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_Zip_Code' not found in PDF
+2025-03-04 12:50:16,988 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Address.RA_State' not found in PDF
+2025-03-04 12:50:16,989 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Name' not found in PDF
+2025-03-04 12:50:16,989 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Email_Address' not found in PDF
+2025-03-04 12:50:16,989 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Contact_No' not found in PDF
+2025-03-04 12:50:16,989 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_1' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Address_Line_2' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_City' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_Zip_Code' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Billing_Information.BI_State' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Name' not found in PDF
+2025-03-04 12:50:16,990 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Email_Address' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Contact_No' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_1' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Address_Line_2' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_City' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_Zip_Code' not found in PDF
+2025-03-04 12:50:16,991 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.Payload.Entity_Formation.Registered_Agent.Mailing_Information.MI_State' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'orderDetails.strapiOrderFormJson.legalName' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'companyId.id' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'companyId.companyName' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'companyId.adminContactId.id' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'companyId.adminContactId.firstName' not found in PDF
+2025-03-04 12:50:16,992 - TessoFill - WARNING - Field 'companyId.adminContactId.lastName' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.adminContactId.emailId' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.adminContactId.mobileNo' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.adminContactId.quickbooksId' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.adminContactId.hubspotId' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.primaryContactId.id' not found in PDF
+2025-03-04 12:50:16,993 - TessoFill - WARNING - Field 'companyId.primaryContactId.firstName' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'companyId.primaryContactId.lastName' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'companyId.primaryContactId.emailId' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'companyId.primaryContactId.mobileNo' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'companyId.primaryContactId.quickbooksId' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'companyId.primaryContactId.hubspotId' not found in PDF
+2025-03-04 12:50:16,994 - TessoFill - WARNING - Field 'statusId.id' not found in PDF
+2025-03-04 12:50:16,995 - TessoFill - WARNING - Field 'statusId.statusName' not found in PDF
+2025-03-04 12:50:16,995 - TessoFill - WARNING - Field 'statusId.hubspotId' not found in PDF
+2025-03-04 12:50:16,995 - TessoFill - ERROR - Error saving PDF: save to original must be incremental
+2025-03-04 12:50:17,039 - TessoFill - INFO - Saved PDF using alternative method
+2025-03-04 12:50:17,040 - TessoFill - INFO - Identifying OCR field locations
+2025-03-04 12:50:26,705 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-03-04 12:50:26,712 - TessoFill - INFO - Parsing AI response
+2025-03-04 12:50:26,713 - TessoFill - INFO - Successfully parsed 0 field matches and 9 OCR matches
+2025-03-04 12:50:26,714 - TessoFill - INFO - Identified 9 OCR fields to fill
+2025-03-04 12:50:26,714 - TessoFill - INFO - Filling OCR fields in D:\demo\Services\filledform18.pdf
+2025-03-04 12:50:26,745 - TessoFill - INFO - Adding text 'raymond llc' at position (485.0, 92.0) on page 1
+2025-03-04 12:50:26,745 - TessoFill - ERROR - Error filling OCR fields: 'dict' object has no attribute '_validate'

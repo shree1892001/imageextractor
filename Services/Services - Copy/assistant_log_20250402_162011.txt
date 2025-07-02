@@ -1,0 +1,15 @@
+Assistant Transcript - Session 20250402_162011
+
+Session started at: 2025-04-02 16:21:56
+
+
+=== CONVERSATION HISTORY ===
+
+=== VOICE TRANSCRIPT ===
+[2025-04-02 16:20:13] Assistant: Assistant initialized successfully
+[2025-04-02 16:20:59] Assistant: You can now ask questions about the content. Say exit to stop.
+[2025-04-02 16:21:13] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 16:21:24] User: what is the document
+[2025-04-02 16:21:27] Assistant: The document is a sample job description for a Human Resources Assistant internship. 
+[2025-04-02 16:21:40] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
+[2025-04-02 16:21:51] Assistant: Sorry, I didn t catch that. Could you speak a bit louder?
