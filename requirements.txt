@@ -150,3 +150,5 @@ opencv-python~=4.11.0.86
 phi~=0.6.7
 pypdf2~=3.0.1
 fillpdf~=0.7.3
+
+pydantic_ai
