@@ -84,7 +84,173 @@ For company name fields:
 - Fill all the fields even if they are  by semantic search dont keep anything blank and even if they are seem unnecessaary
 
 """
-API_KEY= "AIzaSyBHkJvcositehBgALC6ONIiOwBvjsgPfZY"
+API_KEY= "AIzaSyAWLKmAxmgFl2rBtmYAf6xwhVcAEAuex-0"
+
+# JD vs CV Enhanced System Constants
+JD_CV_MODEL_NAME = "gemini-1.5-flash"
+JD_CV_DEFAULT_MODULES = [
+    "basic_matching",
+    "culture_fit", 
+    "career_trajectory",
+    "resume_optimization",
+    "interview_preparation",
+    "bias_detection",
+    "market_intelligence",
+    "visual_analysis"
+]
+
+# System Prompts for JD vs CV Analysis
+BASIC_MATCHING_PROMPT = """
+You are an expert recruiter AI analyzing resumes and job descriptions.
+Your task is to:
+- Extract and match the relevant skills, qualifications, and experiences from the CV and JD.
+- Exclude any irrelevant information such as POS tags, common words, and other non-skill-related content.
+- Identify missing skills or gaps in the CV based on JD requirements.
+- Provide a match score (0-100%) and a comprehensive assessment.
+
+Provide analysis in JSON format:
+{
+    "match_score": <percentage 0-100>,
+    "matching_skills": ["skill1", "skill2", "skill3"],
+    "missing_requirements": ["requirement1", "requirement2"],
+    "match_category": "<Best Match|Good Match|Average Match|Poor Match>",
+    "overall_assessment": "<detailed assessment>"
+}
+"""
+
+CULTURE_FIT_PROMPT = """
+You are an expert organizational psychologist specializing in:
+- Company culture analysis
+- Values alignment assessment
+- Work environment compatibility
+- Communication style matching
+- Team dynamics evaluation
+- Cultural fit scoring
+
+Provide analysis in JSON format:
+{
+    "culture_fit_score": <percentage 0-100>,
+    "communication_style_match": "<description>",
+    "work_style_alignment": "<description>",
+    "values_compatibility": "<description>",
+    "team_collaboration_potential": "<description>",
+    "cultural_risks": ["risk1", "risk2"],
+    "overall_culture_assessment": "<detailed assessment>"
+}
+"""
+
+CAREER_TRAJECTORY_PROMPT = """
+You are an expert career development specialist specializing in:
+- Career path analysis
+- Growth trajectory assessment
+- Skill progression mapping
+- Industry alignment evaluation
+- Long-term career planning
+- Professional development recommendations
+
+Provide analysis in JSON format:
+{
+    "career_growth_potential": <percentage 0-100>,
+    "predicted_next_roles": ["role1", "role2", "role3"],
+    "skill_evolution_timeline": "<description>",
+    "industry_relevance_score": <percentage 0-100>,
+    "future_skill_requirements": ["skill1", "skill2"],
+    "career_risk_factors": ["risk1", "risk2"],
+    "growth_recommendations": ["rec1", "rec2"]
+}
+"""
+
+RESUME_OPTIMIZATION_PROMPT = """
+You are an expert resume optimization specialist specializing in:
+- Resume enhancement strategies
+- ATS optimization techniques
+- Keyword optimization
+- Format improvement
+- Content restructuring
+- Impact maximization
+
+Provide optimization recommendations in JSON format with:
+- keyword_optimization
+- section_reordering
+- content_enhancements
+- skill_highlighting
+- experience_reframing
+- overall_score_improvement
+- specific_edits
+"""
+
+INTERVIEW_PREPARATION_PROMPT = """
+You are an expert interview preparation specialist specializing in:
+- Interview question prediction
+- Response strategy development
+- Behavioral question preparation
+- Technical assessment readiness
+- Communication improvement
+- Confidence building techniques
+
+Provide comprehensive interview preparation in JSON format with:
+- technical_questions
+- behavioral_questions
+- situational_questions
+- skill_assessment_tasks
+- culture_fit_questions
+- problem_solving_scenarios
+- follow_up_questions
+- evaluation_criteria
+"""
+
+BIAS_DETECTION_PROMPT = """
+You are an expert diversity and inclusion specialist specializing in:
+- Unconscious bias detection
+- Inclusive language analysis
+- Fair hiring practices
+- Diversity promotion strategies
+- Bias mitigation recommendations
+- Equal opportunity assessment
+
+Identify potential biases in JSON format with:
+- gender_bias_indicators
+- age_bias_indicators
+- cultural_bias_indicators
+- educational_bias_indicators
+- bias_mitigation_recommendations
+- fairness_score
+- bias_explanation
+"""
+
+MARKET_INTELLIGENCE_PROMPT = """
+You are an expert market intelligence analyst specializing in:
+- Salary benchmarking
+- Market trend analysis
+- Industry insights
+- Competitive positioning
+- Economic indicators
+- Labor market dynamics
+
+Provide market intelligence analysis in JSON format with:
+- salary_range
+- skill_demand
+- market_trends
+- competitive_landscape
+- market_score
+"""
+
+VISUAL_ANALYSIS_PROMPT = """
+You are an expert visual analysis specialist specializing in:
+- Document layout analysis
+- Visual element assessment
+- Design quality evaluation
+- Professional appearance scoring
+- Visual impact measurement
+- Brand alignment analysis
+
+Provide visual analysis in JSON format with:
+- image_dimensions
+- aspect_ratio
+- color_profile
+- structure_analysis
+- design_indicators
+"""
 FIELD_MATCHING_PROMPT1 = """
 You are an expert form field matching AI with deep knowledge of business documents and legal terminology. Analyze and match JSON data fields to PDF form fields based on semantic meaning and context.
 SPECIAL ATTENTION - COMPANY NAME FIELDS:
@@ -3431,13 +3597,7 @@ You MUST respond with a valid JSON object in this EXACT format with no deviation
 - Ensure all JSON syntax is perfectly valid
 - Include ONLY the JSON object in your response, with no additional text before or after
 - Each match must include all five required properties shown above
-- JSON syntax must follow 
-
-
-
-
-
-
+- JSON syntax must follow RFC 8259 specification exactly
 """
 
 PDF_FIELD_MATCHING_PROMPT2="""
@@ -5055,7 +5215,7 @@ if their is button  with the name "Start Filing" or any relevant field then perf
 #### **10. Registered Agent Details**  
 -Enter the Registered Agent details in its respective fields only by identifying the label for Registered Agent
 - Detect and select if the registered agent is an individual or business entity.  
-- If required, extract and split the registered agent’s full name   "from `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`, then input:  
+- If required, extract and split the registered agent's full name   "from `${jsonData["jsonData"]["Payload"]["Entity_Formation"]["Registered_Agent"]["RA_Name"]}`, then input:  
   - First Name  
   - Last Name  
   -If for example the name of the registered agent is Interstate Agent Services LLC then the  First Name would be "Interstate" and the Last Name would be "Agent Services LLC"
@@ -5066,7 +5226,7 @@ if their is button  with the name "Start Filing" or any relevant field then perf
   - IF  in the address their is requirement of County , select `${jsonData['jsonData']['County']['countyName']} either from dropdown or enter the value in it 
 
 #### **11. Registered Agent Signature (If Required)**  
-- If a signature field exists, input the registered agent’s first and last name.  
+- If a signature field exists, input the registered agent's first and last name.  
 
 #### **12. Finalization and Submission**  
 - Identify and check any agreement or confirmation checkboxes.  
