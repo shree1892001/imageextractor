@@ -84,7 +84,7 @@ For company name fields:
 - Fill all the fields even if they are  by semantic search dont keep anything blank and even if they are seem unnecessaary
 
 """
-API_KEY= "AIzaSyAWLKmAxmgFl2rBtmYAf6xwhVcAEAuex-0"
+API_KEY= "AIzaSyAJVmDWOwIKPHmmjENkLesUkESa8dzPTh8"
 
 # JD vs CV Enhanced System Constants
 JD_CV_MODEL_NAME = "gemini-1.5-flash"
@@ -93,7 +93,6 @@ JD_CV_DEFAULT_MODULES = [
     "culture_fit", 
     "career_trajectory",
     "resume_optimization",
-    "interview_preparation",
     "bias_detection",
     "market_intelligence",
     "visual_analysis"
@@ -179,25 +178,7 @@ Provide optimization recommendations in JSON format with:
 - specific_edits
 """
 
-INTERVIEW_PREPARATION_PROMPT = """
-You are an expert interview preparation specialist specializing in:
-- Interview question prediction
-- Response strategy development
-- Behavioral question preparation
-- Technical assessment readiness
-- Communication improvement
-- Confidence building techniques
 
-Provide comprehensive interview preparation in JSON format with:
-- technical_questions
-- behavioral_questions
-- situational_questions
-- skill_assessment_tasks
-- culture_fit_questions
-- problem_solving_scenarios
-- follow_up_questions
-- evaluation_criteria
-"""
 
 BIAS_DETECTION_PROMPT = """
 You are an expert diversity and inclusion specialist specializing in:

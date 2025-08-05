@@ -19,7 +19,6 @@ DEFAULT_MODULES = [
     "culture_fit", 
     "career_trajectory",
     "resume_optimization",
-    "interview_preparation",
     "bias_detection",
     "market_intelligence"
 ]
@@ -64,15 +63,7 @@ MODULE_CONFIGS = {
         Optimize resumes for specific job descriptions by improving keywords, structure, and content.
         """
     },
-    "interview_preparation": {
-        "enabled": True,
-        "priority": 5,
-        "system_prompt": """
-        You are an expert interview coach and HR professional.
-        Generate personalized interview questions, technical assessments, and behavioral scenarios.
-        Focus on role-specific and candidate-specific questions.
-        """
-    },
+
     "bias_detection": {
         "enabled": True,
         "priority": 6,

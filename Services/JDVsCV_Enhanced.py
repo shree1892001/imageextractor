@@ -2,7 +2,7 @@ import fitz
 import asyncio
 import os
 import json
-import cv2
+# import cv2  # Commented out as it's not essential for JSON parsing
 import numpy as np
 import requests
 from typing import Dict, Any, List, Optional, Tuple, Callable
@@ -12,6 +12,7 @@ import seaborn as sns
 from io import BytesIO
 import base64
 import re
+import cv2
 # import speech_recognition as sr  # Commented out as it's not essential
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
@@ -79,47 +80,47 @@ class AnalysisModule(ABC):
         
         # Fix single quotes that should be escaped - but be more careful
         # Only escape single quotes that are inside string values, not in property names
-        # Use a simpler approach without lookbehind repetition
         json_str = re.sub(r'([^\\])\'(?=[^"]*")', r'\1\\\'', json_str)
-        
+
         # Additional fix for the specific error you're seeing
         # Replace problematic escape sequences like "John Doe\'s" with "John Doe\\'s"
-        # Use a simpler approach without lookbehind repetition
         json_str = re.sub(r'([^\\])\\(?=\'[^"]*")', r'\1\\\\', json_str)
-        
+
         # Fix missing commas in arrays and objects - more careful approach
         # Only add commas when there's actually a next element, not before closing brackets/braces
-        
+
         # Fix missing commas between array elements (but not at the end)
         json_str = re.sub(r'(\])\s*(\[)', r'\1,\2', json_str)
         json_str = re.sub(r'(")\s*(\[)', r'\1,\2', json_str)
-        
+
         # Fix missing commas between object properties (but not at the end)
         json_str = re.sub(r'(")\s*(")', r'\1,\2', json_str)
-        
+
         # Fix missing commas in nested structures - more specific patterns
         # Handle cases like "value" "next_property" -> "value", "next_property"
         json_str = re.sub(r'(")\s*(")', r'\1,\2', json_str)
-        
+
         # Handle cases like } "next_property" -> }, "next_property"
         json_str = re.sub(r'(})\s*(")', r'\1,\2', json_str)
-        
+
         # Handle cases like ] "next_property" -> ], "next_property"
         json_str = re.sub(r'(\])\s*(")', r'\1,\2', json_str)
-        
+
         # Remove any trailing commas before closing brackets/braces
         json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
-        
+
         # Additional fix for the specific resume_optimization issue
         # Look for patterns like "value" followed by a closing brace/bracket without comma
         # But be more careful to not add trailing commas
         json_str = re.sub(r'([^,}])\s*([}\]])', r'\1,\2', json_str)
-        
+
         # Clean up any malformed patterns that might have been created
         # Remove extra quotes and spaces that are causing issues
         json_str = re.sub(r':\s*"\s*"\s*', r': ', json_str)  # Remove empty quoted strings
-        json_str = re.sub(r':\s*"\s*([^"]+)"\s*', r': "\1"', json_str)  # Clean up quoted values
-        
+
+        # REMOVED: The problematic patterns that were adding extra quotes
+        # These patterns were causing issues like "key": "[" instead of "key": [
+
         # Final cleanup: remove any trailing commas that might have been created
         json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
         
@@ -863,163 +864,7 @@ class ResumeOptimizationModule(AnalysisModule):
         return "resume_optimization"
 
 
-class InterviewPreparationModule(AnalysisModule):
-    """Interview question generation and preparation."""
 
-    def __init__(self, llm_model):
-        self.llm = llm_model
-        self.agent = Agent(
-            model=self.llm,
-            system_prompt=INTERVIEW_PREPARATION_PROMPT,
-            retries=2,
-        )
-
-    async def analyze(self, cv_text: str, jd_text: str, **kwargs) -> Dict[str, Any]:
-        prompt = f"""
-        {INTERVIEW_PREPARATION_PROMPT}
-
-        CV Text: {cv_text}
-        Job Description: {jd_text}
-        """
-
-        try:
-            print(f"🔍 Running interview_preparation analysis...")
-            response = await self.agent.run(prompt)
-
-            # Try to extract JSON from the response
-            response_text = str(response)
-            print(f"📝 Raw response type: {type(response)}")
-            print(f"📝 Raw response length: {len(response_text)}")
-            print(f"📝 Raw response preview: {response_text[:200]}...")
-
-            # Check if response is empty or whitespace
-            if not response_text or response_text.strip() == "":
-                print(f"❌ Empty response received from LLM")
-                raise ValueError("Empty response from LLM")
-
-            # Look for JSON in the response
-            import json
-            import re
-
-            # Try to find JSON pattern in the response
-            json_pattern = r'\{.*\}'
-            json_match = re.search(json_pattern, response_text, re.DOTALL)
-
-            if json_match:
-                try:
-                    json_str = json_match.group()
-                    print(f"🔍 Found JSON pattern: {json_str[:100]}...")
-
-                    # Try to fix common JSON issues
-                    json_str = self._fix_json_string(json_str)
-                    
-                    # Try to parse the JSON
-                    try:
-                        result = json.loads(json_str)
-                        print(f"✅ Successfully parsed interview preparation JSON")
-                        return result
-                    except json.JSONDecodeError as e:
-                        print(f"❌ JSON decode error in interview preparation: {e}")
-                        
-                        # Debug: Show the JSON around the error position
-                        error_pos = e.pos
-                        start_pos = max(0, error_pos - 100)
-                        end_pos = min(len(json_str), error_pos + 100)
-                        print(f"🔍 JSON around error position {error_pos}:")
-                        print(f"   ...{json_str[start_pos:error_pos]}>>>ERROR<<<{json_str[error_pos:end_pos]}...")
-                        
-                        # Try to extract partial data
-                        partial_data = self._extract_partial_interview_json(json_str)
-                        if partial_data:
-                            print(f"✅ Extracted partial interview preparation data: {partial_data}")
-                            return partial_data
-                        else:
-                            print(f"❌ No valid JSON found in response")
-                            raise ValueError("No valid JSON found in response")
-                            
-                except Exception as e:
-                    print(f"❌ Error processing interview preparation JSON: {e}")
-                    raise
-            else:
-                print(f"❌ No JSON pattern found in response")
-                raise ValueError("No JSON pattern found in response")
-                
-        except Exception as e:
-            print(f"❌ Interview preparation analysis failed: {e}")
-            return {"error": f"Interview preparation failed: {str(e)}"}
-
-    def _extract_partial_interview_json(self, json_str: str) -> Dict[str, Any]:
-        """Extract partial interview preparation data from corrupted JSON."""
-        try:
-            # Try to find and extract individual fields
-            result = {}
-            
-            # Extract technical_questions
-            tech_questions_match = re.search(r'"technical_questions"\s*:\s*\[(.*?)\]', json_str)
-            if tech_questions_match:
-                questions_str = tech_questions_match.group(1)
-                questions = re.findall(r'"([^"]*)"', questions_str)
-                cleaned_questions = []
-                for q in questions:
-                    cleaned_q = q.replace("\\'", "'").replace('\\"', '"')
-                    cleaned_questions.append(cleaned_q)
-                result["technical_questions"] = cleaned_questions
-            
-            # Extract behavioral_questions
-            behav_questions_match = re.search(r'"behavioral_questions"\s*:\s*\[(.*?)\]', json_str)
-            if behav_questions_match:
-                questions_str = behav_questions_match.group(1)
-                questions = re.findall(r'"([^"]*)"', questions_str)
-                cleaned_questions = []
-                for q in questions:
-                    cleaned_q = q.replace("\\'", "'").replace('\\"', '"')
-                    cleaned_questions.append(cleaned_q)
-                result["behavioral_questions"] = cleaned_questions
-            
-            # Extract preparation_tips
-            tips_match = re.search(r'"preparation_tips"\s*:\s*\[(.*?)\]', json_str)
-            if tips_match:
-                tips_str = tips_match.group(1)
-                tips = re.findall(r'"([^"]*)"', tips_str)
-                cleaned_tips = []
-                for tip in tips:
-                    cleaned_tip = tip.replace("\\'", "'").replace('\\"', '"')
-                    cleaned_tips.append(cleaned_tip)
-                result["preparation_tips"] = cleaned_tips
-            
-            # Extract interview_score
-            score_match = re.search(r'"interview_score"\s*:\s*(\d+)', json_str)
-            if score_match:
-                result["interview_score"] = int(score_match.group(1))
-            
-            # Extract difficulty_level
-            difficulty_match = re.search(r'"difficulty_level"\s*:\s*"([^"]+)"', json_str)
-            if difficulty_match:
-                result["difficulty_level"] = difficulty_match.group(1)
-            
-            # If we extracted any data, return it
-            if result:
-                # Ensure we have at least some default values
-                if "interview_score" not in result:
-                    result["interview_score"] = 70
-                if "difficulty_level" not in result:
-                    result["difficulty_level"] = "Medium"
-                if "technical_questions" not in result:
-                    result["technical_questions"] = ["Tell me about your experience with React.js"]
-                if "behavioral_questions" not in result:
-                    result["behavioral_questions"] = ["Describe a challenging project you worked on"]
-                if "preparation_tips" not in result:
-                    result["preparation_tips"] = ["Review the job requirements", "Prepare specific examples"]
-                
-                return result
-                
-        except Exception as e:
-            print(f"❌ Failed to extract partial interview JSON: {e}")
-            
-        return {}
-
-    def get_name(self) -> str:
-        return "interview_preparation"
 
 
 class BiasDetectionModule(AnalysisModule):
@@ -1321,7 +1166,6 @@ class EnhancedCVJDMatcher:
             "culture_fit": CultureFitModule,
             "career_trajectory": CareerTrajectoryModule,
             "resume_optimization": ResumeOptimizationModule,
-            "interview_preparation": InterviewPreparationModule,
             "bias_detection": BiasDetectionModule,
             "market_intelligence": MarketIntelligenceModule,
             "visual_analysis": VisualAnalysisModule
@@ -1498,7 +1342,13 @@ class EnhancedCVJDMatcher:
                         has_complex_data = any(isinstance(v, list) and len(v) > 0 for v in module_result.values())
                         has_nested_objects = any(isinstance(v, dict) for v in module_result.values())
                         
-                        if has_scores or has_complex_data or has_nested_objects:
+                        # Check for specific module structures
+                        if module_name == "bias_detection":
+                            # Bias detection has specific bias indicator fields
+                            has_bias_structure = any(key in module_result for key in ['gender_bias_indicators', 'age_bias_indicators', 'cultural_bias_indicators', 'bias_mitigation_recommendations'])
+                            if has_bias_structure:
+                                is_valid = True
+                        elif has_scores or has_complex_data or has_nested_objects:
                             is_valid = True
                         elif len(module_result) >= 3:  # If it has at least 3 fields, it's probably valid
                             is_valid = True

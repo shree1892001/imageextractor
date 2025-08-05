@@ -1,111 +1,135 @@
 #!/usr/bin/env python3
 """
-Test script to verify enhanced JSON fixing for the "Expecting property name" error
+Test script to verify JSON fixing functionality.
 """
 
-import re
 import json
+import re
+from imageextractor.Services.JDVsCV_Enhanced import AnalysisModule
+
+class TestAnalysisModule(AnalysisModule):
+    """Test class to access the _fix_json_string method."""
+    
+    async def analyze(self, cv_text: str, jd_text: str, **kwargs) -> Dict[str, Any]:
+        return {}
+    
+    def get_name(self) -> str:
+        return "test"
 
 def test_json_fixing():
-    """Test the enhanced JSON fixing with the specific error case."""
+    """Test the JSON fixing functionality."""
+    test_module = TestAnalysisModule(None)
     
-    print("🧪 Testing Enhanced JSON Fixing")
-    print("=" * 50)
-    
-    # Test the specific error case you're encountering
-    test_cases = [
-        {
-            "name": "Your specific error case",
-            "json": '{\n  "match_score": 95,\n  "matching_skills": ["React.js", "Redux", "React Hooks", "HTML5", "CSS3", ...',
-            "expected_success": True
+    # Test case 1: The problematic JSON from the error
+    problematic_json = '''{
+        "keyword_optimization": {
+            "description": "The resume needs significant keyword optimization to align with the target job description for a React Developer. Currently, it focuses on Python skills, which are irrelevant. We need to inject React-specific keywords throughout.",
+            "actions": [
+                "Add keywords like \\'React.js\\', \\'Redux\\', \\'React Hooks\\', \\'Context API\\', \\'JSX\\', \\'Component lifecycle\\', \\'state management\\', \\'props\\', \\'functional components\\', \\'class components\\', \\'virtual DOM\\', \\'fiber architecture\\', \\'SPA (Single Page Application)\\', \\'React Router\\', \\'testing libraries (Jest, React Testing Library)\\', \\'Webpack\\', \\'Babel\\' throughout the resume, especially in the experience section.",
+                "Quantify achievements with numbers wherever possible (e.g., \\'Improved app performance by 15%\\').",
+                "Replace generic descriptions with action verbs and quantifiable results."
+            ]
         },
-        {
-            "name": "Career trajectory with newlines",
-            "json": '{\n  "career_growth_potential": 85,\n  "predicted_next_roles": ["Senior Developer", "Tech Lead"],\n  "skill_evolution_timeline": "2-3 years"\n}',
-            "expected_success": True
+        "section_reordering": {
+            "description": "The current section order is confusing and doesn\\'t follow standard resume best practices. A more impactful order is needed.",
+            "actions": [
+                "Move \\'Professional Summary\\' to the top.",
+                "Rename \\'TECH STACK\\' to \\'Skills\\' and move it after \\'Professional Summary\\'.",
+                "Rename \\'EMPLOYMENT HISTORY\\' to \\'Experience\\' and move it after \\'Skills\\'.",
+                "Move \\'Education\\' after \\'Experience\\'.",
+                "Add a \\'Projects\\' section if relevant projects exist (This section is missing entirely in the provided resume).",
+                "Consider adding a \\'Certifications\\' section if applicable."
+            ]
         },
-        {
-            "name": "Culture fit with formatting",
-            "json": '{\n  "culture_fit_score": 85,\n  "communication_style_match": "Excellent",\n  "work_style_alignment": "Good"\n}',
-            "expected_success": True
+        "content_enhancements": {
+            "description": "The content is weak and lacks impact. It needs to showcase achievements and quantify results.",
+            "actions": [
+                "Rewrite the \\'About\\' section to focus on React skills and accomplishments.",
+                "Expand on the bullet points under \\'Experience\\' with specific accomplishments and quantifiable results (e.g., improved performance by X%, reduced bugs by Y%).",
+                "Add details about the technologies used in each project, highlighting the role of React.",
+                "Use the STAR method (Situation, Task, Action, Result) to describe accomplishments in detail."
+            ]
         },
-        {
-            "name": "Malformed JSON with unquoted properties",
-            "json": '{match_score: 95, matching_skills: ["React.js", "Redux"]}',
-            "expected_success": True
+        "skill_highlighting": {
+            "description": "Skills are mentioned but not effectively highlighted. They need to be categorized and formatted for better readability and ATS compatibility.",
+            "actions": [
+                "Create a dedicated \\'Skills\\' section with clear categories (e.g., Front-End Frameworks, Languages, Testing, Databases, Tools).",
+                "Use a consistent format for skills (e.g., bullet points or a table).",
+                "Ensure keywords are included in both the skills section and throughout the resume body."
+            ]
+        },
+        "experience_reframing": {
+            "description": "The experience section is poorly structured and lacks impact. It needs to be rewritten to highlight accomplishments.",
+            "actions": [
+                "Rewrite each experience entry using the STAR method, focusing on quantifiable achievements and results.",
+                "Use action verbs to start each bullet point.",
+                "Focus on the impact of each accomplishment on the business or team.",
+                "Remove generic statements and replace them with specific examples."
+            ]
+        },
+        "overall_score_improvement": {
+            "description": "The resume currently scores very low due to its lack of relevance to the target job description and poor structure. Significant improvements are needed.",
+            "actions": [
+                "Completely rewrite the resume to focus on React development skills and experience.",
+                "Use a professional resume template.",
+                "Tailor the resume to each specific job application.",
+                "Proofread carefully for grammar and spelling errors."
+            ],
+            "estimated_improvement": "70-80%"
+        },
+        "specific_edits": {
+            "description": "Example edits to illustrate the necessary changes.",
+            "examples": [
+                {
+                    "original": "Demonstrated proficiency in using Python to develop scalable and efficient software applications.",
+                    "revised": "Developed and deployed high-performance React applications, leveraging advanced state management techniques (Redux, Context API) to enhance user experience and improve overall application efficiency by 15%."
+                },
+                {
+                    "original": "Experienced in using frameworks such as Django and Flask for web development.",
+                    "revised": "Expert in building scalable and maintainable React applications, proficient in utilizing React Router for seamless navigation and React Hooks for efficient state management."
+                },
+                {
+                    "original": "Currently, I am part of an agile team responsible for building dynamic web applications using Flask.",
+                    "revised": "Currently leading the front-end development of a dynamic web application using React.js, Redux, and other modern technologies. Successfully implemented a new feature resulting in a 20% increase in user engagement."
+                }
+            ]
         }
-    ]
+    }'''
     
-    def _fix_json_string(json_str: str) -> str:
-        """Fix common JSON formatting issues."""
-        # Remove any text before the first {
-        start_idx = json_str.find('{')
-        if start_idx != -1:
-            json_str = json_str[start_idx:]
-        
-        # Remove any text after the last }
-        end_idx = json_str.rfind('}')
-        if end_idx != -1:
-            json_str = json_str[:end_idx + 1]
-        
-        # Fix common issues
-        json_str = json_str.replace('\n', ' ').replace('\r', ' ')
-        json_str = re.sub(r'\s+', ' ', json_str)  # Normalize whitespace
-        
-        # Fix the specific "Expecting property name enclosed in double quotes" error
-        # This usually happens when there are newlines or spaces after opening brace
-        json_str = re.sub(r'^\s*{\s*', '{', json_str)  # Remove spaces after opening brace
-        json_str = re.sub(r'\s*}\s*$', '}', json_str)  # Remove spaces before closing brace
-        
-        # Fix property names that might have spaces or newlines
-        json_str = re.sub(r'(\w+)\s*:\s*', r'"\1":', json_str)  # Ensure property names are quoted
-        
-        # Fix common JSON formatting issues
-        json_str = json_str.replace('\\n', ' ')  # Replace literal \n with space
-        json_str = json_str.replace('\\r', ' ')  # Replace literal \r with space
-        json_str = json_str.replace('\\t', ' ')  # Replace literal \t with space
-        
-        # Remove any trailing commas before closing braces/brackets
-        json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
-        
-        return json_str
+    print("Testing JSON fixing...")
+    print("Original JSON length:", len(problematic_json))
     
-    print("📊 Testing JSON fixing with various corrupted responses:")
-    
-    for i, test_case in enumerate(test_cases, 1):
-        print(f"\n{i}. {test_case['name']}")
-        print(f"   Input: {test_case['json'][:100]}...")
+    try:
+        # Try to parse the original JSON
+        original_parsed = json.loads(problematic_json)
+        print("✅ Original JSON is valid!")
+        return True
+    except json.JSONDecodeError as e:
+        print(f"❌ Original JSON has error: {e}")
+        print(f"Error position: {e.pos}")
+        
+        # Show the problematic area
+        start_pos = max(0, e.pos - 50)
+        end_pos = min(len(problematic_json), e.pos + 50)
+        print(f"Problematic area: ...{problematic_json[start_pos:e.pos]}>>>ERROR<<<{problematic_json[e.pos:end_pos]}...")
+        
+        # Try to fix the JSON
+        fixed_json = test_module._fix_json_string(problematic_json)
+        print(f"Fixed JSON length: {len(fixed_json)}")
         
         try:
-            # Test the original JSON (should fail)
-            try:
-                original_parsed = json.loads(test_case['json'])
-                print(f"   ⚠️  Original JSON parsed successfully (unexpected)")
-            except json.JSONDecodeError as e:
-                print(f"   ❌ Original JSON failed: {e}")
+            fixed_parsed = json.loads(fixed_json)
+            print("✅ Fixed JSON is valid!")
+            return True
+        except json.JSONDecodeError as e2:
+            print(f"❌ Fixed JSON still has error: {e2}")
+            print(f"Error position: {e2.pos}")
             
-            # Test the fixed JSON
-            fixed_json = _fix_json_string(test_case['json'])
-            print(f"   🔧 Fixed JSON: {fixed_json[:100]}...")
-            
-            try:
-                parsed_result = json.loads(fixed_json)
-                print(f"   ✅ Fixed JSON parsed successfully: {parsed_result}")
-                if test_case['expected_success']:
-                    print(f"   ✅ Expected success - PASS")
-                else:
-                    print(f"   ⚠️  Unexpected success")
-            except json.JSONDecodeError as e:
-                print(f"   ❌ Fixed JSON still failed: {e}")
-                if not test_case['expected_success']:
-                    print(f"   ✅ Expected failure - PASS")
-                else:
-                    print(f"   ❌ Unexpected failure")
-                    
-        except Exception as e:
-            print(f"   ❌ Error: {e}")
-    
-    print("\n✅ JSON fixing tests completed!")
+            # Show the problematic area in fixed JSON
+            start_pos = max(0, e2.pos - 50)
+            end_pos = min(len(fixed_json), e2.pos + 50)
+            print(f"Fixed JSON problematic area: ...{fixed_json[start_pos:e2.pos]}>>>ERROR<<<{fixed_json[e2.pos:end_pos]}...")
+            return False
 
 if __name__ == "__main__":
     test_json_fixing() 
